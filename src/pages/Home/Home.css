@@ -1,0 +1,30 @@
+.contactBanner {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: relative;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    opacity: 0.5;
+  }
+  .heading {
+    position: absolute;
+    padding: 15px;
+    h1 {
+      text-align: center;
+      color: black;
+      margin: 0;
+    }
+    p {
+      text-align: center;
+    }
+  }
+}
