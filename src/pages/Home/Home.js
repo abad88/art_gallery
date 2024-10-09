@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Home.css"
 import contactBanner from "../../assets/images/arth.jpg"
+import Slider from '../../components/Slider/Slider'
 
 const Home = () => {
     return (
@@ -12,7 +13,10 @@ const Home = () => {
                         <h1>24 CPS Art Gallery</h1>
                     </div>
                 </div>
-                <h1 className='text-center'>Fine Art Gallery in New York</h1>
+                <div className='contentHome'>
+                    <h2>Some of our Art pieces from our collection</h2>
+                </div>
+                <Slider />
             </div>
         </div>
     )

@@ -23,6 +23,11 @@
       color: black;
       margin: 0;
     }
+    h2 {
+      position: relative;
+      padding: 10px;
+      margin: 0px;
+    }
     p {
       text-align: center;
     }

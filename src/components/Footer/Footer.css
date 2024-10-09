@@ -5,6 +5,7 @@
   justify-content: space-around;
   align-items: baseline;
   padding: 25px;
+  position: relative;
   .content {
     width: 30%;
     display: flex;
