@@ -1,5 +1,5 @@
 .footerWrapper {
-  background-color: orange;
+  background-color: #c38c31;
   color: white;
   display: flex;
   justify-content: space-around;
@@ -87,7 +87,7 @@
   }
 }
 .bottomBar {
-  background-color: orange;
+  background-color: #c38c31;
   color: #c8cacd;
   border-top: 1px solid white;
   padding: 10px;
