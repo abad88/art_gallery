@@ -1,0 +1,134 @@
+.footerWrapper {
+  background-color: orange;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding: 25px;
+  .content {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      margin: 0;
+    }
+    h4 {
+      display: flex;
+      justify-content: flex-start;
+      width: 100%;
+      margin: 4px 0px;
+    }
+  }
+  .menu {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+      text-align: center;
+      margin: 0;
+    }
+    ul {
+      padding: 0px;
+      margin: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      li {
+        list-style: none;
+        margin: 3px 0px;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  .contact {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    h2 {
+      text-align: center;
+      margin: 0;
+    }
+    ul {
+      padding: 0px;
+      margin: 0px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      li {
+        list-style: none;
+        margin: 3px 0px;
+        a {
+          color: white;
+          text-decoration: none;
+        }
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+.bottomBar {
+  background-color: orange;
+  color: #c8cacd;
+  border-top: 1px solid white;
+  padding: 10px;
+  p {
+    color: white;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .footerWrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .content {
+      width: 60%;
+      h2 {
+        margin: 10px 0px;
+        text-align: center;
+        width: auto;
+      }
+      h4 {
+        text-align: center;
+        width: auto;
+        margin: 2px 0px;
+      }
+      p {
+        text-align: center;
+      }
+    }
+    .menu {
+      width: 60%;
+      h2 {
+        margin: 10px 0px;
+      }
+    }
+    .contact {
+      width: 60%;
+      h2 {
+        margin: 10px 0px;
+      }
+    }
+  }
+}
