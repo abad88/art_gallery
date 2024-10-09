@@ -7,6 +7,7 @@ import ContactUs from './pages/Contact/ContactUs';
 import { Link, useLocation } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import Loader from './components/Loader/Loader';
+import AboutUs from './pages/AboutUs/AboutUs';
 
 function App() {
   const [loading, setLoading] = useState(false); // Loader state
@@ -30,12 +31,14 @@ function App() {
           <ul>
             <li><Link to="/">Home</Link></li>
             <li><Link to="/contact-us">Contact Us</Link></li>
+            <li><Link to="/about-us">About Us</Link></li>
           </ul>
         </nav>
         {/* <Loader /> */}
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/contact-us' element={<ContactUs />} />
+          <Route path='/about-us' element={<AboutUs />} />
         </Routes>
         <Footer />
       </div>
