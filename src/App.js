@@ -8,6 +8,7 @@ import { Link, useLocation } from 'react-router-dom';
 import Footer from './components/Footer/Footer';
 import Loader from './components/Loader/Loader';
 import AboutUs from './pages/AboutUs/AboutUs';
+import ArtPage from './pages/Art/ArtPage';
 
 function App() {
   const [loading, setLoading] = useState(false); // Loader state
@@ -39,6 +40,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/contact-us' element={<ContactUs />} />
           <Route path='/about-us' element={<AboutUs />} />
+          <Route path='/art' element={<ArtPage />} />
         </Routes>
         <Footer />
       </div>
