@@ -44,3 +44,10 @@
   align-items: center;
   flex-wrap: wrap;
 }
+.hinput {
+  padding: 10px;
+  width: 320px;
+  border: 3px solid #c38c31;
+}
+.notF {
+}

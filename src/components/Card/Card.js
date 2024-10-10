@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Card.css"
 
-const Card = ({ img }) => {
+const Card = ({ img, title }) => {
     return (
         <div className='cardBorder'>
             <img src={img} alt="img" />
-            <h3>Golfing on Green</h3>
+            <h3>{title}</h3>
         </div>
     )
 }
