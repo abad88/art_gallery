@@ -1,0 +1,10 @@
+.cardBorder {
+  height: 400px;
+  width: 400px;
+  border: 10px solid #c38c31;
+  margin: 15px;
+  img {
+    height: 80%;
+    width: 100%;
+  }
+}
