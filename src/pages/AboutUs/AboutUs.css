@@ -28,6 +28,38 @@
     }
   }
 }
-.aboutContent {
-  padding: 8px 35px;
+.aboutContentBanner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  .aboutContent {
+    padding: 35px;
+    width: 65%;
+    border-radius: 15px;
+    background-color: #f7f7f7;
+  }
+  :hover {
+    background: #c38c31;
+    color: white;
+  }
+}
+.AboutInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: #f7f7f7;
+  margin: 25px 0px;
+  padding: 15px 0px;
+  .AboutInfoContent {
+    background: #c38c31;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 15px;
+  }
+}
+.ButtonBorder {
+  margin-bottom: 30px;
 }
