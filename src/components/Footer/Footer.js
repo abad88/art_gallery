@@ -1,13 +1,15 @@
 import React from 'react'
 import "./Footer.css"
 import { Link } from 'react-router-dom'
+import Logo from "../../assets/images/logo.jpg"
 
 const Footer = () => {
     return (
         <>
             <div className="footerWrapper">
                 <div className="content">
-                    <h2>24 CPS Art Gallery</h2>
+                    {/* <h2>24 CPS Art Gallery</h2> */}
+                    <img src={Logo} alt="Logo" className='LogoFooter' />
                     <h4>We deliver your dream art work</h4>
                     <p>
                         We are committed to our mission & goals and look forward to building
@@ -26,9 +28,8 @@ const Footer = () => {
                 <div className="contact">
                     <h2>Contact Us</h2>
                     <ul>
-                        <li><a href='tel:0292120303'>(02) 9212 0303</a></li>
-                        <li><a href='tel:0293809831'>(02) 9380 9831</a></li>
-                        <li><a href='tel:020438418266'>(02) 0438 418 266</a></li>
+                        <li><a href='tel:212-588-8700'>212-588-8700</a></li>
+                        <li><a href='tel:917-470-5061'>917-470-5061</a></li>
                     </ul>
                 </div>
             </div>
