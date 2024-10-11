@@ -6,6 +6,7 @@ import Logo from "../../assets/images/logo.jpg"
 import Card from '../../components/Card/Card'
 import Cimg1 from "../../assets/images/arte.png"
 import Map from '../../components/Map/Map'
+import Button from '../../components/Button/Button'
 
 const Home = () => {
     const [searchTerm, setSearchTerm] = useState(''); // For storing search input
@@ -73,9 +74,9 @@ const Home = () => {
                 </div>
 
                 {visibleCards < filteredCards.length && (
-                    <button onClick={loadMoreCards} className="loadMore">
-                        More
-                    </button>
+                    <div className='buttonBorder'>
+                        <Button msg="More" onClick={loadMoreCards} />
+                    </div>
                 )}
 
                 {filteredCards.length === 0 && <p className='notF'>Nothing found ...</p>}
