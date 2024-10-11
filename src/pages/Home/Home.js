@@ -5,6 +5,7 @@ import Slider from '../../components/Slider/Slider'
 import Logo from "../../assets/images/logo.jpg"
 import Card from '../../components/Card/Card'
 import Cimg1 from "../../assets/images/arte.png"
+import Map from '../../components/Map/Map'
 
 const Home = () => {
     const [searchTerm, setSearchTerm] = useState(''); // For storing search input
@@ -62,6 +63,7 @@ const Home = () => {
                         <p className='notF'>Nothing found ...</p>
                     )}
                 </div>
+                <Map />
             </div>
         </div>
     )

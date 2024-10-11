@@ -8,4 +8,9 @@
     height: 80%;
     width: 100%;
   }
+  /* Hover effect for the entire card */
+  &:hover {
+    border-color: #8a5d13; /* Change border color on hover */
+    background-color: #f4e2c0; /* Optional: change background */
+  }
 }

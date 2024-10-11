@@ -50,4 +50,10 @@
   border: 3px solid #c38c31;
 }
 .notF {
+  font-size: larger;
+  color: #c38c31;
+}
+
+h2 {
+  color: #c38c31;
 }
