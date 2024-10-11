@@ -9,9 +9,15 @@ import Map from '../../components/Map/Map'
 
 const Home = () => {
     const [searchTerm, setSearchTerm] = useState(''); // For storing search input
+    const [visibleCards, setVisibleCards] = useState(4); // For controlling number of visible cards
+
     const cardData = [
         { img: Cimg1, title: "Golfing on Green" },
         { img: Cimg1, title: "Golfing on Red" },
+        { img: Cimg1, title: "Golfing on Yellow" },
+        { img: Cimg1, title: "Golfing on Purple" },
+        { img: Cimg1, title: "Golfing on Orange" },
+        { img: Cimg1, title: "Golfing on Pink" },
         { img: Cimg1, title: "Golfing on Yellow" },
         { img: Cimg1, title: "Golfing on Purple" },
         { img: Cimg1, title: "Golfing on Orange" },
@@ -24,12 +30,18 @@ const Home = () => {
         setSearchTerm(e.target.value);
     };
 
-    // If the search term is empty, show all cards; otherwise, filter
+    // Filtered cards based on the search input
     const filteredCards = searchTerm === ''
         ? cardData
         : cardData.filter(card =>
             card.title.toLowerCase().includes(searchTerm.toLowerCase())
         );
+
+    // Function to show more cards (increment by 4)
+    const loadMoreCards = () => {
+        setVisibleCards(prev => prev + 4);
+    };
+
 
     return (
         <div>
@@ -55,15 +67,19 @@ const Home = () => {
                 />
 
                 <div className="CardContainer">
-                    {filteredCards.length > 0 ? (
-                        filteredCards.map((card, index) => (
-                            <Card key={index} img={card.img} title={card.title} />
-                        ))
-                    ) : (
-                        <p className='notF'>Nothing found ...</p>
-                    )}
+                    {filteredCards.slice(0, visibleCards).map((card, index) => (
+                        <Card key={index} img={card.img} title={card.title} />
+                    ))}
                 </div>
-                <Map />
+
+                {visibleCards < filteredCards.length && (
+                    <button onClick={loadMoreCards} className="loadMore">
+                        More
+                    </button>
+                )}
+
+                {filteredCards.length === 0 && <p className='notF'>Nothing found ...</p>}
+                {/* <Map /> */}
             </div>
         </div>
     )
