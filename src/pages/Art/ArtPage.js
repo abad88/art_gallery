@@ -1,10 +1,18 @@
 import React from 'react';
 import "./ArtPage.css";
-import { useLocation } from 'react-router';
+import { useLocation, useNavigate } from 'react-router';
+import Accordion from '../../components/Accordian/Accordion';
+import Button from '../../components/Button/Button';
 
 const ArtPage = () => {
     const location = useLocation();
     const { img, title } = location.state || {}; // Retrieve the card data
+
+    const navigate = useNavigate();
+
+    const goToContactUs = () => {
+        navigate('/contact-us');
+    };
 
     const artPieces = [
         {
@@ -34,14 +42,24 @@ const ArtPage = () => {
     return (
         <>
             <div className='artPage'>
-                <h1>{title}</h1>
-                <img src={img} alt={title} style={{ width: '300px', height: '300px' }} />
+                <div className='artCardBorder'>
+                    <div className='artCard'>
+                        <h1>{title}</h1>
+                        <img src={img} alt={title} />
+                    </div>
+                    <div className='artContent'>
+                        <h1>Contact for more Information,Availability and Price</h1>
+                        <Button msg={"Contact Us"} onClick={goToContactUs} />
+                    </div>
+                </div>
+
 
                 {/* Render matched art details if found */}
                 {matchedArt ? (
                     <div>
-                        <p><strong>Author:</strong> {matchedArt.author}</p>
-                        <p><strong>Description:</strong> {matchedArt.detail}</p>
+                        {/* <p><strong>Author:</strong> {matchedArt.author}</p>
+                        <p><strong>Description:</strong> {matchedArt.detail}</p> */}
+                        <Accordion data={matchedArt} />
                     </div>
                 ) : (
                     <p>No additional information available for this piece.</p>
