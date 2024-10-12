@@ -19,8 +19,7 @@ const AboutUs = () => {
                     <h1>About Us</h1>
                 </div>
             </div>
-            <h1 className='text-center'>Fine Art Gallery in New York</h1>
-            <h2>About Us</h2>
+            <h2>Detail About 24 CPS Art Gallery</h2>
             <div className='aboutContentBanner'>
                 <p className='aboutContent'>Welcome to 24 CPS Art Gallery, a distinctive fine art destination located at 24 Central Park South, New York City. With a legacy spanning over 30 years, our gallery is dedicated to showcasing a diverse collection of contemporary art from both emerging and well-established artists. We take pride in offering a selection that reflects the vibrancy and creativity of the modern art world, including original paintings, limited edition prints, and stunning sculptures.<br />
                     At 24 CPS Art Gallery, we believe that art should not only adorn a space but also evoke emotion and conversation. Our expertly curated collections provide art lovers with a wide array of styles and mediums, from abstract to realism, ensuring that every collector finds something unique.<br />

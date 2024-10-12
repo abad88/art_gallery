@@ -11,7 +11,6 @@ const ContactUs = () => {
                     <h1>Contact Us</h1>
                 </div>
             </div>
-            <h1 className='text-center'>Fine Art Gallery in New York</h1>
             <div className='contentBorder'>
                 <div className='contactContent'>
                     <h2>Location</h2>
