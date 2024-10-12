@@ -21,7 +21,9 @@
   display: flex;
   justify-content: center;
   margin: 0px 30px;
-  width: 350px;
+  img {
+    border: 3px solid #c38c31;
+  }
 }
 
 @media (max-width: 768px) {
