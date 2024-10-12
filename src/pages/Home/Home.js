@@ -5,6 +5,13 @@ import Slider from '../../components/Slider/Slider'
 import Logo from "../../assets/images/logo.jpg"
 import Card from '../../components/Card/Card'
 import Cimg1 from "../../assets/images/arte.png"
+import eka1 from "../../assets/images/artpiece/eka1.jpg"
+import eka2 from "../../assets/images/artpiece/eka_2.jpg"
+import eka3 from "../../assets/images/artpiece/eka_3.jpg"
+import eka4 from "../../assets/images/artpiece/eka_4.jpg"
+import eka5 from "../../assets/images/artpiece/eka_5.jpg"
+import eka6 from "../../assets/images/artpiece/eka_6.jpg"
+import eka7 from "../../assets/images/artpiece/eka_7.jpg"
 import Map from '../../components/Map/Map'
 import Button from '../../components/Button/Button'
 
@@ -13,17 +20,24 @@ const Home = () => {
     const [visibleCards, setVisibleCards] = useState(4); // For controlling number of visible cards
 
     const cardData = [
-        { img: Cimg1, title: "Golfing on Green" },
-        { img: Cimg1, title: "Golfing on Red" },
-        { img: Cimg1, title: "Golfing on Yellow" },
-        { img: Cimg1, title: "Golfing on Purple" },
-        { img: Cimg1, title: "Golfing on Orange" },
-        { img: Cimg1, title: "Golfing on Pink" },
-        { img: Cimg1, title: "Golfing on Yellow" },
-        { img: Cimg1, title: "Golfing on Purple" },
-        { img: Cimg1, title: "Golfing on Orange" },
-        { img: Cimg1, title: "Golfing on Pink" },
-        { img: Cimg1, title: "Golfing on Brown" }
+        // { img: Cimg1, title: "Golfing on Green" },
+        // { img: Cimg1, title: "Golfing on Red" },
+        // { img: Cimg1, title: "Golfing on Yellow" },
+        // { img: Cimg1, title: "Golfing on Purple" },
+        // { img: Cimg1, title: "Golfing on Orange" },
+        // { img: Cimg1, title: "Golfing on Pink" },
+        // { img: Cimg1, title: "Golfing on Yellow" },
+        // { img: Cimg1, title: "Golfing on Purple" },
+        // { img: Cimg1, title: "Golfing on Orange" },
+        // { img: Cimg1, title: "Golfing on Pink" },
+        // { img: Cimg1, title: "Golfing on Brown" },
+        { img: eka1, title: "Eka 3D Art" },
+        { img: eka2, title: "Eka 3D Art" },
+        { img: eka3, title: "Eka 3D Art" },
+        { img: eka4, title: "Eka 3D Art" },
+        { img: eka5, title: "Eka 3D Art" },
+        { img: eka6, title: "Eka 3D Art" },
+        { img: eka7, title: "Eka 3D Art" },
     ];
 
     // Function to handle search
