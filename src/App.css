@@ -31,3 +31,50 @@ ul {
     color: white;
   }
 }
+.hamOption {
+  svg {
+    display: none;
+  }
+}
+.n {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .n {
+    height: 100vh;
+    background-color: #c38c31;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    svg {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+    }
+  }
+
+  .hamOption {
+    text-align: left;
+    color: white;
+    background: #c38c31;
+    padding: 15px;
+    font-size: 25px;
+    svg {
+      display: block;
+    }
+  }
+  .navbar {
+    display: none;
+  }
+}

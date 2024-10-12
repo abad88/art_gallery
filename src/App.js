@@ -9,9 +9,12 @@ import Footer from './components/Footer/Footer';
 import Loader from './components/Loader/Loader';
 import AboutUs from './pages/AboutUs/AboutUs';
 import ArtPage from './pages/Art/ArtPage';
+import { GiHamburgerMenu } from "react-icons/gi";
+import { RxCross1 } from "react-icons/rx";
 
 function App() {
   const [loading, setLoading] = useState(false); // Loader state
+  const [mobileNav, setMobileNav] = useState(false); // Loader state
   const location = useLocation(); // Detect route changes
 
   useEffect(() => {
@@ -24,10 +27,25 @@ function App() {
     return () => clearTimeout(timer);
   }, [location]); // Effect runs when route (location) changes
 
+  const handleMobileNav = () => {
+    setMobileNav(!mobileNav)
+  }
+
   return (
     <>
       {loading && <Loader />}
+      {mobileNav &&
+        <div className='n'>
+          <RxCross1 onClick={handleMobileNav} />
+          <Link to="/" onClick={handleMobileNav}>Home</Link>
+          <Link to="/contact-us" onClick={handleMobileNav}>Contact Us</Link>
+          <Link to="/about-us" onClick={handleMobileNav}>About Us</Link>
+        </div>
+      }
       <div className="App">
+        <div className='hamOption'>
+          <GiHamburgerMenu onClick={handleMobileNav} />
+        </div>
         <nav className='navbar'>
           <ul>
             <li><Link to="/">Home</Link></li>
