@@ -54,6 +54,7 @@ function App() {
             <li><Link to="/">Home</Link></li>
             <li><Link to="/contact-us">Contact Us</Link></li>
             <li><Link to="/about-us">About Us</Link></li>
+            <li><Link to="/category-art">Art</Link></li>
           </ul>
         </nav>
         {/* <Loader /> */}
