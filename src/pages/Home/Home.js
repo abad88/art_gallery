@@ -31,13 +31,13 @@ const Home = () => {
         // { img: Cimg1, title: "Golfing on Orange" },
         // { img: Cimg1, title: "Golfing on Pink" },
         // { img: Cimg1, title: "Golfing on Brown" },
-        { img: eka1, title: "Eka 3D Art" },
-        { img: eka2, title: "Eka 3D Art" },
-        { img: eka3, title: "Eka 3D Art" },
-        { img: eka4, title: "Eka 3D Art" },
-        { img: eka5, title: "Eka 3D Art" },
-        { img: eka6, title: "Eka 3D Art" },
-        { img: eka7, title: "Eka 3D Art" },
+        { img: eka1, title: "Eka 3D Art 1" },
+        { img: eka2, title: "Eka 3D Art 2" },
+        { img: eka3, title: "Eka 3D Art 3" },
+        { img: eka4, title: "Eka 3D Art 4" },
+        { img: eka5, title: "Eka 3D Art 5" },
+        { img: eka6, title: "Eka 3D Art 6" },
+        { img: eka7, title: "Eka 3D Art 7" },
     ];
 
     // Function to handle search
@@ -94,6 +94,16 @@ const Home = () => {
                 )}
 
                 {filteredCards.length === 0 && <p className='notF'>Nothing found ...</p>}
+                <h2>Location</h2>
+                <p>
+                    <iframe
+                        title='Gallery map'
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8707036814767!2d-73.97745102445434!3d40.76486843437812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591f631fd52f%3A0x2fbffe68280a4b08!2s24%20Central%20Park%20South%20Art%20Gallery!5e0!3m2!1sen!2sus!4v1728918197626!5m2!1sen!2sus"
+                        className='mapStyle'
+                        loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </p>
                 {/* <Map /> */}
             </div>
         </div>

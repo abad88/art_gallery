@@ -50,3 +50,9 @@ h2 {
 .buttonBorder {
   margin-bottom: 30px;
 }
+
+.mapStyle {
+  width: 80%;
+  border: 5px solid #c38c31;
+  height: 55vh;
+}

@@ -34,7 +34,7 @@ const ArtPage = () => {
             detail: "It is all about Yellow money"
         },
         {
-            titleImg: "Eka 3D Art",
+            titleImg: "Eka 3D Art 1",
             author: "Eka Peradze",
             detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
             thumbnails: [
