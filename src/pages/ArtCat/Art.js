@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "./Art.css"
 import img1 from "../../assets/images/artpiece/eka1.jpg"
+import contactBanner from "../../assets/images/artcc.jpg"
 
 const Art = () => {
     // Sample image data with titles
@@ -76,7 +77,12 @@ const Art = () => {
 
     return (
         <>
-            <h1>Art Category</h1>
+            <div className="contactBanner">
+                <img src={contactBanner} alt="logo" />
+                <div className="heading">
+                    <h1>Art Category</h1>
+                </div>
+            </div>
 
             <div className="galleryWrapper">
                 {/* Search input */}
