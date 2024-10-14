@@ -14,6 +14,8 @@ import { RxCross1 } from "react-icons/rx";
 import Terms from './pages/Terms/Terms';
 import Policy from './pages/Policy/Policy';
 import Art from './pages/ArtCat/Art';
+import Jewelery from './pages/Jewelery/Jewelery';
+import HomeDecor from './pages/DecCat/HomeDecor';
 
 function App() {
   const [loading, setLoading] = useState(false); // Loader state
@@ -55,6 +57,8 @@ function App() {
             <li><Link to="/contact-us">Contact Us</Link></li>
             <li><Link to="/about-us">About Us</Link></li>
             <li><Link to="/category-art">Art</Link></li>
+            <li><Link to="/category-jewelry">Jewelry</Link></li>
+            <li><Link to="/category-home-decor">Home-Decoration</Link></li>
           </ul>
         </nav>
         {/* <Loader /> */}
@@ -66,6 +70,8 @@ function App() {
           <Route path='/terms-and-conditions' element={<Terms />} />
           <Route path='/privacy-policy' element={<Policy />} />
           <Route path='/category-art' element={<Art />} />
+          <Route path='/category-jewelry' element={<Jewelery />} />
+          <Route path='/category-home-decor' element={<HomeDecor />} />
         </Routes>
         <Footer />
       </div>

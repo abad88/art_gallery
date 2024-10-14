@@ -105,6 +105,7 @@ const Home = () => {
                     ></iframe>
                 </p>
                 {/* <Map /> */}
+                {/* <a href='https://matterport.com/discover/space/aUVjaGebjMk'>check the link</a> */}
             </div>
         </div>
     )
