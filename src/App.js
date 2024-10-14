@@ -45,6 +45,9 @@ function App() {
           <Link to="/" onClick={handleMobileNav}>Home</Link>
           <Link to="/contact-us" onClick={handleMobileNav}>Contact Us</Link>
           <Link to="/about-us" onClick={handleMobileNav}>About Us</Link>
+          <Link to="/category-art" onClick={handleMobileNav}>Art</Link>
+          <Link to="/category-jewelry" onClick={handleMobileNav}>Jewelry</Link>
+          <Link to="/category-home-decor" onClick={handleMobileNav}>Home Decoration</Link>
         </div>
       }
       <div className="App">
