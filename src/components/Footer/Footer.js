@@ -2,6 +2,9 @@ import React from 'react'
 import "./Footer.css"
 import { Link } from 'react-router-dom'
 import Logo from "../../assets/images/logo.jpg"
+import { FaInstagram } from "react-icons/fa";
+import { CiMail } from "react-icons/ci";
+import { IoMail } from "react-icons/io5";
 
 const Footer = () => {
     return (
@@ -31,7 +34,15 @@ const Footer = () => {
                     <h2>Contact Us</h2>
                     <ul>
                         <li><a href='tel:212-588-8700'>212-588-8700</a></li>
-                        <li><a href='tel:917-470-5061'>917-470-5061</a></li>
+                        <li>
+                            <a href="https://www.instagram.com/24cpsartgallery/" target="_blank" rel="noopener noreferrer">
+                                <FaInstagram />
+                            </a>
+                            <a href="mailto:24cpsgallery@gmail.com">
+                                <IoMail />
+                            </a>
+                        </li>
+
                     </ul>
                 </div>
             </div>

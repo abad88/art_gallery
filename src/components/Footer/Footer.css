@@ -81,6 +81,9 @@
       li {
         list-style: none;
         margin: 3px 0px;
+        svg {
+          font-size: 30px;
+        }
         a {
           color: white;
           text-decoration: none;

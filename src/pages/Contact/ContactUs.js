@@ -20,7 +20,6 @@ const ContactUs = () => {
                 <div className='contactContent'>
                     <h2>Contact Information</h2>
                     <h3>Tel: 212-588-8700</h3>
-                    <h3>Phone/Whatsapp/Wechat: 917-470-5061</h3>
                     <h3>Email: 24cpsgallery@gmail.com</h3>
                 </div>
 
