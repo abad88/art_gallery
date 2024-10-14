@@ -13,6 +13,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross1 } from "react-icons/rx";
 import Terms from './pages/Terms/Terms';
 import Policy from './pages/Policy/Policy';
+import Art from './pages/ArtCat/Art';
 
 function App() {
   const [loading, setLoading] = useState(false); // Loader state
@@ -63,6 +64,7 @@ function App() {
           <Route path='/art' element={<ArtPage />} />
           <Route path='/terms-and-conditions' element={<Terms />} />
           <Route path='/privacy-policy' element={<Policy />} />
+          <Route path='/category-art' element={<Art />} />
         </Routes>
         <Footer />
       </div>
