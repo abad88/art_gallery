@@ -1,16 +1,26 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // Import useNavigate for navigation
+import { useNavigate } from 'react-router-dom';
+import LazyLoad from 'react-lazyload'; // Import LazyLoad for lazy loading
 import './Art.css';
 import img1 from '../../assets/images/artpiece/eka1.jpg';
 import contactBanner from '../../assets/images/artcc.jpg';
 
 const Art = () => {
-    const navigate = useNavigate(); // Initialize navigation
+    const navigate = useNavigate();
     const imageData = [
         { img: img1, title: 'Image 1', artist: "artist1", type: "3D" },
         { img: img1, title: 'Image 2', artist: "artist2", type: "3D" },
         { img: img1, title: 'Image 3', artist: "artist1", type: "3D" },
         { img: img1, title: 'Image 4', artist: "artist1", type: "3D" },
+        { img: img1, title: 'Image 5', artist: "artist3", type: "3D" },
+        { img: img1, title: 'Image 6', artist: "artist3", type: "3D" },
+        { img: img1, title: 'Image 7', artist: "artist3", type: "3D" },
+        { img: img1, title: 'Image 8', artist: "artist3", type: "3D" },
+        { img: img1, title: 'Image 9', artist: "artist3", type: "3D" },
+        { img: img1, title: 'Image 10', artist: "artist3", type: "3D" },
+        { img: img1, title: 'Image 11', artist: "artist3", type: "3D" },
+        { img: img1, title: 'Image 12', artist: "artist3", type: "3D" },
+
         // Add more images as needed
     ];
 
@@ -53,7 +63,6 @@ const Art = () => {
         setCurrentPage(1);
     };
 
-    // Handle the image click to navigate to ArtPage
     const handleImageClick = (image) => {
         navigate('/art', { state: { img: image.img, title: image.title } });
     };
@@ -97,7 +106,9 @@ const Art = () => {
                             className="imageCard"
                             onClick={() => handleImageClick(image)} // Navigate to ArtPage on click
                         >
-                            <img src={image.img} alt={image.title} />
+                            <LazyLoad height={200} offset={100} once>
+                                <img src={image.img} alt={image.title} />
+                            </LazyLoad>
                             <p>{image.title}</p>
                         </div>
                     ))}
