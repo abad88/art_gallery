@@ -15,6 +15,10 @@
   .artContent {
     margin: 10px;
     color: #c38c31;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
 }
 .thumbnails {

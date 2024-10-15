@@ -5,6 +5,7 @@ import Accordion from '../../components/Accordian/Accordion';
 import Button from '../../components/Button/Button';
 import im1 from "../../assets/images/artpiece/eka_22.jpg";
 import im2 from "../../assets/images/artpiece/eka_5.jpg";
+import Form from '../../components/Form/Form';
 
 const ArtPage = () => {
     const location = useLocation();
@@ -67,6 +68,8 @@ const ArtPage = () => {
                     </div>
                     <div className='artContent'>
                         <h1>Contact for more Information, Availability, and Price</h1>
+                        <Form />
+                        <h2>Or</h2>
                         <Button msg={"Contact Us"} onClick={goToContactUs} />
                     </div>
                 </div>
