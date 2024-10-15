@@ -65,6 +65,32 @@ const ArtPage = () => {
                         <h1>{title}</h1>
                         {/* Display the selected image */}
                         <img src={selectedImg} alt={title} />
+                        <p>Click on Thumbnail to View</p>
+
+                        {/* Render matched art details if found */}
+                        {matchedArt ? (
+                            <div>
+                                {matchedArt.thumbnails && (
+                                    <div className="thumbnails">
+                                        <div className="thumbnailContainer">
+                                            {matchedArt.thumbnails.map((thumbnail, index) => (
+                                                <img
+                                                    key={index}
+                                                    src={thumbnail}
+                                                    alt={`Thumbnail ${index + 1}`}
+                                                    className="thumbnail"
+                                                    style={{ width: '100px', height: '100px', marginRight: '10px', cursor: 'pointer' }}
+                                                    onClick={() => handleThumbnailClick(thumbnail)} // Handle thumbnail click
+                                                />
+                                            ))}
+                                        </div>
+                                    </div>
+                                )}
+                                <Accordion data={matchedArt} />
+                            </div>
+                        ) : (
+                            <p>No additional information available for this piece.</p>
+                        )}
                     </div>
                     <div className='artContent'>
                         <h1>Contact for more Information, Availability, and Price</h1>
@@ -73,32 +99,7 @@ const ArtPage = () => {
                         <Button msg={"Contact Us"} onClick={goToContactUs} />
                     </div>
                 </div>
-                <p>Click on Thumbnail to View</p>
 
-                {/* Render matched art details if found */}
-                {matchedArt ? (
-                    <div>
-                        {matchedArt.thumbnails && (
-                            <div className="thumbnails">
-                                <div className="thumbnailContainer">
-                                    {matchedArt.thumbnails.map((thumbnail, index) => (
-                                        <img
-                                            key={index}
-                                            src={thumbnail}
-                                            alt={`Thumbnail ${index + 1}`}
-                                            className="thumbnail"
-                                            style={{ width: '100px', height: '100px', marginRight: '10px', cursor: 'pointer' }}
-                                            onClick={() => handleThumbnailClick(thumbnail)} // Handle thumbnail click
-                                        />
-                                    ))}
-                                </div>
-                            </div>
-                        )}
-                        <Accordion data={matchedArt} />
-                    </div>
-                ) : (
-                    <p>No additional information available for this piece.</p>
-                )}
             </div>
         </>
     );
