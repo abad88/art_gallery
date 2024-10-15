@@ -19,7 +19,10 @@
     opacity: 1 !important;
     width: 90px;
     height: 90px;
-    left: 44%;
+    position: absolute; /* Ensure the logo is positioned absolutely within its parent */
+    top: 50%; /* Center vertically (if needed) */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%);
   }
 }
 .contentHome {
