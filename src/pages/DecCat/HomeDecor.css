@@ -33,3 +33,60 @@
     }
   }
 }
+
+.galleryWrapper {
+  text-align: center;
+  input {
+    border: 2px solid #c38c31;
+    padding: 8px;
+    margin: 8px;
+  }
+  select {
+    border: 2px solid #c38c31;
+    padding: 8px;
+    margin: 8px;
+    option {
+    }
+    &:hover {
+      background: #c38c31;
+      color: white;
+    }
+  }
+}
+
+.imagesGrid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.imageCard {
+  width: 300px;
+  border: 2px solid #c38c31;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin: 5px;
+}
+
+.imageCard img {
+  width: 100%;
+  height: auto;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pageButton {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #f0f0f0;
+  cursor: pointer;
+}
+
+.pageButton.active {
+  background-color: #c38c31;
+  color: white;
+}

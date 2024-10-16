@@ -3,7 +3,6 @@ import "./Footer.css"
 import { Link } from 'react-router-dom'
 import Logo from "../../assets/images/logo.jpg"
 import { FaInstagram } from "react-icons/fa";
-import { CiMail } from "react-icons/ci";
 import { IoMail } from "react-icons/io5";
 
 const Footer = () => {
@@ -16,8 +15,7 @@ const Footer = () => {
                     <h4>We deliver your dream art work</h4>
                     <p>
                         We are committed to our mission & goals and look forward to building
-                        the best client-customer relationship. Our greatest strength is our
-                        communication and commitments to deliver what we pledge
+                        the best client-customer relationship.
                     </p>
                 </div>
                 <div className="menu">

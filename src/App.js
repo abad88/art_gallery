@@ -7,6 +7,7 @@ import { RxCross1 } from "react-icons/rx";
 import Footer from './components/Footer/Footer';
 import Loader from './components/Loader/Loader';
 import JewelryPage from './pages/JewelryDetail/JewelryPage';
+import HomeDecPage from './pages/HomeDec/HomeDecPage';
 
 // Lazy load the components
 const Home = lazy(() => import('./pages/Home/Home'));
@@ -78,6 +79,7 @@ function App() {
             <Route path='/category-jewelry' element={<Jewelery />} />
             <Route path='/jewelry' element={<JewelryPage />} />
             <Route path='/category-home-decor' element={<HomeDecor />} />
+            <Route path='/home-decor' element={<HomeDecPage />} />
           </Routes>
         </Suspense>
 
