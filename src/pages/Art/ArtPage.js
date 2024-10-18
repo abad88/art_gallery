@@ -6,6 +6,20 @@ import Button from '../../components/Button/Button';
 import im1 from "../../assets/images/artpiece/eka_22.jpg";
 import im2 from "../../assets/images/artpiece/eka_5.jpg";
 import Form from '../../components/Form/Form';
+import ekImg2 from "../../assets/images/eka/img1/converted/main2.jpg"
+import ekImg3 from "../../assets/images/eka/img1/converted/main3.jpg"
+import ekImg5 from "../../assets/images/eka/img2/converted/main2.jpg"
+import ekImg6 from "../../assets/images/eka/img2/converted/main3.jpg"
+import ekImg8 from "../../assets/images/eka/img3/converted/main2.jpg"
+import ekImg9 from "../../assets/images/eka/img3/converted/main3.jpg"
+import ekImg11 from "../../assets/images/eka/img4/converted/main2.jpg"
+import ekImg12 from "../../assets/images/eka/img4/converted/main3.jpg"
+import ekImg14 from "../../assets/images/eka/img5/converted/main2.jpg"
+import ekImg15 from "../../assets/images/eka/img5/converted/main3.jpg"
+import ekImg17 from "../../assets/images/eka/img6/converted/main2.jpg"
+import ekImg18 from "../../assets/images/eka/img6/converted/main3.jpg"
+import ekImg20 from "../../assets/images/eka/img7/converted/main2.jpg"
+import ekImg21 from "../../assets/images/eka/img7/converted/main3.jpg"
 
 const ArtPage = () => {
     const location = useLocation();
@@ -42,7 +56,70 @@ const ArtPage = () => {
                 im1,
                 im2,
             ]
-        }
+        },
+        {
+            titleImg: "Action.Family (Arcylic Painting)",
+            author: "Eka Peradze",
+            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            thumbnails: [
+                ekImg2,
+                ekImg3,
+            ]
+        },
+        {
+            titleImg: "Love.Family.Action (Arcylic Painting)",
+            author: "Eka Peradze",
+            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            thumbnails: [
+                ekImg5,
+                ekImg6,
+            ]
+        },
+        {
+            titleImg: "Action.Freedom (Arcylic Painting)",
+            author: "Eka Peradze",
+            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            thumbnails: [
+                ekImg8,
+                ekImg9,
+            ]
+        },
+        {
+            titleImg: "Freedom.Love (Arcylic Painting)",
+            author: "Eka Peradze",
+            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            thumbnails: [
+                ekImg11,
+                ekImg12,
+            ]
+        },
+        {
+            titleImg: "Action.Freedom.Love (Arcylic Painting)",
+            author: "Eka Peradze",
+            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            thumbnails: [
+                ekImg14,
+                ekImg15,
+            ]
+        },
+        {
+            titleImg: "Love.Action (Arcylic Painting)",
+            author: "Eka Peradze",
+            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            thumbnails: [
+                ekImg17,
+                ekImg18,
+            ]
+        },
+        {
+            titleImg: "Freedom.Action (Arcylic Painting)",
+            author: "Eka Peradze",
+            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            thumbnails: [
+                ekImg20,
+                ekImg21,
+            ]
+        },
     ];
 
     // Find the matching art piece based on the title and titleImg comparison
