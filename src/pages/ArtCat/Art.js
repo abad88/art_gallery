@@ -23,8 +23,8 @@ const Art = () => {
         { img: ekImg16, title: 'Love.Action (Arcylic Painting)', artist: "Eka Peradze", type: "3D" },
         { img: ekImg19, title: 'Freedom.Action (Arcylic Painting)', artist: "Eka Peradze", type: "3D" },
         { img: img1, title: 'Image 8', artist: "artist3", type: "3D" },
-        { img: img1, title: 'Image 9', artist: "artist3", type: "3D" },
-        { img: img1, title: 'Image 10', artist: "artist3", type: "3D" },
+        { img: img1, title: 'Image 9', artist: "artist3", type: "2D" },
+        { img: img1, title: 'Image 10', artist: "artist3", type: "2D" },
         { img: img1, title: 'Image 11', artist: "artist3", type: "3D" },
         { img: img1, title: 'Image 12', artist: "artist3", type: "3D" },
 

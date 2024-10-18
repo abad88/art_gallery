@@ -8,6 +8,7 @@ import Footer from './components/Footer/Footer';
 import Loader from './components/Loader/Loader';
 import JewelryPage from './pages/JewelryDetail/JewelryPage';
 import HomeDecPage from './pages/HomeDec/HomeDecPage';
+import ErrorPage from './pages/ErrorPage/ErrorPage'; // Import the error page
 
 // Lazy load the components
 const Home = lazy(() => import('./pages/Home/Home'));
@@ -67,7 +68,7 @@ function App() {
           </ul>
         </nav>
 
-        <Suspense fallback={<Loader />}> {/* Suspense provides fallback while loading components */}
+        <Suspense fallback={<Loader />}>
           <Routes>
             <Route path='/' element={<Home />} />
             <Route path='/contact-us' element={<ContactUs />} />
@@ -80,6 +81,7 @@ function App() {
             <Route path='/jewelry' element={<JewelryPage />} />
             <Route path='/category-home-decor' element={<HomeDecor />} />
             <Route path='/home-decor' element={<HomeDecPage />} />
+            <Route path='*' element={<ErrorPage />} /> {/* Catch-all route for unmatched paths */}
           </Routes>
         </Suspense>
 
