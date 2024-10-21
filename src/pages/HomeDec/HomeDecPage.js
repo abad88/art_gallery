@@ -101,206 +101,206 @@ const HomeDecPage = () => {
             detail: "It is all about Yellow money"
         },
         {
-            titleImg: "Vase1",
+            titleImg: "Crystal Fruit Bowl",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a swirling, organic shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase1_1,
                 vase1_2,
             ]
         },
         {
-            titleImg: "Vase2",
+            titleImg: "Crystal Fruit Bowl (2)",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a swirling, organic shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase2_1,
                 vase2_2,
             ]
         },
         {
-            titleImg: "Vase3",
+            titleImg: "Crystal Fruit Bowl (3)",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a swirling, organic shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase3_1,
                 vase3_2,
             ]
         },
         {
-            titleImg: "Vase4",
+            titleImg: "Amethyst Glass Bowl",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This exquisite bowl is crafted from amethyst glass, a type of quartz that exhibits a beautiful purple hue. The bowl features a fluted, geometric shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation.",
             thumbnails: [
                 vase4_1,
                 vase4_2,
             ]
         },
         {
-            titleImg: "Vase5",
+            titleImg: "Amber Glass Bowl",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant bowl is crafted from amber glass, a type of glass that exhibits a warm, golden hue. The bowl features a ribbed, geometric shape that adds a touch of sophistication and elegance. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase5_1,
                 vase5_2,
             ]
         },
         {
-            titleImg: "Vase6",
+            titleImg: "Crystal Fruit Bowl (4)",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a swirling, organic shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase6_1,
                 vase6_2,
             ]
         },
         {
-            titleImg: "Vase7",
+            titleImg: "Crystal Ice Bucket",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant ice bucket is crafted from crystal, a material known for its clarity, brilliance, and durability. The bucket features a cylindrical shape with a flared rim, making it easy to fill and access ice. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase7_1,
                 vase7_2,
             ]
         },
         {
-            titleImg: "Vase8",
+            titleImg: "Cranberry Glass Fruit Bowl",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This exquisite bowl is crafted from cranberry glass, a type of glass that exhibits a deep, rich red hue. The bowl features a wavy, organic shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation",
             thumbnails: [
                 vase8_1,
                 vase8_2,
             ]
         },
         {
-            titleImg: "Vase9",
+            titleImg: "Amber Glass Bowl (2)",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant bowl is crafted from amber glass, a type of glass that exhibits a warm, golden hue. The bowl features a fluted, geometric shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation.",
             thumbnails: [
                 vase9_1,
                 vase9_2,
             ]
         },
         {
-            titleImg: "Vase10",
+            titleImg: "Cranberry Glass Fruit Bowl (2)",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This exquisite bowl is crafted from cranberry glass, a type of glass that exhibits a deep, rich red hue. The bowl features a wavy, organic shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and abalone, creating a visually striking and luxurious foundation.",
             thumbnails: [
                 vase10_1,
                 vase10_2,
             ]
         },
         {
-            titleImg: "Vase11",
+            titleImg: "Crystal Urn",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant urn is crafted from crystal, a material known for its clarity, brilliance, and durability. The urn features a classic urn shape with a wide mouth and a tapered base. The body is adorned with intricate, cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase11_1,
                 vase11_2,
             ]
         },        {
-            titleImg: "Vase12",
+            titleImg: "Vintage long ripple glass vase",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "The intricate designs, vibrant colors, and high-quality craftsmanship. The vase's unique shape, with its layered, ribbed design and crystal-clear glass.",
             thumbnails: [
                 vase12_1,
                 vase12_2,
             ]
         },
         {
-            titleImg: "Vase13",
+            titleImg: "Murano glass fruit bowl",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "Murano glass is renowned for its intricate designs, vibrant colors, and high-quality craftsmanship. The perfume bottle's unique, organic shape and the use of gilt bronze and abalone in the base are characteristic of Murano glass pieces.",
             thumbnails: [
                 vase13_1,
                 vase13_2,
             ]
         },
         {
-            titleImg: "Vase14",
+            titleImg: "Crystal Candy Dish",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant candy dish is crafted from crystal, a material known for its clarity, brilliance, and durability. The dish features a square shape with rounded corners, adding a touch of sophistication and modern design. The base is made of a combination of gilt bronze and abalone, creating a visually striking and luxurious foundation.",
             thumbnails: [
                 vase14_1,
                 vase14_2,
             ]
         },
         {
-            titleImg: "Vase15",
+            titleImg: "Crystal Centerpiece",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant centerpiece is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a fan-shaped design with intricate cut-glass details that create a shimmering effect when light passes through. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation.",
             thumbnails: [
                 vase15_1,
                 vase15_2,
             ]
         },
         {
-            titleImg: "Vase16",
+            titleImg: "Crystal Centerpiece (2)",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant centerpiece is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a square shape with rounded corners, adding a touch of sophistication and modern design. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation.",
             thumbnails: [
                 vase16_1,
                 vase16_2,
             ]
         },
         {
-            titleImg: "Vase17",
+            titleImg: "Crystal Vase",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant vase is crafted from crystal, a material known for its clarity, brilliance, and durability. The vase features a rectangular shape with a ribbed design that adds texture and visual interest. The base is also made of crystal, providing a stable foundation for the vase.",
             thumbnails: [
                 vase17_1,
                 vase17_2,
             ]
         },
         {
-            titleImg: "Vase18",
+            titleImg: "Cranberry Glass Fruit Bowl (2)",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a fluted, geometric shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase18_1,
                 vase18_2,
             ]
         },
         {
-            titleImg: "Vase19",
+            titleImg: "Purple Glass Bowl",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant bowl is crafted from purple glass, a material known for its rich, vibrant color. The bowl features a fluted, geometric shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and porcelain, creating a visually striking and luxurious foundation",
             thumbnails: [
                 vase19_1,
                 vase19_2,
             ]
         },
         {
-            titleImg: "Vase20",
+            titleImg: "Crystal Vase (2)",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "The vase features a classic urn shape with a wide mouth and a tapered base. The body is adorned with intricate, cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase20_1,
                 vase20_2,
             ]
         },
         {
-            titleImg: "Vase21",
+            titleImg: "Glass Vase with Marble base",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "The vase features a flared top and a tapered bottom, with a ribbed design that adds texture and visual interest. The amber color of the glass is striking and adds a touch of warmth. The base is made of a combination of gilt bronze and marble, creating a luxurious and elegant foundation.",
             thumbnails: [
                 vase21_1,
                 vase21_2,
             ]
         },
         {
-            titleImg: "Vase22",
+            titleImg: "Crystal centerpiece (3)",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "The bowl features a circular shape with intricate cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish. The combination of crystal and gilt bronze creates a visually striking and luxurious piece.",
             thumbnails: [
                 vase22_1,
                 vase22_2,
             ]
         },
         {
-            titleImg: "Vase23",
+            titleImg: "Crystal urn (2)",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "The urn features a classic urn shape with a wide mouth and a tapered base. The body is adorned with intricate, cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase23_1,
                 vase23_2,
@@ -316,90 +316,90 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Vase24",
+            titleImg: "Crystal centerpiece (4)",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "The bowl features a fan-shaped design with intricate cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish. The combination of crystal and gilt bronze creates a visually striking and luxurious piece.",
             thumbnails: [
                 vase24_1,
                 vase24_2,
             ]
         },
         {
-            titleImg: "Vase25",
+            titleImg: "Crystal centerpiece (5)",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "The bowl features a circular shape with intricate cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish. The combination of crystal and gilt bronze creates a visually striking and luxurious piece.",
             thumbnails: [
                 vase25_1,
                 vase25_2,
             ]
         },
         {
-            titleImg: "Vase26",
+            titleImg: "Crystal bowl",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "The bowl features a fluted, geometric shape that adds a touch of sophistication and elegance. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish. The combination of crystal and gilt bronze creates a visually striking and luxurious piece.",
             thumbnails: [
                 vase26_1,
                 vase26_2,
             ]
         },
         {
-            titleImg: "Clock1",
+            titleImg: "Porcelain Putti Mantle Clock",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "Premium German Porcelain Putti Mantle Clock",
             thumbnails: [
                 clock1_1,
                 clock1_2,
             ]
         },
         {
-            titleImg: "Clock2",
+            titleImg: "French Lyre Clock",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "Crafted with exquisite detail, the clock features a lyre-shaped body, typically made of ormolu (gilded bronze) or marble",
             thumbnails: [
                 clock2_1,
                 clock2_2,
             ]
         },
         {
-            titleImg: "Clock3",
+            titleImg: "French Gilt Porcelain Clock",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This elegant timepiece is a French gilt bronze mantel clock, characterized by its ornate design and decorative elements",
             thumbnails: [
                 clock3_1,
                 clock3_2,
             ]
         },
         {
-            titleImg: "Table1",
-            author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            titleImg: "Onyx Coffee table",
+            author: "Onyx Coffee table",
+            detail: "This stunning coffee table set is crafted from exquisite onyx, a semi-precious gemstone known for its translucent quality and vibrant colors. The table features a large, circular top with intricate patterns of green, red, and brown hues comes with 4 onyx stools.",
             thumbnails: [
                 table1_1,
                 table1_2,
             ]
         },
         {
-            titleImg: "Table2",
+            titleImg: "Onyx Coffee table (Rectangle)",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This stunning coffee table set is crafted from exquisite onyx, a semi-precious gemstone known for its translucent quality and vibrant colors. The table features a large, rectangular top with intricate patterns of green, red, and brown hues comes with 4 onyx stools.",
             thumbnails: [
                 table2_1,
                 table2_2,
             ]
         },
         {
-            titleImg: "lamp1",
+            titleImg: "Tiffany-Style Baltic Amber Lamp",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This stunning lamp showcases the intricate artistry of Tiffany-style design, featuring a captivating combination of Baltic amber and bronze. The lamp's shade is composed of numerous amber glass pieces, meticulously cut and assembled to create a mesmerizing pattern of bubbles and droplets.",
             thumbnails: [
                 lamp1_1,
                 lamp1_2,
             ]
         },
         {
-            titleImg: "lamp2",
+            titleImg: "Tiffany-Style Moss Agate Lamp",
             author: "Eka Peradze",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This exquisite lamp showcases the artistry of Tiffany-style design, featuring a captivating combination of moss agate and bronze. The lamp's shade is composed of numerous moss agate pieces, meticulously cut and assembled to create a mesmerizing pattern of swirling green and brown hues.",
             thumbnails: [
                 lamp2_1,
                 lamp2_2,
