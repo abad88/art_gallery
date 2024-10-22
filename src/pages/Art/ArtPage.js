@@ -131,7 +131,7 @@ const ArtPage = () => {
         {
             titleImg: "Butterflies on Blue",
             author: "Alexandra Chateaux",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This unique and thought-provoking painting features a deep blue background adorned with shimmering glitter. Against this backdrop, several real butterflies are carefully arranged, creating a striking contrast between the natural elements and the abstract background. The overall effect is both delicate and dramatic.",
             thumbnails: [
                 alex1,
                 alex1_2,
@@ -140,7 +140,7 @@ const ArtPage = () => {
         {
             titleImg: "Butterflies on Gray",
             author: "Alexandra Chateaux",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This unique and thought-provoking painting features a gray background with a textured, almost metallic appearance. Against this backdrop, two real blue butterflies are carefully positioned, creating a striking contrast between the natural elements and the abstract background. The overall effect is both delicate and dramatic.",
             thumbnails: [
                 alex2,
                 alex2_2,
@@ -149,7 +149,7 @@ const ArtPage = () => {
         {
             titleImg: "Abstract Potrait",
             author: "Lee Seoung",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This vibrant and textured painting features a fragmented portrait composed of small, colorful squares that resemble golf tees. The background is a chaotic mix of colors and textures, creating a sense of energy and movement. The overall effect is a visually striking and thought-provoking piece that invites the viewer to interpret the meaning behind the fragmented image.",
             thumbnails: [
                 lee,
                 lee2,
@@ -158,7 +158,7 @@ const ArtPage = () => {
         {
             titleImg: "Butterfly Symphony",
             author: "Vincent",
-            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            detail: "This vibrant and dynamic painting features a pink violin placed against a dark background. The violin is surrounded by splashes of paint in various colors, and there are also butterflies incorporated into the composition. The overall effect is visually striking and suggests a sense of energy and movement.",
             thumbnails: [
                 vincent,
                 vincent2,

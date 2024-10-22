@@ -30,13 +30,6 @@ const Art = () => {
         { img: alex2, title: 'Butterflies on Gray', artist: "Alexandra Chateaux", type: "3D" },
         { img: lee, title: 'Abstract Potrait', artist: "Lee Seoung", type: "3D" },
         { img: vincent, title: 'Butterfly Symphony', artist: "Vincent", type: "3D" },
-
-        { img: img1, title: 'Image 8', artist: "artist3", type: "3D" },
-        { img: img1, title: 'Image 9', artist: "artist3", type: "2D" },
-        { img: img1, title: 'Image 10', artist: "artist3", type: "2D" },
-        { img: img1, title: 'Image 11', artist: "artist3", type: "3D" },
-        { img: img1, title: 'Image 12', artist: "artist3", type: "3D" },
-
         // Add more images as needed
     ];
 

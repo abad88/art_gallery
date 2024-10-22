@@ -71,7 +71,7 @@ const Home = () => {
                     <h2>Some of our Art pieces from our collection</h2>
                 </div>
                 <Slider />
-                <h2>Explore Section</h2>
+                {/* <h2>Explore Section</h2>
 
                 <input
                     type="text"
@@ -91,7 +91,7 @@ const Home = () => {
                     <div className='buttonBorder'>
                         <Button msg="More" onClick={loadMoreCards} />
                     </div>
-                )}
+                )} */}
 
                 {filteredCards.length === 0 && <p className='notF'>Nothing found ...</p>}
                 <h2>Location</h2>

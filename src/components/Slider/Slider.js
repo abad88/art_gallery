@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react';
 import { FaArrowAltCircleRight, FaArrowAltCircleLeft } from 'react-icons/fa'; // Icons for navigation buttons
 import './Slider.css'; // Optional for styling
-// import image1 from "../../assets/images/artc.jpg"
-// import image2 from "../../assets/images/artcc.jpg"
-// import image3 from "../../assets/images/arth.jpg"
 import image1 from "../../assets/images/eka/img1/converted/main1.jpg"
-import image2 from "../../assets/images/eka/img2/converted/main1.jpg"
 import image3 from "../../assets/images/eka/img3/converted/main1.jpg"
+import image4 from "../../assets/images/Lee/main1.jpg"
+import image5 from "../../assets/images/alexandria/img1/main1.jpg"
+import image6 from "../../assets/images/alexandria/img2/main1.jpg"
+import image8 from "../../assets/images/Cenacolo/main1.jpg"
 
 // ImageData.js
 const slides = [
@@ -14,10 +14,19 @@ const slides = [
         image: image1
     },
     {
-        image: image2
+        image: image3
     },
     {
-        image: image3
+        image: image4
+    },
+    {
+        image: image5
+    },
+    {
+        image: image6
+    },
+    {
+        image: image8
     },
 ];
 
