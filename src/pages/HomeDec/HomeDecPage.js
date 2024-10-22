@@ -102,7 +102,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal Fruit Bowl",
-            author: "Eka Peradze",
+            author: "Crystal Fruit Bowl",
             detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a swirling, organic shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase1_1,
@@ -111,7 +111,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal Fruit Bowl (2)",
-            author: "Eka Peradze",
+            author: "Crystal Fruit Bowl (2)",
             detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a swirling, organic shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase2_1,
@@ -120,7 +120,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal Fruit Bowl (3)",
-            author: "Eka Peradze",
+            author: "Crystal Fruit Bowl (3)",
             detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a swirling, organic shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase3_1,
@@ -129,7 +129,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Amethyst Glass Bowl",
-            author: "Eka Peradze",
+            author: "Amethyst Glass Bowl",
             detail: "This exquisite bowl is crafted from amethyst glass, a type of quartz that exhibits a beautiful purple hue. The bowl features a fluted, geometric shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation.",
             thumbnails: [
                 vase4_1,
@@ -138,7 +138,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Amber Glass Bowl",
-            author: "Eka Peradze",
+            author: "Amber Glass Bowl",
             detail: "This elegant bowl is crafted from amber glass, a type of glass that exhibits a warm, golden hue. The bowl features a ribbed, geometric shape that adds a touch of sophistication and elegance. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase5_1,
@@ -147,7 +147,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal Fruit Bowl (4)",
-            author: "Eka Peradze",
+            author: "Crystal Fruit Bowl (4)",
             detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a swirling, organic shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase6_1,
@@ -156,7 +156,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal Ice Bucket",
-            author: "Eka Peradze",
+            author: "Crystal Ice Bucket",
             detail: "This elegant ice bucket is crafted from crystal, a material known for its clarity, brilliance, and durability. The bucket features a cylindrical shape with a flared rim, making it easy to fill and access ice. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase7_1,
@@ -165,7 +165,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Cranberry Glass Fruit Bowl",
-            author: "Eka Peradze",
+            author: "Cranberry Glass Fruit Bowl",
             detail: "This exquisite bowl is crafted from cranberry glass, a type of glass that exhibits a deep, rich red hue. The bowl features a wavy, organic shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation",
             thumbnails: [
                 vase8_1,
@@ -174,7 +174,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Amber Glass Bowl (2)",
-            author: "Eka Peradze",
+            author: "Amber Glass Bowl (2)",
             detail: "This elegant bowl is crafted from amber glass, a type of glass that exhibits a warm, golden hue. The bowl features a fluted, geometric shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation.",
             thumbnails: [
                 vase9_1,
@@ -183,7 +183,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Cranberry Glass Fruit Bowl (2)",
-            author: "Eka Peradze",
+            author: "Cranberry Glass Fruit Bowl (2)",
             detail: "This exquisite bowl is crafted from cranberry glass, a type of glass that exhibits a deep, rich red hue. The bowl features a wavy, organic shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and abalone, creating a visually striking and luxurious foundation.",
             thumbnails: [
                 vase10_1,
@@ -192,7 +192,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal Urn",
-            author: "Eka Peradze",
+            author: "Crystal Urn",
             detail: "This elegant urn is crafted from crystal, a material known for its clarity, brilliance, and durability. The urn features a classic urn shape with a wide mouth and a tapered base. The body is adorned with intricate, cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase11_1,
@@ -200,7 +200,7 @@ const HomeDecPage = () => {
             ]
         },        {
             titleImg: "Vintage long ripple glass vase",
-            author: "Eka Peradze",
+            author: "Vintage long ripple glass vase",
             detail: "The intricate designs, vibrant colors, and high-quality craftsmanship. The vase's unique shape, with its layered, ribbed design and crystal-clear glass.",
             thumbnails: [
                 vase12_1,
@@ -209,7 +209,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Murano glass fruit bowl",
-            author: "Eka Peradze",
+            author: "Murano glass fruit bowl",
             detail: "Murano glass is renowned for its intricate designs, vibrant colors, and high-quality craftsmanship. The perfume bottle's unique, organic shape and the use of gilt bronze and abalone in the base are characteristic of Murano glass pieces.",
             thumbnails: [
                 vase13_1,
@@ -218,7 +218,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal Candy Dish",
-            author: "Eka Peradze",
+            author: "Crystal Candy Dish",
             detail: "This elegant candy dish is crafted from crystal, a material known for its clarity, brilliance, and durability. The dish features a square shape with rounded corners, adding a touch of sophistication and modern design. The base is made of a combination of gilt bronze and abalone, creating a visually striking and luxurious foundation.",
             thumbnails: [
                 vase14_1,
@@ -227,7 +227,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal Centerpiece",
-            author: "Eka Peradze",
+            author: "Crystal Centerpiece",
             detail: "This elegant centerpiece is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a fan-shaped design with intricate cut-glass details that create a shimmering effect when light passes through. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation.",
             thumbnails: [
                 vase15_1,
@@ -236,7 +236,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal Centerpiece (2)",
-            author: "Eka Peradze",
+            author: "Crystal Centerpiece (2)",
             detail: "This elegant centerpiece is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a square shape with rounded corners, adding a touch of sophistication and modern design. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation.",
             thumbnails: [
                 vase16_1,
@@ -245,7 +245,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal Vase",
-            author: "Eka Peradze",
+            author: "Crystal Vase",
             detail: "This elegant vase is crafted from crystal, a material known for its clarity, brilliance, and durability. The vase features a rectangular shape with a ribbed design that adds texture and visual interest. The base is also made of crystal, providing a stable foundation for the vase.",
             thumbnails: [
                 vase17_1,
@@ -254,7 +254,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Cranberry Glass Fruit Bowl (2)",
-            author: "Eka Peradze",
+            author: "Cranberry Glass Fruit Bowl (2)",
             detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a fluted, geometric shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase18_1,
@@ -263,7 +263,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Purple Glass Bowl",
-            author: "Eka Peradze",
+            author: "Purple Glass Bowl",
             detail: "This elegant bowl is crafted from purple glass, a material known for its rich, vibrant color. The bowl features a fluted, geometric shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and porcelain, creating a visually striking and luxurious foundation",
             thumbnails: [
                 vase19_1,
@@ -272,7 +272,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal Vase (2)",
-            author: "Eka Peradze",
+            author: "Crystal Vase (2)",
             detail: "The vase features a classic urn shape with a wide mouth and a tapered base. The body is adorned with intricate, cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase20_1,
@@ -281,7 +281,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Glass Vase with Marble base",
-            author: "Eka Peradze",
+            author: "Glass Vase with Marble base",
             detail: "The vase features a flared top and a tapered bottom, with a ribbed design that adds texture and visual interest. The amber color of the glass is striking and adds a touch of warmth. The base is made of a combination of gilt bronze and marble, creating a luxurious and elegant foundation.",
             thumbnails: [
                 vase21_1,
@@ -290,7 +290,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal centerpiece (3)",
-            author: "Eka Peradze",
+            author: "Crystal centerpiece (3)",
             detail: "The bowl features a circular shape with intricate cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish. The combination of crystal and gilt bronze creates a visually striking and luxurious piece.",
             thumbnails: [
                 vase22_1,
@@ -299,7 +299,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal urn (2)",
-            author: "Eka Peradze",
+            author: "Crystal urn (2)",
             detail: "The urn features a classic urn shape with a wide mouth and a tapered base. The body is adorned with intricate, cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
                 vase23_1,
@@ -317,7 +317,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal centerpiece (4)",
-            author: "Eka Peradze",
+            author: "Crystal centerpiece (4)",
             detail: "The bowl features a fan-shaped design with intricate cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish. The combination of crystal and gilt bronze creates a visually striking and luxurious piece.",
             thumbnails: [
                 vase24_1,
@@ -326,7 +326,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal centerpiece (5)",
-            author: "Eka Peradze",
+            author: "Crystal centerpiece (5)",
             detail: "The bowl features a circular shape with intricate cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish. The combination of crystal and gilt bronze creates a visually striking and luxurious piece.",
             thumbnails: [
                 vase25_1,
@@ -335,7 +335,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Crystal bowl",
-            author: "Eka Peradze",
+            author: "Crystal bowl",
             detail: "The bowl features a fluted, geometric shape that adds a touch of sophistication and elegance. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish. The combination of crystal and gilt bronze creates a visually striking and luxurious piece.",
             thumbnails: [
                 vase26_1,
@@ -344,7 +344,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Porcelain Putti Mantle Clock",
-            author: "Eka Peradze",
+            author: "Porcelain Putti Mantle Clock",
             detail: "Premium German Porcelain Putti Mantle Clock",
             thumbnails: [
                 clock1_1,
@@ -353,7 +353,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "French Lyre Clock",
-            author: "Eka Peradze",
+            author: "French Lyre Clock",
             detail: "Crafted with exquisite detail, the clock features a lyre-shaped body, typically made of ormolu (gilded bronze) or marble",
             thumbnails: [
                 clock2_1,
@@ -362,7 +362,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "French Gilt Porcelain Clock",
-            author: "Eka Peradze",
+            author: "French Gilt Porcelain Clock",
             detail: "This elegant timepiece is a French gilt bronze mantel clock, characterized by its ornate design and decorative elements",
             thumbnails: [
                 clock3_1,
@@ -380,7 +380,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Onyx Coffee table (Rectangle)",
-            author: "Eka Peradze",
+            author: "Onyx Coffee table (Rectangle)",
             detail: "This stunning coffee table set is crafted from exquisite onyx, a semi-precious gemstone known for its translucent quality and vibrant colors. The table features a large, rectangular top with intricate patterns of green, red, and brown hues comes with 4 onyx stools.",
             thumbnails: [
                 table2_1,
@@ -389,7 +389,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Tiffany-Style Baltic Amber Lamp",
-            author: "Eka Peradze",
+            author: "Tiffany-Style Baltic Amber Lamp",
             detail: "This stunning lamp showcases the intricate artistry of Tiffany-style design, featuring a captivating combination of Baltic amber and bronze. The lamp's shade is composed of numerous amber glass pieces, meticulously cut and assembled to create a mesmerizing pattern of bubbles and droplets.",
             thumbnails: [
                 lamp1_1,
@@ -398,7 +398,7 @@ const HomeDecPage = () => {
         },
         {
             titleImg: "Tiffany-Style Moss Agate Lamp",
-            author: "Eka Peradze",
+            author: "Tiffany-Style Moss Agate Lamp",
             detail: "This exquisite lamp showcases the artistry of Tiffany-style design, featuring a captivating combination of moss agate and bronze. The lamp's shade is composed of numerous moss agate pieces, meticulously cut and assembled to create a mesmerizing pattern of swirling green and brown hues.",
             thumbnails: [
                 lamp2_1,
