@@ -90,3 +90,14 @@
   background-color: #c38c31;
   color: white;
 }
+
+@media (max-width: 768px) {
+  .galleryWrapper {
+    input {
+      width: 75%;
+    }
+    select {
+      width: 75%;
+    }
+  }
+}

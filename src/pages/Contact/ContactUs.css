@@ -37,13 +37,12 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin: 30px;
   /* width: 100%;
   height: 100%; */
   .contactContent {
     border-radius: 15px;
-    font-family: DM Sans Merlin;
     color: black;
     background-color: #f7f7f7;
     margin: 10px;
