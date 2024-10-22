@@ -20,6 +20,14 @@ import ekImg17 from "../../assets/images/eka/img6/converted/main2.jpg"
 import ekImg18 from "../../assets/images/eka/img6/converted/main3.jpg"
 import ekImg20 from "../../assets/images/eka/img7/converted/main2.jpg"
 import ekImg21 from "../../assets/images/eka/img7/converted/main3.jpg"
+import alex1 from "../../assets/images/alexandria/img1/main2.jpg"
+import alex1_2 from "../../assets/images/alexandria/img1/main3.jpg"
+import alex2 from "../../assets/images/alexandria/img2/main2.jpg"
+import alex2_2 from "../../assets/images/alexandria/img2/main3.jpg"
+import lee from "../../assets/images/Lee/main2.jpg"
+import lee2 from "../../assets/images/Lee/main3.jpg"
+import vincent from "../../assets/images/vincent/main2.jpg"
+import vincent2 from "../../assets/images/vincent/main3.jpg"
 
 const ArtPage = () => {
     const location = useLocation();
@@ -118,6 +126,42 @@ const ArtPage = () => {
             thumbnails: [
                 ekImg20,
                 ekImg21,
+            ]
+        },
+        {
+            titleImg: "Butterflies on Blue",
+            author: "Alexandra Chateaux",
+            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            thumbnails: [
+                alex1,
+                alex1_2,
+            ]
+        },
+        {
+            titleImg: "Butterflies on Gray",
+            author: "Alexandra Chateaux",
+            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            thumbnails: [
+                alex2,
+                alex2_2,
+            ]
+        },
+        {
+            titleImg: "Abstract Potrait",
+            author: "Lee Seoung",
+            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            thumbnails: [
+                lee,
+                lee2,
+            ]
+        },
+        {
+            titleImg: "Butterfly Symphony",
+            author: "Vincent",
+            detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
+            thumbnails: [
+                vincent,
+                vincent2,
             ]
         },
     ];

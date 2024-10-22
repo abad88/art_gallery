@@ -11,6 +11,10 @@ import ekImg10 from "../../assets/images/eka/img4/converted/main.jpg"
 import ekImg13 from "../../assets/images/eka/img5/converted/main1.jpg"
 import ekImg16 from "../../assets/images/eka/img6/converted/main1.jpg"
 import ekImg19 from "../../assets/images/eka/img7/converted/main1.jpg"
+import alex1 from "../../assets/images/alexandria/img1/main1.jpg"
+import alex2 from "../../assets/images/alexandria/img2/main1.jpg"
+import lee from "../../assets/images/Lee/main1.jpg"
+import vincent from "../../assets/images/vincent/main1.jpg"
 
 const Art = () => {
     const navigate = useNavigate();
@@ -22,6 +26,11 @@ const Art = () => {
         { img: ekImg13, title: 'Action.Freedom.Love (Arcylic Painting)', artist: "Eka Peradze", type: "3D" },
         { img: ekImg16, title: 'Love.Action (Arcylic Painting)', artist: "Eka Peradze", type: "3D" },
         { img: ekImg19, title: 'Freedom.Action (Arcylic Painting)', artist: "Eka Peradze", type: "3D" },
+        { img: alex1, title: 'Butterflies on Blue', artist: "Alexandra Chateaux", type: "3D" },
+        { img: alex2, title: 'Butterflies on Gray', artist: "Alexandra Chateaux", type: "3D" },
+        { img: lee, title: 'Abstract Potrait', artist: "Lee Seoung", type: "3D" },
+        { img: vincent, title: 'Butterfly Symphony', artist: "Vincent", type: "3D" },
+
         { img: img1, title: 'Image 8', artist: "artist3", type: "3D" },
         { img: img1, title: 'Image 9', artist: "artist3", type: "2D" },
         { img: img1, title: 'Image 10', artist: "artist3", type: "2D" },
@@ -95,8 +104,9 @@ const Art = () => {
                 <select value={selectedArtist} onChange={handleArtistChange} className="filterSelect">
                     <option value="All">All Artists</option>
                     <option value="Eka Peradze">Eka Peradze</option>
-                    <option value="artist2">Artist2</option>
-                    <option value="artist3">Artist3</option>
+                    <option value="Vincent">Vincent</option>
+                    <option value="Alexandra Chateaux">Alexandra Chateaux</option>
+                    <option value="Lee Seoung">Lee Seoung</option>
                 </select>
 
                 <select value={selectedType} onChange={handleTypeChange} className="filterSelect">

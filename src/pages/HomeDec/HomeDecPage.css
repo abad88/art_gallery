@@ -29,6 +29,8 @@
   margin: 0px 30px;
   img {
     border: 3px solid #c38c31;
+    object-fit: cover;
+    overflow: hidden;
   }
 }
 
