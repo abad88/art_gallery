@@ -44,3 +44,9 @@
   transition-duration: 1s;
   transform: scale(1.08);
 }
+
+@media (max-width: 768px) {
+  .slider {
+    padding: 30px;
+  }
+}
