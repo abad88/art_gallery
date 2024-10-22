@@ -370,7 +370,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Onyx Coffee table",
+            titleImg: "Jade Coffee table",
             author: "Onyx Coffee table",
             detail: "This stunning coffee table set is crafted from exquisite onyx, a semi-precious gemstone known for its translucent quality and vibrant colors. The table features a large, circular top with intricate patterns of green, red, and brown hues comes with 4 onyx stools.",
             thumbnails: [
@@ -379,7 +379,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Onyx Coffee table (Rectangle)",
+            titleImg: "Jade Coffee table (Rectangle)",
             author: "Onyx Coffee table (Rectangle)",
             detail: "This stunning coffee table set is crafted from exquisite onyx, a semi-precious gemstone known for its translucent quality and vibrant colors. The table features a large, rectangular top with intricate patterns of green, red, and brown hues comes with 4 onyx stools.",
             thumbnails: [

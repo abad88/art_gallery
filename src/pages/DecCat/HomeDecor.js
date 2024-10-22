@@ -71,8 +71,8 @@ const HomeDecor = () => {
         { img: clock3, title: 'French Gilt Porcelain Clock', artist: "artist3", type: "Clock" },
         { img: lamp1, title: 'Tiffany-Style Baltic Amber Lamp', artist: "artist3", type: "Lamp" },
         { img: lamp2, title: 'Tiffany-Style Moss Agate Lamp', artist: "artist3", type: "Lamp" },
-        { img: table1, title: 'Onyx Coffee table', artist: "artist3", type: "Table" },
-        { img: table2, title: 'Onyx Coffee table (Rectangle)', artist: "artist3", type: "Table" },
+        { img: table1, title: 'Jade Coffee table', artist: "Jade", type: "Table" },
+        { img: table2, title: 'Jade Coffee table (Rectangle)', artist: "Jade", type: "Table" },
 
 
         // Add more images as needed
@@ -140,8 +140,8 @@ const HomeDecor = () => {
                 <select value={selectedArtist} onChange={handleArtistChange} className="filterSelect">
                     <option value="All">Material</option>
                     <option value="Marble">Marble</option>
-                    <option value="artist2">Artist2</option>
-                    <option value="artist3">Artist3</option>
+                    <option value="artist2">Crystal</option>
+                    <option value="artist3">Jade</option>
                 </select>
 
                 <select value={selectedType} onChange={handleTypeChange} className="filterSelect">
