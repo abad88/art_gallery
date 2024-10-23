@@ -38,7 +38,7 @@ const Slider = () => {
     useEffect(() => {
         const autoSlide = setInterval(() => {
             setCurrent((current) => (current === length - 1 ? 0 : current + 1));
-        }, 3000); // Change every 3 seconds
+        }, 6000); // Change every 3 seconds
 
         return () => clearInterval(autoSlide); // Cleanup the interval on component unmount
     }, [current, length]);
