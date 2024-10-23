@@ -84,6 +84,13 @@ const HomeDecor = () => {
     const [selectedType, setSelectedType] = useState('All');
     const imagesPerPage = 10;
 
+
+    const handleCategoryClick = (type) => {
+        setSelectedType(type);
+        setCurrentPage(1);
+    };
+
+
     const filteredImages = imageData.filter(image => {
         const matchesSearchTerm = image.title.toLowerCase().includes(searchTerm.toLowerCase());
         const matchesArtist = selectedArtist === 'All' || image.artist === selectedArtist;
@@ -126,6 +133,31 @@ const HomeDecor = () => {
                 <img src={contactBanner} alt="logo" />
                 <div className="heading">
                     <h1>Home Decoration</h1>
+                </div>
+                {/* <div className='category'>
+                    <img src={vase1} alt="logo1" className='img1'/>
+                    <img src={clock1} alt="logo2" className='img2'/>
+                    <img src={lamp1} alt="logo3" className='img3'/>
+                    <img src={table2} alt="logo3" className='img4'/>
+                </div> */}
+            </div>
+            <h1>Categories</h1>
+            <div className='category2'>
+                <div onClick={() => handleCategoryClick('Vase')}>
+                    <img src={vase1} alt="Vase" />
+                    <p>Vase</p>
+                </div>
+                <div onClick={() => handleCategoryClick('Clock')}>
+                    <img src={clock1} alt="Clock" />
+                    <p>Clock</p>
+                </div>
+                <div onClick={() => handleCategoryClick('Lamp')}>
+                    <img src={lamp1} alt="Lamp" />
+                    <p>Lamp</p>
+                </div>
+                <div onClick={() => handleCategoryClick('Table')}>
+                    <img src={table2} alt="Table" />
+                    <p>Table</p>
                 </div>
             </div>
             <div className="galleryWrapper">
