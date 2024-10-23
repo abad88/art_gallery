@@ -1,6 +1,6 @@
 import React from 'react'
 import "./AboutUs.css"
-import contactBanner from "../../assets/images/artab.jpg"
+import contactBanner from "../../assets/images/about.jpg"
 import Button from '../../components/Button/Button'
 import { useNavigate } from 'react-router'
 
