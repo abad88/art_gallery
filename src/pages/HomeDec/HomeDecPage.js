@@ -72,6 +72,18 @@ import table1_1 from "../../assets/images/tables/table1/main2.jpg"
 import table1_2 from "../../assets/images/tables/table1/main3.jpg"
 import table2_1 from "../../assets/images/tables/table2/main2.jpg"
 import table2_2 from "../../assets/images/tables/table2/main3.jpg"
+import v1 from "../../assets/images/vases/v1/main2.jpg"
+import v1_1 from "../../assets/images/vases/v1/main3.jpg"
+import v2 from "../../assets/images/vases/v2/main2.jpg"
+import v2_2 from "../../assets/images/vases/v2/main3.jpg"
+import v3 from "../../assets/images/vases/v3/main2.jpg"
+import v3_2 from "../../assets/images/vases/v3/main3.jpg"
+import v4 from "../../assets/images/vases/v4/main2.jpg"
+import v4_2 from "../../assets/images/vases/v4/main3.jpg"
+import v5 from "../../assets/images/vases/v5/main2.png"
+import v5_2 from "../../assets/images/vases/v5/main3.png"
+import v6 from "../../assets/images/vases/v6/main2.png"
+import v6_2 from "../../assets/images/vases/v6/main3.png"
 
 const HomeDecPage = () => {
     const location = useLocation();
@@ -403,6 +415,60 @@ const HomeDecPage = () => {
             thumbnails: [
                 lamp2_1,
                 lamp2_2,
+            ]
+        },
+        {
+            titleImg: "V1",
+            author: "Tiffany-Style Moss Agate Lamp",
+            detail: "This exquisite lamp showcases the artistry of Tiffany-style design, featuring a captivating combination of moss agate and bronze. The lamp's shade is composed of numerous moss agate pieces, meticulously cut and assembled to create a mesmerizing pattern of swirling green and brown hues.",
+            thumbnails: [
+                v1,
+                v1_1,
+            ]
+        },
+        {
+            titleImg: "V2",
+            author: "Tiffany-Style Moss Agate Lamp",
+            detail: "This exquisite lamp showcases the artistry of Tiffany-style design, featuring a captivating combination of moss agate and bronze. The lamp's shade is composed of numerous moss agate pieces, meticulously cut and assembled to create a mesmerizing pattern of swirling green and brown hues.",
+            thumbnails: [
+                v2,
+                v2_2,
+            ]
+        },
+        {
+            titleImg: "V3",
+            author: "Tiffany-Style Moss Agate Lamp",
+            detail: "This exquisite lamp showcases the artistry of Tiffany-style design, featuring a captivating combination of moss agate and bronze. The lamp's shade is composed of numerous moss agate pieces, meticulously cut and assembled to create a mesmerizing pattern of swirling green and brown hues.",
+            thumbnails: [
+                v3,
+                v3_2,
+            ]
+        },
+        {
+            titleImg: "V4",
+            author: "Tiffany-Style Moss Agate Lamp",
+            detail: "This exquisite lamp showcases the artistry of Tiffany-style design, featuring a captivating combination of moss agate and bronze. The lamp's shade is composed of numerous moss agate pieces, meticulously cut and assembled to create a mesmerizing pattern of swirling green and brown hues.",
+            thumbnails: [
+                v4,
+                v4_2,
+            ]
+        },
+        {
+            titleImg: "V5",
+            author: "Tiffany-Style Moss Agate Lamp",
+            detail: "This exquisite lamp showcases the artistry of Tiffany-style design, featuring a captivating combination of moss agate and bronze. The lamp's shade is composed of numerous moss agate pieces, meticulously cut and assembled to create a mesmerizing pattern of swirling green and brown hues.",
+            thumbnails: [
+                v5,
+                v5_2,
+            ]
+        },
+        {
+            titleImg: "V6",
+            author: "Tiffany-Style Moss Agate Lamp",
+            detail: "This exquisite lamp showcases the artistry of Tiffany-style design, featuring a captivating combination of moss agate and bronze. The lamp's shade is composed of numerous moss agate pieces, meticulously cut and assembled to create a mesmerizing pattern of swirling green and brown hues.",
+            thumbnails: [
+                v6,
+                v6_2,
             ]
         },
     ];

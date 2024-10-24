@@ -36,6 +36,12 @@ import table1 from "../../assets/images/tables/table1/main1.jpg"
 import table2 from "../../assets/images/tables/table2/main1.png"
 import lamp1 from "../../assets/images/lamp/lamp1/main1.png"
 import lamp2 from "../../assets/images/lamp/lamp2/main1.png"
+import v1 from "../../assets/images/vases/v1/main1.jpg"
+import v2 from "../../assets/images/vases/v2/main1.jpg"
+import v3 from "../../assets/images/vases/v3/main1.jpg"
+import v4 from "../../assets/images/vases/v4/main1.jpg"
+import v5 from "../../assets/images/vases/v5/main1.png"
+import v6 from "../../assets/images/vases/v6/main1.png"
 
 const HomeDecor = () => {
     const navigate = useNavigate();
@@ -73,8 +79,12 @@ const HomeDecor = () => {
         { img: lamp2, title: 'Tiffany-Style Moss Agate Lamp', artist: "artist3", type: "Lamp" },
         { img: table1, title: 'Jade Coffee table', artist: "Jade", type: "Table" },
         { img: table2, title: 'Jade Coffee table (Rectangle)', artist: "Jade", type: "Table" },
-
-
+        { img: v1, title: 'V1', artist: "Jade", type: "Vase" },
+        { img: v2, title: 'V2', artist: "Jade", type: "Vase" },
+        { img: v3, title: 'V3', artist: "Jade", type: "Vase" },
+        { img: v4, title: 'V4', artist: "Jade", type: "Vase" },
+        { img: v5, title: 'V5', artist: "Jade", type: "Vase" },
+        { img: v6, title: 'V6', artist: "Jade", type: "Vase" },
         // Add more images as needed
     ];
 
