@@ -14,6 +14,10 @@
       border: 3px solid #c38c31;
     }
   }
+  h1{
+    color: #c38c31;
+    background: transparent;
+  }
   .artContent {
     margin: 10px;
     color: #c38c31;

@@ -46,45 +46,45 @@ import v6 from "../../assets/images/vases/v6/main1.png"
 const HomeDecor = () => {
     const navigate = useNavigate();
     const imageData = [
-        { img: vase1, title: 'Crystal Fruit Bowl', artist: "artist2", type: "Vase" },
-        { img: vase2, title: 'Crystal Fruit Bowl (2)', artist: "artist2", type: "Vase" },
-        { img: vase3, title: 'Crystal Fruit Bowl (3)', artist: "artist2", type: "Vase" },
-        { img: vase4, title: 'Amethyst Glass Bowl', artist: "artist2", type: "Vase" },
-        { img: vase5, title: 'Amber Glass Bowl', artist: "artist3", type: "Vase" },
-        { img: vase6, title: 'Crystal Fruit Bowl (4)', artist: "artist3", type: "Vase" },
+        { img: vase1, title: 'Italian Central Piece', artist: "artist2", type: "Vase" },
+        { img: vase2, title: 'Italian Central Piece (2)', artist: "artist2", type: "Vase" },
+        { img: vase3, title: 'Italian Central Piece (3)', artist: "artist2", type: "Vase" },
+        { img: vase4, title: 'Italian Murano Center Piece', artist: "Murano", type: "Vase" },
+        { img: vase5, title: 'Italian Amber Center Piece', artist: "Amber", type: "Vase" },
+        { img: vase6, title: 'Italian Center Piece (4)', artist: "artist3", type: "Vase" },
         { img: vase7, title: 'Crystal Ice Bucket', artist: "artist3", type: "Vase" },
-        { img: vase8, title: 'Cranberry Glass Fruit Bowl', artist: "artist3", type: "Vase" },
-        { img: vase9, title: 'Amber Glass Bowl (2)', artist: "artist3", type: "Vase" },
-        { img: vase10, title: 'Cranberry Glass Fruit Bowl (2)', artist: "artist3", type: "Vase" },
-        { img: vase11, title: 'Crystal Urn', artist: "artist3", type: "Vase" },
+        { img: vase8, title: 'Italian Cranberry Crystal Bowl', artist: "artist3", type: "Vase" },
+        { img: vase9, title: 'Italian Amber Glass Center Piece (2)', artist: "Amber", type: "Vase" },
+        { img: vase10, title: 'Italian Cranberry Crystal Bowl (2)', artist: "artist3", type: "Vase" },
+        { img: vase11, title: 'Italian Crystal Urn', artist: "artist3", type: "Vase" },
         { img: vase12, title: 'Vintage long ripple glass vase', artist: "artist3", type: "Vase" },
-        { img: vase13, title: 'Murano glass fruit bowl', artist: "artist3", type: "Vase" },
-        { img: vase14, title: 'Crystal Candy Dish', artist: "artist3", type: "Vase" },
-        { img: vase15, title: 'Crystal Centerpiece', artist: "artist3", type: "Vase" },
-        { img: vase16, title: 'Crystal Centerpiece (2)', artist: "artist3", type: "Vase" },
-        { img: vase17, title: 'Crystal Vase', artist: "artist3", type: "Vase" },
-        { img: vase18, title: 'Cranberry Glass Fruit Bowl (2)', artist: "artist3", type: "Vase" },
-        { img: vase19, title: 'Purple Glass Bowl', artist: "Marble", type: "Vase" },
-        { img: vase20, title: 'Crystal Vase (2)', artist: "artist3", type: "Vase" },
-        { img: vase21, title: 'Glass Vase with Marble base', artist: "Marble", type: "Vase" },
-        { img: vase22, title: 'Crystal centerpiece (3)', artist: "artist3", type: "Vase" },
-        { img: vase23, title: 'Crystal urn (2)', artist: "artist3", type: "Vase" },
-        { img: vase24, title: 'Crystal centerpiece (4)', artist: "artist3", type: "Vase" },
-        { img: vase25, title: 'Crystal centerpiece (5)', artist: "artist3", type: "Vase" },
-        { img: vase26, title: 'Crystal bowl', artist: "artist3", type: "Vase" },
-        { img: clock1, title: 'Porcelain Putti Mantle Clock', artist: "artist3", type: "Clock" },
-        { img: clock2, title: 'French Lyre Clock', artist: "artist3", type: "Clock" },
-        { img: clock3, title: 'French Gilt Porcelain Clock', artist: "artist3", type: "Clock" },
-        { img: lamp1, title: 'Tiffany-Style Baltic Amber Lamp', artist: "artist3", type: "Lamp" },
-        { img: lamp2, title: 'Tiffany-Style Moss Agate Lamp', artist: "artist3", type: "Lamp" },
+        { img: vase13, title: 'Italian Crytal Ripple Center Piece', artist: "artist3", type: "Vase" },
+        { img: vase14, title: 'Italian Crystal Candy Dish', artist: "artist3", type: "Vase" },
+        { img: vase15, title: 'Italian Crystal Centerpiece', artist: "artist3", type: "Vase" },
+        { img: vase16, title: 'Italian Crystal Centerpiece (2)', artist: "artist3", type: "Vase" },
+        { img: vase17, title: 'Italian Crystal Vase', artist: "artist3", type: "Vase" },
+        { img: vase18, title: 'Italian Crystal Centerpiece (3)', artist: "artist3", type: "Vase" },
+        { img: vase19, title: 'Italian Murano Center Piece (2)', artist: "Murano", type: "Vase" },
+        { img: vase20, title: 'Italian Amber Vase', artist: "Amber", type: "Vase" },
+        { img: vase21, title: 'Italian Amber Vase with Marble bottom', artist: "Amber", type: "Vase" },
+        { img: vase22, title: 'Italian Crystal centerpiece (4)', artist: "artist3", type: "Vase" },
+        { img: vase23, title: 'Italian Crystal urn (2)', artist: "artist3", type: "Vase" },
+        { img: vase24, title: 'Italian Italian Crystal centerpiece (5)', artist: "artist3", type: "Vase" },
+        { img: vase25, title: 'Italian Crystal centerpiece (6)', artist: "artist3", type: "Vase" },
+        { img: vase26, title: 'Italian Crystal bowl', artist: "artist3", type: "Vase" },
+        { img: clock1, title: 'Porcelain Mantle Clock', artist: "Porcelain", type: "Clock" },
+        { img: clock2, title: 'French Lyre Clock', artist: "Porcelain", type: "Clock" },
+        { img: clock3, title: 'French Gilt Porcelain Clock', artist: "Porcelain", type: "Clock" },
+        { img: lamp1, title: 'Tiffany-Style Baltic Amber Lamp', artist: "Amber", type: "Lamp" },
+        { img: lamp2, title: 'Tiffany-Style Moss Agate Lamp', artist: "Amber", type: "Lamp" },
         { img: table1, title: 'Jade Coffee table', artist: "Jade", type: "Table" },
         { img: table2, title: 'Jade Coffee table (Rectangle)', artist: "Jade", type: "Table" },
-        { img: v1, title: 'V1', artist: "Jade", type: "Vase" },
-        { img: v2, title: 'V2', artist: "Jade", type: "Vase" },
-        { img: v3, title: 'V3', artist: "Jade", type: "Vase" },
-        { img: v4, title: 'V4', artist: "Jade", type: "Vase" },
-        { img: v5, title: 'V5', artist: "Jade", type: "Vase" },
-        { img: v6, title: 'V6', artist: "Jade", type: "Vase" },
+        { img: v1, title: 'Amber CenterPiece with Dora Bronze', artist: "Amber", type: "Vase" },
+        { img: v2, title: 'Capodimonte Vase', artist: "Capodimonte", type: "Vase" },
+        { img: v3, title: 'Amber Vase with Dora Bronze', artist: "Amber", type: "Vase" },
+        { img: v4, title: 'Malachite Vase', artist: "Malachite", type: "Vase" },
+        { img: v5, title: 'Italian CenterPiece with Dora Bronze', artist: "oo", type: "Vase" },
+        { img: v6, title: 'Italian CenterPiece with Dora Bronze (2)', artist: "oo", type: "Vase" },
         // Add more images as needed
     ];
 
@@ -181,9 +181,11 @@ const HomeDecor = () => {
 
                 <select value={selectedArtist} onChange={handleArtistChange} className="filterSelect">
                     <option value="All">Material</option>
-                    <option value="Marble">Marble</option>
-                    <option value="artist2">Crystal</option>
-                    <option value="artist3">Jade</option>
+                    <option value="Amber">Amber</option>
+                    <option value="Murano">Murano</option>
+                    <option value="Jade">Jade</option>
+                    <option value="Porcelain">Porcelain</option>
+                    <option value="Malachite">Malachite</option>
                 </select>
 
                 <select value={selectedType} onChange={handleTypeChange} className="filterSelect">

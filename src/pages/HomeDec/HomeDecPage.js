@@ -3,8 +3,6 @@ import "./HomeDecPage.css"
 import { useLocation, useNavigate } from 'react-router';
 import Accordion from '../../components/Accordian/Accordion';
 import Button from '../../components/Button/Button';
-import im1 from "../../assets/images/artpiece/eka_22.jpg";
-import im2 from "../../assets/images/artpiece/eka_5.jpg";
 import Form from '../../components/Form/Form';
 import vase1_1 from "../../assets/images/vases/vase1/main2.png"
 import vase1_2 from "../../assets/images/vases/vase1/main1.png"
@@ -83,7 +81,7 @@ import v4_2 from "../../assets/images/vases/v4/main3.jpg"
 import v5 from "../../assets/images/vases/v5/main2.png"
 import v5_2 from "../../assets/images/vases/v5/main3.png"
 import v6 from "../../assets/images/vases/v6/main2.png"
-import v6_2 from "../../assets/images/vases/v6/main3.png"
+import v6_2 from "../../assets/images/vases/v6/main1.png"
 
 const HomeDecPage = () => {
     const location = useLocation();
@@ -98,22 +96,7 @@ const HomeDecPage = () => {
 
     const artPieces = [
         {
-            titleImg: "Golfing on Green",
-            author: "Mr Green",
-            detail: "It is all about green money"
-        },
-        {
-            titleImg: "Golfing on Red",
-            author: "Mr Red",
-            detail: "It is all about red money"
-        },
-        {
-            titleImg: "Golfing on Yellow",
-            author: "Mr Yellow",
-            detail: "It is all about Yellow money"
-        },
-        {
-            titleImg: "Crystal Fruit Bowl",
+            titleImg: "Italian Central Piece",
             author: "Crystal Fruit Bowl",
             detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a swirling, organic shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
@@ -122,7 +105,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Crystal Fruit Bowl (2)",
+            titleImg: "Italian Central Piece (2)",
             author: "Crystal Fruit Bowl (2)",
             detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a swirling, organic shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
@@ -131,7 +114,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Crystal Fruit Bowl (3)",
+            titleImg: "Italian Central Piece (3)",
             author: "Crystal Fruit Bowl (3)",
             detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a swirling, organic shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
@@ -140,7 +123,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Amethyst Glass Bowl",
+            titleImg: "Italian Murano Center Piece",
             author: "Amethyst Glass Bowl",
             detail: "This exquisite bowl is crafted from amethyst glass, a type of quartz that exhibits a beautiful purple hue. The bowl features a fluted, geometric shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation.",
             thumbnails: [
@@ -149,7 +132,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Amber Glass Bowl",
+            titleImg: "Italian Amber Center Piece",
             author: "Amber Glass Bowl",
             detail: "This elegant bowl is crafted from amber glass, a type of glass that exhibits a warm, golden hue. The bowl features a ribbed, geometric shape that adds a touch of sophistication and elegance. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
@@ -158,7 +141,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Crystal Fruit Bowl (4)",
+            titleImg: "Italian Center Piece (4)",
             author: "Crystal Fruit Bowl (4)",
             detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a swirling, organic shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
@@ -176,7 +159,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Cranberry Glass Fruit Bowl",
+            titleImg: "Italian Cranberry Crystal Bowl",
             author: "Cranberry Glass Fruit Bowl",
             detail: "This exquisite bowl is crafted from cranberry glass, a type of glass that exhibits a deep, rich red hue. The bowl features a wavy, organic shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation",
             thumbnails: [
@@ -185,7 +168,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Amber Glass Bowl (2)",
+            titleImg: "Italian Amber Glass Center Piece (2)",
             author: "Amber Glass Bowl (2)",
             detail: "This elegant bowl is crafted from amber glass, a type of glass that exhibits a warm, golden hue. The bowl features a fluted, geometric shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation.",
             thumbnails: [
@@ -194,7 +177,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Cranberry Glass Fruit Bowl (2)",
+            titleImg: "Italian Cranberry Crystal Bowl (2)",
             author: "Cranberry Glass Fruit Bowl (2)",
             detail: "This exquisite bowl is crafted from cranberry glass, a type of glass that exhibits a deep, rich red hue. The bowl features a wavy, organic shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and abalone, creating a visually striking and luxurious foundation.",
             thumbnails: [
@@ -203,7 +186,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Crystal Urn",
+            titleImg: "Italian Crystal Urn",
             author: "Crystal Urn",
             detail: "This elegant urn is crafted from crystal, a material known for its clarity, brilliance, and durability. The urn features a classic urn shape with a wide mouth and a tapered base. The body is adorned with intricate, cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
@@ -220,7 +203,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Murano glass fruit bowl",
+            titleImg: "Italian Crytal Ripple Center Piece",
             author: "Murano glass fruit bowl",
             detail: "Murano glass is renowned for its intricate designs, vibrant colors, and high-quality craftsmanship. The perfume bottle's unique, organic shape and the use of gilt bronze and abalone in the base are characteristic of Murano glass pieces.",
             thumbnails: [
@@ -229,7 +212,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Crystal Candy Dish",
+            titleImg: "Italian Crystal Candy Dish",
             author: "Crystal Candy Dish",
             detail: "This elegant candy dish is crafted from crystal, a material known for its clarity, brilliance, and durability. The dish features a square shape with rounded corners, adding a touch of sophistication and modern design. The base is made of a combination of gilt bronze and abalone, creating a visually striking and luxurious foundation.",
             thumbnails: [
@@ -238,7 +221,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Crystal Centerpiece",
+            titleImg: "Italian Crystal Centerpiece",
             author: "Crystal Centerpiece",
             detail: "This elegant centerpiece is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a fan-shaped design with intricate cut-glass details that create a shimmering effect when light passes through. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation.",
             thumbnails: [
@@ -247,7 +230,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Crystal Centerpiece (2)",
+            titleImg: "Italian Crystal Centerpiece (2)",
             author: "Crystal Centerpiece (2)",
             detail: "This elegant centerpiece is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a square shape with rounded corners, adding a touch of sophistication and modern design. The base is made of a combination of gilt bronze and crystal, creating a visually striking and luxurious foundation.",
             thumbnails: [
@@ -256,7 +239,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Crystal Vase",
+            titleImg: "Italian Crystal Vase",
             author: "Crystal Vase",
             detail: "This elegant vase is crafted from crystal, a material known for its clarity, brilliance, and durability. The vase features a rectangular shape with a ribbed design that adds texture and visual interest. The base is also made of crystal, providing a stable foundation for the vase.",
             thumbnails: [
@@ -265,7 +248,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Cranberry Glass Fruit Bowl (2)",
+            titleImg: "Italian Crystal Centerpiece (3)",
             author: "Cranberry Glass Fruit Bowl (2)",
             detail: "This elegant fruit bowl is crafted from crystal, a material known for its clarity, brilliance, and durability. The bowl features a fluted, geometric shape that adds a touch of sophistication and modern design. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
@@ -274,7 +257,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Purple Glass Bowl",
+            titleImg: "Italian Murano Center Piece (2)",
             author: "Purple Glass Bowl",
             detail: "This elegant bowl is crafted from purple glass, a material known for its rich, vibrant color. The bowl features a fluted, geometric shape that adds a touch of sophistication and elegance. The base is made of a combination of gilt bronze and porcelain, creating a visually striking and luxurious foundation",
             thumbnails: [
@@ -283,7 +266,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Crystal Vase (2)",
+            titleImg: "Italian Amber Vase",
             author: "Crystal Vase (2)",
             detail: "The vase features a classic urn shape with a wide mouth and a tapered base. The body is adorned with intricate, cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
@@ -292,7 +275,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Glass Vase with Marble base",
+            titleImg: "Italian Amber Vase with Marble bottom",
             author: "Glass Vase with Marble base",
             detail: "The vase features a flared top and a tapered bottom, with a ribbed design that adds texture and visual interest. The amber color of the glass is striking and adds a touch of warmth. The base is made of a combination of gilt bronze and marble, creating a luxurious and elegant foundation.",
             thumbnails: [
@@ -301,7 +284,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Crystal centerpiece (3)",
+            titleImg: "Italian Crystal centerpiece (4)",
             author: "Crystal centerpiece (3)",
             detail: "The bowl features a circular shape with intricate cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish. The combination of crystal and gilt bronze creates a visually striking and luxurious piece.",
             thumbnails: [
@@ -310,7 +293,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Crystal urn (2)",
+            titleImg: "Italian Crystal urn (2)",
             author: "Crystal urn (2)",
             detail: "The urn features a classic urn shape with a wide mouth and a tapered base. The body is adorned with intricate, cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish.",
             thumbnails: [
@@ -328,7 +311,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Crystal centerpiece (4)",
+            titleImg: "Italian Crystal centerpiece (5)",
             author: "Crystal centerpiece (4)",
             detail: "The bowl features a fan-shaped design with intricate cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish. The combination of crystal and gilt bronze creates a visually striking and luxurious piece.",
             thumbnails: [
@@ -337,7 +320,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Crystal centerpiece (5)",
+            titleImg: "Italian Crystal centerpiece (6)",
             author: "Crystal centerpiece (5)",
             detail: "The bowl features a circular shape with intricate cut-glass details that create a shimmering effect when light passes through. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish. The combination of crystal and gilt bronze creates a visually striking and luxurious piece.",
             thumbnails: [
@@ -346,7 +329,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Crystal bowl",
+            titleImg: "Italian Crystal bowl",
             author: "Crystal bowl",
             detail: "The bowl features a fluted, geometric shape that adds a touch of sophistication and elegance. The base is made of gilt bronze, a gilded brass alloy that provides a rich, golden finish. The combination of crystal and gilt bronze creates a visually striking and luxurious piece.",
             thumbnails: [
@@ -355,7 +338,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "Porcelain Putti Mantle Clock",
+            titleImg: "Porcelain Mantle Clock",
             author: "Porcelain Putti Mantle Clock",
             detail: "Premium German Porcelain Putti Mantle Clock",
             thumbnails: [
@@ -418,7 +401,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "V1",
+            titleImg: "Amber CenterPiece with Dora Bronze",
             author: "Tiffany-Style Moss Agate Lamp",
             detail: "This exquisite lamp showcases the artistry of Tiffany-style design, featuring a captivating combination of moss agate and bronze. The lamp's shade is composed of numerous moss agate pieces, meticulously cut and assembled to create a mesmerizing pattern of swirling green and brown hues.",
             thumbnails: [
@@ -427,7 +410,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "V2",
+            titleImg: "Capodimonte Vase",
             author: "Tiffany-Style Moss Agate Lamp",
             detail: "This exquisite lamp showcases the artistry of Tiffany-style design, featuring a captivating combination of moss agate and bronze. The lamp's shade is composed of numerous moss agate pieces, meticulously cut and assembled to create a mesmerizing pattern of swirling green and brown hues.",
             thumbnails: [
@@ -436,7 +419,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "V3",
+            titleImg: "Amber Vase with Dora Bronze",
             author: "Tiffany-Style Moss Agate Lamp",
             detail: "This exquisite lamp showcases the artistry of Tiffany-style design, featuring a captivating combination of moss agate and bronze. The lamp's shade is composed of numerous moss agate pieces, meticulously cut and assembled to create a mesmerizing pattern of swirling green and brown hues.",
             thumbnails: [
@@ -445,7 +428,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "V4",
+            titleImg: "Malachite Vase",
             author: "Tiffany-Style Moss Agate Lamp",
             detail: "This exquisite lamp showcases the artistry of Tiffany-style design, featuring a captivating combination of moss agate and bronze. The lamp's shade is composed of numerous moss agate pieces, meticulously cut and assembled to create a mesmerizing pattern of swirling green and brown hues.",
             thumbnails: [
@@ -454,7 +437,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "V5",
+            titleImg: "Italian CenterPiece with Dora Bronze",
             author: "Tiffany-Style Moss Agate Lamp",
             detail: "This exquisite lamp showcases the artistry of Tiffany-style design, featuring a captivating combination of moss agate and bronze. The lamp's shade is composed of numerous moss agate pieces, meticulously cut and assembled to create a mesmerizing pattern of swirling green and brown hues.",
             thumbnails: [
@@ -463,7 +446,7 @@ const HomeDecPage = () => {
             ]
         },
         {
-            titleImg: "V6",
+            titleImg: "Italian CenterPiece with Dora Bronze (2)",
             author: "Tiffany-Style Moss Agate Lamp",
             detail: "This exquisite lamp showcases the artistry of Tiffany-style design, featuring a captivating combination of moss agate and bronze. The lamp's shade is composed of numerous moss agate pieces, meticulously cut and assembled to create a mesmerizing pattern of swirling green and brown hues.",
             thumbnails: [
