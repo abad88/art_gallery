@@ -15,6 +15,8 @@ import alex1 from "../../assets/images/alexandria/img1/main1.jpg"
 import alex2 from "../../assets/images/alexandria/img2/main1.jpg"
 import lee from "../../assets/images/Lee/main1.jpg"
 import vincent from "../../assets/images/vincent/main1.jpg"
+import max1 from "../../assets/images/max/art1/main1.jpg"
+import max2 from "../../assets/images/max/art2/main1.jpg"
 
 const Art = () => {
     const navigate = useNavigate();
@@ -30,6 +32,8 @@ const Art = () => {
         { img: alex2, title: 'Butterflies on Gray', artist: "Alexandra Chateaux", type: "3D" },
         { img: lee, title: 'Abstract Potrait', artist: "Lee Seoung", type: "3D" },
         { img: vincent, title: 'Butterfly Symphony', artist: "Vincent", type: "3D" },
+        { img: max1, title: 'Peter Max Premium Art', artist: "Peter Max", type: "3D" },
+        { img: max2, title: 'Peter Max Premium Art 2', artist: "Peter Max", type: "3D" },
         // Add more images as needed
     ];
 

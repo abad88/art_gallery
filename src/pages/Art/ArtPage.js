@@ -28,6 +28,10 @@ import lee from "../../assets/images/Lee/main2.jpg"
 import lee2 from "../../assets/images/Lee/main3.jpg"
 import vincent from "../../assets/images/vincent/main2.jpg"
 import vincent2 from "../../assets/images/vincent/main3.jpg"
+import max1 from "../../assets/images/max/art1/main1.jpg"
+import max1_1 from "../../assets/images/max/art1/main2.jpg"
+import max2 from "../../assets/images/max/art2/main2.jpg"
+import max2_2 from "../../assets/images/max/art2/main1.jpg"
 
 const ArtPage = () => {
     const location = useLocation();
@@ -162,6 +166,24 @@ const ArtPage = () => {
             thumbnails: [
                 vincent,
                 vincent2,
+            ]
+        },
+        {
+            titleImg: "Peter Max Premium Art",
+            author: "Peter Max",
+            detail: "This vibrant and dynamic painting features a pink violin placed against a dark background. The violin is surrounded by splashes of paint in various colors, and there are also butterflies incorporated into the composition. The overall effect is visually striking and suggests a sense of energy and movement.",
+            thumbnails: [
+                max1,
+                max1_1,
+            ]
+        },
+        {
+            titleImg: "Peter Max Premium Art 2",
+            author: "Peter Max",
+            detail: "This vibrant and dynamic painting features a pink violin placed against a dark background. The violin is surrounded by splashes of paint in various colors, and there are also butterflies incorporated into the composition. The overall effect is visually striking and suggests a sense of energy and movement.",
+            thumbnails: [
+                max2,
+                max2_2,
             ]
         },
     ];
