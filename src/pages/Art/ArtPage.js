@@ -46,21 +46,6 @@ const ArtPage = () => {
 
     const artPieces = [
         {
-            titleImg: "Golfing on Green",
-            author: "Mr Green",
-            detail: "It is all about green money"
-        },
-        {
-            titleImg: "Golfing on Red",
-            author: "Mr Red",
-            detail: "It is all about red money"
-        },
-        {
-            titleImg: "Golfing on Yellow",
-            author: "Mr Yellow",
-            detail: "It is all about Yellow money"
-        },
-        {
             titleImg: "Eka 3D Art 1",
             author: "Eka Peradze",
             detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
