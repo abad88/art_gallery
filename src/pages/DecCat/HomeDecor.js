@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./HomeDecor.css"
-import contactBanner from "../../assets/images/decor.jpg"
+import contactBanner from "../../assets/images/homedec.jpg"
 import LazyLoad from 'react-lazyload'; // Import LazyLoad for lazy loading
 import { useNavigate } from 'react-router'
 import vase1 from "../../assets/images/vases/vase1/main3.png"
