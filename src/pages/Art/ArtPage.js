@@ -171,7 +171,7 @@ const ArtPage = () => {
         {
             titleImg: "Peter Max Premium Art",
             author: "Peter Max",
-            detail: "This vibrant and dynamic painting features a pink violin placed against a dark background. The violin is surrounded by splashes of paint in various colors, and there are also butterflies incorporated into the composition. The overall effect is visually striking and suggests a sense of energy and movement.",
+            detail: "This rare Peter Max original is a stunning example of his iconic pop art style. The vibrant acrylic colors create a dynamic and energetic composition, while the playful figures and cosmic imagery evoke a sense of wonder and nostalgia. The painting's intricate details and bold brushstrokes showcase Max's mastery of technique and his ability to convey a sense of joy and optimism through his art.",
             thumbnails: [
                 max1,
                 max1_1,
@@ -180,7 +180,7 @@ const ArtPage = () => {
         {
             titleImg: "Peter Max Premium Art 2",
             author: "Peter Max",
-            detail: "This vibrant and dynamic painting features a pink violin placed against a dark background. The violin is surrounded by splashes of paint in various colors, and there are also butterflies incorporated into the composition. The overall effect is visually striking and suggests a sense of energy and movement.",
+            detail: "This rare Peter Max original is a stunning example of his iconic pop art style. The vibrant acrylic colors create a dynamic and energetic composition, while the playful figures and cosmic imagery evoke a sense of wonder and nostalgia. The painting's intricate details and bold brushstrokes showcase Max's mastery of technique and his ability to convey a sense of joy and optimism through his art.",
             thumbnails: [
                 max2,
                 max2_2,

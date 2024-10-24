@@ -32,8 +32,8 @@ const Art = () => {
         { img: alex2, title: 'Butterflies on Gray', artist: "Alexandra Chateaux", type: "3D" },
         { img: lee, title: 'Abstract Potrait', artist: "Lee Seoung", type: "3D" },
         { img: vincent, title: 'Butterfly Symphony', artist: "Vincent", type: "3D" },
-        { img: max1, title: 'Peter Max Premium Art', artist: "Peter Max", type: "3D" },
-        { img: max2, title: 'Peter Max Premium Art 2', artist: "Peter Max", type: "3D" },
+        { img: max1, title: 'Peter Max Premium Art', artist: "Peter Max", type: "2D" },
+        { img: max2, title: 'Peter Max Premium Art 2', artist: "Peter Max", type: "2D" },
         // Add more images as needed
     ];
 
@@ -104,13 +104,13 @@ const Art = () => {
                     <option value="Vincent">Vincent</option>
                     <option value="Alexandra Chateaux">Alexandra Chateaux</option>
                     <option value="Lee Seoung">Lee Seoung</option>
+                    <option value="Peter Max">Peter Max</option>
                 </select>
 
                 <select value={selectedType} onChange={handleTypeChange} className="filterSelect">
                     <option value="All">All Types</option>
                     <option value="3D">3D Art</option>
                     <option value="2D">2D Art</option>
-                    <option value="4D">4D Art</option>
                 </select>
 
                 <div className="imagesGrid">
