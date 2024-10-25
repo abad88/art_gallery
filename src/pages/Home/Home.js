@@ -14,6 +14,7 @@ import eka6 from "../../assets/images/artpiece/eka_6.jpg"
 import eka7 from "../../assets/images/artpiece/eka_7.jpg"
 import Map from '../../components/Map/Map'
 import Button from '../../components/Button/Button'
+import ImageSlider from '../../components/ImageSlider/ImageSlider'
 
 const Home = () => {
     const [searchTerm, setSearchTerm] = useState(''); // For storing search input
@@ -104,6 +105,7 @@ const Home = () => {
                         referrerPolicy="no-referrer-when-downgrade"
                     ></iframe>
                 </p>
+                <ImageSlider/>
                 {/* <Map /> */}
                 {/* <a href='https://matterport.com/discover/space/aUVjaGebjMk'>check the link</a> */}
             </div>
@@ -112,3 +114,17 @@ const Home = () => {
 }
 
 export default Home
+
+
+
+// display: block;
+// width: 100%;
+// height: 100%;
+// object-fit: cover;
+// border: 5px solid;
+
+
+// isplay: block;
+//     width: 100%;
+//     height: 320px;
+//     object-fit: contain;
