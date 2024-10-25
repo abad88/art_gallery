@@ -3,7 +3,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-import { EffectCoverflow, Pagination } from 'swiper/modules';
+import 'swiper/css/autoplay'; // Import Autoplay styles
+import { EffectCoverflow, Pagination, Autoplay } from 'swiper/modules'; // Import Autoplay module
 import './ImageSlider.css';
 
 import image1 from "../../assets/images/eka/img1/converted/main1.jpg";
@@ -37,7 +38,11 @@ export default function ImageSlider() {
         slideShadows: true,
       }}
       pagination={true}
-      modules={[EffectCoverflow, Pagination]}
+      autoplay={{
+        delay: 6000, // Change slide every 6 seconds
+        disableOnInteraction: false, // Allow interaction to not disable autoplay
+      }}
+      modules={[EffectCoverflow, Pagination, Autoplay]} // Add Autoplay to modules
       className="mySwiper"
     >
       {slides.map((slide, index) => (

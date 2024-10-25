@@ -128,3 +128,6 @@ export default Home
 //     width: 100%;
 //     height: 320px;
 //     object-fit: contain;
+
+//     width: 324px;
+// height: 365px;

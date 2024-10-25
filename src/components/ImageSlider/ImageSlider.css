@@ -1,4 +1,4 @@
-#app { height: 100% }
+/* #app { height: 100% }
 html,
 body {
   position: relative;
@@ -12,7 +12,7 @@ body {
   color: #000;
   margin: 0;
   padding: 0;
-}
+} */
 
 .swiper {
   width: 100%;
@@ -23,11 +23,30 @@ body {
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
+  width: 410px;
+  height: 450px;
 }
 
 .swiper-slide img {
   display: block;
   width: 100%;
+  height: 100%;
+  /* object-fit: cover; */
 }
+
+/* Change the default color of pagination bullets */
+.swiper-pagination-bullet {
+    background: #000; /* Change this to your desired color */
+  }
+  
+  /* Change the color of the active bullet */
+  .swiper-pagination-bullet-active {
+    background: #c38c31; /* Change this to your desired active color */
+  }
+
+  @media (max-width: 768px) {
+    .swiper-slide {
+      width: 324px;
+      height: 365px;
+    }
+  }

@@ -1,5 +1,5 @@
-.contactBanner {
-  height: 500px;
+.contactBanner1 {
+  height: 700px;
   display: flex;
   flex-direction: column;
   margin-bottom: 35px;
@@ -11,17 +11,19 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: top;
     position: absolute;
-    opacity: 0.5;
+    opacity: 0.3;
   }
   .heading {
     position: absolute;
     padding: 15px;
     h1 {
       text-align: center;
-      color: black;
+      color: #c38c31;
       margin: 0;
+      background: transparent;
+      font-size: 48px;
     }
     p {
       text-align: center;
