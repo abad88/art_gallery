@@ -1,10 +1,8 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import "./Home.css"
 import contactBanner from "../../assets/images/arth.jpg"
 import Slider from '../../components/Slider/Slider'
 import Logo from "../../assets/images/logo.jpg"
-import Card from '../../components/Card/Card'
-import Cimg1 from "../../assets/images/arte.png"
 import eka1 from "../../assets/images/artpiece/eka1.jpg"
 import eka2 from "../../assets/images/artpiece/eka_2.jpg"
 import eka3 from "../../assets/images/artpiece/eka_3.jpg"
@@ -12,26 +10,16 @@ import eka4 from "../../assets/images/artpiece/eka_4.jpg"
 import eka5 from "../../assets/images/artpiece/eka_5.jpg"
 import eka6 from "../../assets/images/artpiece/eka_6.jpg"
 import eka7 from "../../assets/images/artpiece/eka_7.jpg"
-import Map from '../../components/Map/Map'
-import Button from '../../components/Button/Button'
 import ImageSlider from '../../components/ImageSlider/ImageSlider'
+import peterp from "../../assets/images/peterp.jpg"
+import ekap from "../../assets/images/ekap.jpg"
+import ArtistCard from '../../components/ArtistCard/ArtistCard'
 
 const Home = () => {
     const [searchTerm, setSearchTerm] = useState(''); // For storing search input
     const [visibleCards, setVisibleCards] = useState(4); // For controlling number of visible cards
 
     const cardData = [
-        // { img: Cimg1, title: "Golfing on Green" },
-        // { img: Cimg1, title: "Golfing on Red" },
-        // { img: Cimg1, title: "Golfing on Yellow" },
-        // { img: Cimg1, title: "Golfing on Purple" },
-        // { img: Cimg1, title: "Golfing on Orange" },
-        // { img: Cimg1, title: "Golfing on Pink" },
-        // { img: Cimg1, title: "Golfing on Yellow" },
-        // { img: Cimg1, title: "Golfing on Purple" },
-        // { img: Cimg1, title: "Golfing on Orange" },
-        // { img: Cimg1, title: "Golfing on Pink" },
-        // { img: Cimg1, title: "Golfing on Brown" },
         { img: eka1, title: "Eka 3D Art 1" },
         { img: eka2, title: "Eka 3D Art 2" },
         { img: eka3, title: "Eka 3D Art 3" },
@@ -41,19 +29,40 @@ const Home = () => {
         { img: eka7, title: "Eka 3D Art 7" },
     ];
 
-    // Function to handle search
+    const artists = [
+        {
+            img: peterp, // Replace with actual image imports
+            name: "Peter Max",
+            description: "Peter Max is a renowned American artist, born on October 19 in Berlin, Germany. He is celebrated for his vibrant, psychedelic paintings and prints that became synonymous with the visual culture of the 1960s and 1970s. His work is characterized by bold colors, cosmic imagery, and a distinct pop art style. Max's artistic journey was influenced by his diverse cultural experiences, including his time in Shanghai and exposure to various art forms. He uses a variety of mediums to create his iconic pieces, which continue to captivate audiences worldwide."
+        },
+        {
+            img: ekap,
+            name: "Eka Peradze",
+            description: "Eka Peradze is a talented painter from Tbilisi, Georgia, born on March 23. She is known for her vibrant and expressive works that often explore themes of nature, human emotions, and cultural heritage. Eka's inspiration comes from her deep connection to her homeland and the rich history and landscapes of Georgia. She uses a variety of techniques, including bold brushstrokes and a vivid color palette, to bring her artistic visions to life. Her paintings are celebrated for their ability to evoke strong emotional responses and capture the beauty of the world around her."
+        },
+        // Add more artists as needed
+    ];
+
+    const [currentArtistIndex, setCurrentArtistIndex] = useState(0);
+
+    useEffect(() => {
+        const interval = setInterval(() => {
+            setCurrentArtistIndex(prevIndex => (prevIndex + 1) % artists.length);
+        }, 15000); // Change artist every 15 seconds
+
+        return () => clearInterval(interval);
+    }, []);
+
     const handleSearch = (e) => {
         setSearchTerm(e.target.value);
     };
 
-    // Filtered cards based on the search input
     const filteredCards = searchTerm === ''
         ? cardData
         : cardData.filter(card =>
             card.title.toLowerCase().includes(searchTerm.toLowerCase())
         );
 
-    // Function to show more cards (increment by 4)
     const loadMoreCards = () => {
         setVisibleCards(prev => prev + 4);
     };
@@ -71,29 +80,9 @@ const Home = () => {
                 <div className='contentHome'>
                     <h2>Some of our Art pieces from our collection</h2>
                 </div>
-                <Slider />
-                {/* <h2>Explore Section</h2>
-
-                <input
-                    type="text"
-                    placeholder="Search for a card..."
-                    value={searchTerm}
-                    onChange={handleSearch}
-                    className='hinput'
-                />
-
-                <div className="CardContainer">
-                    {filteredCards.slice(0, visibleCards).map((card, index) => (
-                        <Card key={index} img={card.img} title={card.title} />
-                    ))}
-                </div>
-
-                {visibleCards < filteredCards.length && (
-                    <div className='buttonBorder'>
-                        <Button msg="More" onClick={loadMoreCards} />
-                    </div>
-                )} */}
-
+                <ImageSlider/>
+                {/* <Slider /> */}
+                <ArtistCard artist={artists[currentArtistIndex]}/>
                 {filteredCards.length === 0 && <p className='notF'>Nothing found ...</p>}
                 <h2>Location</h2>
                 <p>
@@ -105,29 +94,10 @@ const Home = () => {
                         referrerPolicy="no-referrer-when-downgrade"
                     ></iframe>
                 </p>
-                <ImageSlider/>
-                {/* <Map /> */}
-                {/* <a href='https://matterport.com/discover/space/aUVjaGebjMk'>check the link</a> */}
+                {/* <ImageSlider/> */}
             </div>
         </div>
     )
 }
 
 export default Home
-
-
-
-// display: block;
-// width: 100%;
-// height: 100%;
-// object-fit: cover;
-// border: 5px solid;
-
-
-// isplay: block;
-//     width: 100%;
-//     height: 320px;
-//     object-fit: contain;
-
-//     width: 324px;
-// height: 365px;

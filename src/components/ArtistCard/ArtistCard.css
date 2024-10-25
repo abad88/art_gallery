@@ -1,0 +1,45 @@
+.artistCard {
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc; /* Add border */
+    border-radius: 5px; /* Rounded corners */
+    transition: transform 0.2s;
+    background: #c38c31;
+    color: white;
+}
+
+/* .artistCard:hover {
+    transform: scale(1.05);
+} */
+.artistInfo{
+    padding: 0px 30px;
+    h1{
+        font-size: 42px;
+    }
+    h3{
+        font-size: 32px;
+    }
+    p{
+        font-size: 20px;
+    }
+}
+.artistImage {
+    width: 550px;
+    height: 550px;
+    object-fit: cover; /* Ensure the image covers its container */
+    margin-right: 15px; /* Space between image and text */
+}
+@media (max-width: 992px) {
+    .artistCard {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+@media (max-width: 768px) {
+    .artistImage {
+        width: 320px;
+        height: 320px;
+    }
+}
