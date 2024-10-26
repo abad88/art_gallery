@@ -48,7 +48,7 @@ const ArtPage = () => {
         {
             titleImg: "Eka 3D Art 1",
             size:[
-                "Hieght = 41 Inches",
+                "Height = 41 Inches",
                 "Width = 41 Inches"
             ],
             author: "Eka Peradze",
@@ -61,7 +61,7 @@ const ArtPage = () => {
         {
             titleImg: "Action.Family (Arcylic Painting)",
             size:[
-                "Hieght = 41 Inches  ,",
+                "Height = 41 Inches  ,",
                 "Width = 41 Inches"
             ],
             author: "Eka Peradze",
@@ -74,7 +74,7 @@ const ArtPage = () => {
         {
             titleImg: "Love.Family.Action (Arcylic Painting)",
             size:[
-                "Hieght = 49 Inches  ,",
+                "Height = 49 Inches  ,",
                 "Width = 41 Inches"
             ],
             author: "Eka Peradze",
@@ -87,7 +87,7 @@ const ArtPage = () => {
         {
             titleImg: "Action.Freedom (Arcylic Painting)",
             size:[
-                "Hieght = 41 Inches  ,",
+                "Height = 41 Inches  ,",
                 "Width = 41 Inches"
             ],
             author: "Eka Peradze",
@@ -100,7 +100,7 @@ const ArtPage = () => {
         {
             titleImg: "Freedom.Love (Arcylic Painting)",
             size:[
-                "Hieght = 41 Inches  ,",
+                "Height = 41 Inches  ,",
                 "Width = 41 Inches"
             ],
             author: "Eka Peradze",
@@ -113,7 +113,7 @@ const ArtPage = () => {
         {
             titleImg: "Action.Freedom.Love (Arcylic Painting)",
             size:[
-                "Hieght = 41 Inches  ,",
+                "Height = 41 Inches  ,",
                 "Width = 41 Inches"
             ],
             author: "Eka Peradze",
@@ -126,7 +126,7 @@ const ArtPage = () => {
         {
             titleImg: "Love.Action (Arcylic Painting)",
             size:[
-                "Hieght = 41 Inches  ,",
+                "Height = 41 Inches  ,",
                 "Width = 41 Inches"
             ],
             author: "Eka Peradze",
@@ -139,7 +139,7 @@ const ArtPage = () => {
         {
             titleImg: "Freedom.Action (Arcylic Painting)",
             size:[
-                "Hieght = 41 Inches  ,",
+                "Height = 41 Inches  ,",
                 "Width = 41 Inches"
             ],
             author: "Eka Peradze",
@@ -152,7 +152,7 @@ const ArtPage = () => {
         {
             titleImg: "Butterflies on Blue",
             size:[
-                "Hieght = 36 Inches  ,",
+                "Height = 36 Inches  ,",
                 "Width = 24 Inches"
             ],
             author: "Alexandra Chateaux",
@@ -165,7 +165,7 @@ const ArtPage = () => {
         {
             titleImg: "Butterflies on Gray",
             size:[
-                "Hieght = 36 Inches  ,",
+                "Height = 36 Inches  ,",
                 "Width = 24 Inches"
             ],
             author: "Alexandra Chateaux",
@@ -178,7 +178,7 @@ const ArtPage = () => {
         {
             titleImg: "Abstract Potrait",
             size:[
-                "Hieght = 48 Inches  ,",
+                "Height = 48 Inches  ,",
                 "Width = 37.75 Inches"
             ],
             author: "Lee Seoung",
@@ -191,7 +191,7 @@ const ArtPage = () => {
         {
             titleImg: "Butterfly Symphony",
             size:[
-                "Hieght = 39.5 Inches  ,",
+                "Height = 39.5 Inches  ,",
                 "Width = 33.5 Inches"
             ],
             author: "Vincent",
@@ -204,7 +204,7 @@ const ArtPage = () => {
         {
             titleImg: "Peter Max Premium Art",
             size:[
-                "Hieght = 43 Inches  ,",
+                "Height = 43 Inches  ,",
                 "Width = 55 Inches"
             ],
             author: "Peter Max",
@@ -217,7 +217,7 @@ const ArtPage = () => {
         {
             titleImg: "Peter Max Premium Art 2",
             size:[
-                "Hieght = 46 Inches  ,",
+                "Height = 46 Inches  ,",
                 "Width = 58 Inches"
             ],
             author: "Peter Max",

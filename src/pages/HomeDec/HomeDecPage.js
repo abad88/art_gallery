@@ -99,7 +99,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Central Piece",
             size:[
-                "Hieght = 9 Inches  ,",
+                "Height = 9 Inches  ,",
                 "Width = 12.5 Inches   ,",
                 "Length = 12.5 Inches",
             ],
@@ -113,7 +113,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Central Piece (2)",
             size:[
-                "Hieght = 9 Inches  ,",
+                "Height = 9 Inches  ,",
                 "Width = 12.5 Inches   ,",
                 "Length = 12.5 Inches",
             ],
@@ -127,7 +127,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Central Piece (3)",
             size:[
-                "Hieght = 9 Inches  ,",
+                "Height = 9 Inches  ,",
                 "Width = 12.5 Inches   ,",
                 "Length = 12.5 Inches",
             ],
@@ -141,7 +141,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Murano Center Piece",
             size:[
-                "Hieght = 10.5 Inches  ,",
+                "Height = 10.5 Inches  ,",
                 "Width = 13 Inches   ,",
                 "Length = 13 Inches",
             ],
@@ -155,7 +155,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Amber Center Piece",
             size:[
-                "Hieght = 9 Inches  ,",
+                "Height = 9 Inches  ,",
                 "Width = 14.25 Inches   ,",
                 "Length = 14.25 Inches",
             ],
@@ -169,7 +169,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Center Piece (4)",
             size:[
-                "Hieght = 9 Inches  ,",
+                "Height = 9 Inches  ,",
                 "Width = 15 Inches   ,",
                 "Length = 8 Inches",
             ],
@@ -183,7 +183,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Crystal Ice Bucket",
             size:[
-                "Hieght = 9.5 Inches  ,",
+                "Height = 9.5 Inches  ,",
                 "Width = 8.75 Inches   ,",
                 "Length = 8.75 Inches",
             ],
@@ -197,7 +197,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Cranberry Crystal Bowl",
             size:[
-                "Hieght = 14.5 Inches  ,",
+                "Height = 14.5 Inches  ,",
                 "Width = 9 Inches   ,",
                 "Length = 14.5 Inches",
             ],
@@ -211,7 +211,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Amber Glass Center Piece (2)",
             size:[
-                "Hieght = 10.5 Inches  ,",
+                "Height = 10.5 Inches  ,",
                 "Width = 13 Inches   ,",
                 "Length = 13 Inches",
             ],
@@ -225,7 +225,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Cranberry Crystal Bowl (2)",
             size:[
-                "Hieght = 14.5 Inches  ,",
+                "Height = 14.5 Inches  ,",
                 "Width = 9 Inches   ,",
                 "Length = 14.5 Inches",
             ],
@@ -239,7 +239,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Crystal Urn",
             size:[
-                "Hieght = 17 Inches  ,",
+                "Height = 17 Inches  ,",
                 "Width = 8 Inches   ,",
                 "Length = 8 Inches",
             ],
@@ -252,7 +252,7 @@ const HomeDecPage = () => {
         },        {
             titleImg: "Vintage long ripple glass vase",
             size:[
-                "Hieght = 13 Inches  ,",
+                "Height = 13 Inches  ,",
                 "Width = 4.5 Inches   ,",
                 "Length = 5.5 Inches",
             ],
@@ -266,7 +266,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Crytal Ripple Center Piece",
             size:[
-                "Hieght = 10.25 Inches  ,",
+                "Height = 10.25 Inches  ,",
                 "Width = 11 Inches   ,",
                 "Length = 11 Inches",
             ],
@@ -280,7 +280,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Crystal Candy Dish",
             size:[
-                "Hieght = 9.5 Inches  ,",
+                "Height = 9.5 Inches  ,",
                 "Width = 12.5 Inches   ,",
                 "Length = 9.5 Inches",
             ],
@@ -294,7 +294,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Crystal Centerpiece",
             size:[
-                "Hieght = 9.75 Inches  ,",
+                "Height = 9.75 Inches  ,",
                 "Width = 13.5 Inches   ,",
                 "Length = 13.5 Inches",
             ],
@@ -308,7 +308,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Crystal Centerpiece (2)",
             size:[
-                "Hieght = 9.5 Inches  ,",
+                "Height = 9.5 Inches  ,",
                 "Width = 12.5 Inches   ,",
                 "Length = 9.5 Inches",
             ],
@@ -322,7 +322,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Crystal Vase",
             size:[
-                "Hieght = 13 Inches  ,",
+                "Height = 13 Inches  ,",
                 "Width = 4.5 Inches   ,",
                 "Length = 5.5 Inches",
             ],
@@ -336,7 +336,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Crystal Centerpiece (3)",
             size:[
-                "Hieght = 10.5 Inches  ,",
+                "Height = 10.5 Inches  ,",
                 "Width = 13 Inches   ,",
                 "Length = 13 Inches",
             ],
@@ -350,7 +350,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Murano Center Piece (2)",
             size:[
-                "Hieght = 10.5 Inches  ,",
+                "Height = 10.5 Inches  ,",
                 "Width = 13 Inches   ,",
                 "Length = 13 Inches",
             ],
@@ -364,7 +364,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Amber Vase",
             size:[
-                "Hieght = 8 Inches  ,",
+                "Height = 8 Inches  ,",
                 "Width = 8 Inches   ,",
                 "Length = 17 Inches",
             ],
@@ -378,7 +378,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Amber Vase with Marble bottom",
             size:[
-                "Hieght = 8 Inches  ,",
+                "Height = 8 Inches  ,",
                 "Width = 8 Inches   ,",
                 "Length = 17 Inches",
             ],
@@ -392,7 +392,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Crystal centerpiece (4)",
             size:[
-                "Hieght = 9 Inches  ,",
+                "Height = 9 Inches  ,",
                 "Width = 12.5 Inches   ,",
                 "Length = 12.5 Inches",
             ],
@@ -406,7 +406,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Crystal urn (2)",
             size:[
-                "Hieght = 8 Inches  ,",
+                "Height = 8 Inches  ,",
                 "Width = 8 Inches   ,",
                 "Length = 17 Inches",
             ],
@@ -429,7 +429,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Crystal centerpiece (5)",
             size:[
-                "Hieght = 9 Inches  ,",
+                "Height = 9 Inches  ,",
                 "Width = 13.75 Inches   ,",
                 "Length = 13.75 Inches",
             ],
@@ -443,7 +443,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Crystal centerpiece (6)",
             size:[
-                "Hieght = 9 Inches  ,",
+                "Height = 9 Inches  ,",
                 "Width = 12.5 Inches   ,",
                 "Length = 12.5 Inches",
             ],
@@ -457,7 +457,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian Crystal bowl",
             size:[
-                "Hieght = 10.5 Inches  ,",
+                "Height = 10.5 Inches  ,",
                 "Width = 12.5 Inches   ,",
                 "Length = 12.5 Inches",
             ],
@@ -471,7 +471,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Porcelain Mantle Clock",
             size:[
-                "Hieght = 18 Inches  ,",
+                "Height = 18 Inches  ,",
                 "Width = 5.5 Inches   ,",
                 "Length = 13 Inches",
             ],
@@ -485,7 +485,7 @@ const HomeDecPage = () => {
         {
             titleImg: "French Lyre Clock",
             size:[
-                "Hieght = 18.5 Inches  ,",
+                "Height = 18.5 Inches  ,",
                 "Width = 7.5 Inches   ,",
                 "Length = 7.5 Inches",
             ],
@@ -499,7 +499,7 @@ const HomeDecPage = () => {
         {
             titleImg: "French Gilt Porcelain Clock",
             size:[
-                "Hieght = 17 Inches  ,",
+                "Height = 17 Inches  ,",
                 "Width = 5 Inches   ,",
                 "Length = 7 Inches",
             ],
@@ -513,7 +513,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Jade Coffee table",
             size:[
-                "Hieght = 49 Inches  ,",
+                "Height = 49 Inches  ,",
                 "Width = 49 Inches   ,",
                 "Length = 24 Inches",
             ],
@@ -527,7 +527,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Jade Coffee table (Rectangle)",
             size:[
-                "Hieght = 67 Inches  ,",
+                "Height = 67 Inches  ,",
                 "Width = 29 Inches   ,",
                 "Length = 24 Inches",
             ],
@@ -541,7 +541,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Tiffany-Style Baltic Amber Lamp",
             size:[
-                "Hieght = 27 Inches  ,",
+                "Height = 27 Inches  ,",
                 "Width = 21 Inches   ,",
                 "Length = 21 Inches",
             ],
@@ -555,7 +555,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Tiffany-Style Moss Agate Lamp",
             size:[
-                "Hieght = 19.5 Inches  ,",
+                "Height = 19.5 Inches  ,",
                 "Width = 12.5 Inches   ,",
                 "Length = 12.5 Inches",
             ],
@@ -569,7 +569,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Amber CenterPiece with Dora Bronze",
             size:[
-                "Hieght = 16.5 Inches  ,",
+                "Height = 16.5 Inches  ,",
                 "Width = 14 Inches   ,",
                 "Length = 14 Inches",
             ],
@@ -583,7 +583,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Capodimonte Vase",
             size:[
-                "Hieght = 35 Inches  ,",
+                "Height = 35 Inches  ,",
                 "Width = 16.5 Inches   ,",
                 "Length = 16.5 Inches",
             ],
@@ -597,7 +597,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Amber Vase with Dora Bronze",
             size:[
-                "Hieght = 20 Inches  ,",
+                "Height = 20 Inches  ,",
                 "Width = 11 Inches   ,",
                 "Length = 11 Inches",
             ],
@@ -611,7 +611,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Malachite Vase",
             size:[
-                "Hieght = 42 Inches  ,",
+                "Height = 42 Inches  ,",
                 "Width = 20 Inches   ,",
                 "Length = 20 Inches",
             ],
@@ -625,7 +625,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian CenterPiece with Dora Bronze",
             size:[
-                "Hieght = 20 Inches  ,",
+                "Height = 20 Inches  ,",
                 "Width = 18 Inches   ,",
                 "Length = 18 Inches ,",
                 "  Side Pieces Hieght = 41.5 Inches  ,",
@@ -642,7 +642,7 @@ const HomeDecPage = () => {
         {
             titleImg: "Italian CenterPiece with Dora Bronze (2)",
             size:[
-                "Hieght = 10.5 Inches  ,",
+                "Height = 10.5 Inches  ,",
                 "Width = 18 Inches   ,",
                 "Length = 18 Inches ,",
                 "  Side Pieces Hieght = 41.5 Inches  ,",
