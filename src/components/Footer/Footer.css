@@ -102,10 +102,20 @@
   }
 }
 .bottomBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   background-color: #c38c31;
   color: #c8cacd;
   border-top: 1px solid white;
   padding: 10px;
+  a{
+    text-decoration: none;
+    color: white;
+    &:hover{
+      text-decoration: underline;
+    }
+  }
   p {
     color: white;
     margin: 0;
@@ -146,5 +156,14 @@
         margin: 10px 0px;
       }
     }
+  }
+  .bottomBar {
+    flex-direction: column;
+    p{
+      margin-top: 5px;
+    }
+    a{
+      margin-top: 5px;
+    }    
   }
 }

@@ -13,18 +13,16 @@ const Footer = () => {
                     {/* <h2>24 CPS Art Gallery</h2> */}
                     <img src={Logo} alt="Logo" className='LogoFooter' />
                     <h4>We deliver your dream art work</h4>
-                    <p>
+                    {/* <p>
                         We are committed to our mission & goals and look forward to building
                         the best client-customer relationship.
-                    </p>
+                    </p> */}
                 </div>
                 <div className="menu">
                     <ul>
                         <li><Link to={"/"}>Home</Link></li>
                         <li><Link to={"/about-us"}>About Us</Link></li>
                         <li><Link to={"/contact-us"}>Contact Us</Link></li>
-                        <li><Link to={"/terms-and-conditions"}>Terms and Conditions</Link></li>
-                        <li><Link to={"/privacy-policy"}>Privacy Policy</Link></li>
                     </ul>
                 </div>
                 <div className="contact">
@@ -44,7 +42,9 @@ const Footer = () => {
                 </div>
             </div>
             <div className="bottomBar">
+                <Link to={"/terms-and-conditions"}>Terms and Conditions</Link>
                 <p>© 2021 24 CPS Art Gallery</p>
+                <Link to={"/privacy-policy"}>Privacy Policy</Link>
             </div>
         </>
     )
