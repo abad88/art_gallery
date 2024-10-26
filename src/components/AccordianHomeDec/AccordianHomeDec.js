@@ -30,6 +30,7 @@ const Accordion = ({ data }) => {
         <div className="accordion">
             <AccordionItem title={"Material"} content={data.author} />
             <AccordionItem title={"Detail"} content={data.detail} />
+            <AccordionItem title={"Size"} content={data.size} />
         </div>
     );
 };
