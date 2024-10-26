@@ -7,7 +7,7 @@
   align-items: center;
   color: white;
   position: relative;
-  h1{
+  .greeting{
     position: absolute !important;
     left: 50% !important;
     top: 60% !important;
@@ -15,6 +15,7 @@
     color: #c38c31 !important;
     transform: translate(-50%, -50%);
     font-size: 45px;
+    background: transparent !important;
   }
   img {
     width: 100%;
@@ -29,7 +30,7 @@
     width: 90px;
     height: 90px;
     position: absolute; /* Ensure the logo is positioned absolutely within its parent */
-    top: 50%; /* Center vertically (if needed) */
+    top: 45%; /* Center vertically (if needed) */
     left: 50%; /* Center horizontally */
     transform: translate(-50%, -50%);
   }
