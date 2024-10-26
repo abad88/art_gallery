@@ -71,9 +71,10 @@ const Home = () => {
     return (
         <div>
             <div>
-                <div className="contactBanner">
+                <div className="contactBanner2">
                     <img src={contactBanner} alt="logo" />
                     <div className="heading">
+                        <h1>Welcome</h1>
                         <img src={Logo} alt="logo" className='logo' />
                     </div>
                 </div>

@@ -19,7 +19,6 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="menu">
-                    <h2>Quick Menu</h2>
                     <ul>
                         <li><Link to={"/"}>Home</Link></li>
                         <li><Link to={"/about-us"}>About Us</Link></li>
