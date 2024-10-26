@@ -6,7 +6,7 @@ const ContactUs = () => {
     return (
         <div>
             <div className="contactBanner">
-                <img src={contactBanner} alt="logo" />
+                <img src={contactBanner} alt="logo" loading='lazy'/>
                 <div className="heading">
                     <h1>Contact Us</h1>
                 </div>

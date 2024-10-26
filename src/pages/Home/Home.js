@@ -72,10 +72,10 @@ const Home = () => {
         <div>
             <div>
                 <div className="contactBanner2">
-                    <img src={contactBanner} alt="logo" />
+                    <img src={contactBanner} alt="logo" loading='lazy'/>
                     <div className="heading">
                         <h1 className='greeting'>Welcome</h1>
-                        <img src={Logo} alt="logo" className='logo' />
+                        <img src={Logo} alt="logo" className='logo' loading='lazy'/>
                     </div>
                 </div>
                 <div className='contentHome'>

@@ -14,7 +14,7 @@ const AboutUs = () => {
     return (
         <div>
             <div className="contactBanner1">
-                <img src={contactBanner} alt="logo" />
+                <img src={contactBanner} alt="logo" loading='lazy'/>
                 <div className="heading">
                     <h1>About Us</h1>
                 </div>

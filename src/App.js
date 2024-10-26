@@ -32,7 +32,7 @@ function App() {
     setLoading(true);
     const timer = setTimeout(() => {
       setLoading(false); // Hide loader after 2 seconds
-    }, 2000);
+    }, 2500);
     return () => clearTimeout(timer); // Cleanup timeout
   }, [location]);
 
