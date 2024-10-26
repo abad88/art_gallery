@@ -49,7 +49,7 @@ const ArtPage = () => {
             titleImg: "Eka 3D Art 1",
             size:[
                 "Height = 41 Inches",
-                "Width = 41 Inches"
+                "Long = 41 Inches"
             ],
             author: "Eka Peradze",
             detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
@@ -62,7 +62,7 @@ const ArtPage = () => {
             titleImg: "Action.Family (Arcylic Painting)",
             size:[
                 "Height = 41 Inches  ,",
-                "Width = 41 Inches"
+                "Long = 41 Inches"
             ],
             author: "Eka Peradze",
             detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
@@ -75,7 +75,7 @@ const ArtPage = () => {
             titleImg: "Love.Family.Action (Arcylic Painting)",
             size:[
                 "Height = 49 Inches  ,",
-                "Width = 41 Inches"
+                "Long = 41 Inches"
             ],
             author: "Eka Peradze",
             detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
@@ -88,7 +88,7 @@ const ArtPage = () => {
             titleImg: "Action.Freedom (Arcylic Painting)",
             size:[
                 "Height = 41 Inches  ,",
-                "Width = 41 Inches"
+                "Long = 41 Inches"
             ],
             author: "Eka Peradze",
             detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
@@ -101,7 +101,7 @@ const ArtPage = () => {
             titleImg: "Freedom.Love (Arcylic Painting)",
             size:[
                 "Height = 41 Inches  ,",
-                "Width = 41 Inches"
+                "Long = 41 Inches"
             ],
             author: "Eka Peradze",
             detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
@@ -114,7 +114,7 @@ const ArtPage = () => {
             titleImg: "Action.Freedom.Love (Arcylic Painting)",
             size:[
                 "Height = 41 Inches  ,",
-                "Width = 41 Inches"
+                "Long = 41 Inches"
             ],
             author: "Eka Peradze",
             detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
@@ -127,7 +127,7 @@ const ArtPage = () => {
             titleImg: "Love.Action (Arcylic Painting)",
             size:[
                 "Height = 41 Inches  ,",
-                "Width = 41 Inches"
+                "Long = 41 Inches"
             ],
             author: "Eka Peradze",
             detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
@@ -140,7 +140,7 @@ const ArtPage = () => {
             titleImg: "Freedom.Action (Arcylic Painting)",
             size:[
                 "Height = 41 Inches  ,",
-                "Width = 41 Inches"
+                "Long = 41 Inches"
             ],
             author: "Eka Peradze",
             detail: "Eka Peradze's 3D paintings are a captivating blend of art and illusion. Her meticulous craftsmanship and masterful use of light and shadow create stunningly realistic scenes that seem to defy the boundaries of the canvas.",
@@ -153,7 +153,7 @@ const ArtPage = () => {
             titleImg: "Butterflies on Blue",
             size:[
                 "Height = 36 Inches  ,",
-                "Width = 24 Inches"
+                "Long = 24 Inches"
             ],
             author: "Alexandra Chateaux",
             detail: "This unique and thought-provoking painting features a deep blue background adorned with shimmering glitter. Against this backdrop, several real butterflies are carefully arranged, creating a striking contrast between the natural elements and the abstract background. The overall effect is both delicate and dramatic.",
@@ -166,7 +166,7 @@ const ArtPage = () => {
             titleImg: "Butterflies on Gray",
             size:[
                 "Height = 36 Inches  ,",
-                "Width = 24 Inches"
+                "Long = 24 Inches"
             ],
             author: "Alexandra Chateaux",
             detail: "This unique and thought-provoking painting features a gray background with a textured, almost metallic appearance. Against this backdrop, two real blue butterflies are carefully positioned, creating a striking contrast between the natural elements and the abstract background. The overall effect is both delicate and dramatic.",
@@ -179,7 +179,7 @@ const ArtPage = () => {
             titleImg: "Abstract Potrait",
             size:[
                 "Height = 48 Inches  ,",
-                "Width = 37.75 Inches"
+                "Long = 37.75 Inches"
             ],
             author: "Lee Seoung",
             detail: "This vibrant and textured painting features a fragmented portrait composed of small, colorful squares that resemble golf tees. The background is a chaotic mix of colors and textures, creating a sense of energy and movement. The overall effect is a visually striking and thought-provoking piece that invites the viewer to interpret the meaning behind the fragmented image.",
@@ -192,7 +192,7 @@ const ArtPage = () => {
             titleImg: "Butterfly Symphony",
             size:[
                 "Height = 39.5 Inches  ,",
-                "Width = 33.5 Inches"
+                "Long = 33.5 Inches"
             ],
             author: "Vincent",
             detail: "This vibrant and dynamic painting features a pink violin placed against a dark background. The violin is surrounded by splashes of paint in various colors, and there are also butterflies incorporated into the composition. The overall effect is visually striking and suggests a sense of energy and movement.",
@@ -205,7 +205,7 @@ const ArtPage = () => {
             titleImg: "Peter Max Premium Art",
             size:[
                 "Height = 43 Inches  ,",
-                "Width = 55 Inches"
+                "Long = 55 Inches"
             ],
             author: "Peter Max",
             detail: "This rare Peter Max original is a stunning example of his iconic pop art style. The vibrant acrylic colors create a dynamic and energetic composition, while the playful figures and cosmic imagery evoke a sense of wonder and nostalgia. The painting's intricate details and bold brushstrokes showcase Max's mastery of technique and his ability to convey a sense of joy and optimism through his art.",
@@ -218,7 +218,7 @@ const ArtPage = () => {
             titleImg: "Peter Max Premium Art 2",
             size:[
                 "Height = 46 Inches  ,",
-                "Width = 58 Inches"
+                "Long = 58 Inches"
             ],
             author: "Peter Max",
             detail: "This rare Peter Max original is a stunning example of his iconic pop art style. The vibrant acrylic colors create a dynamic and energetic composition, while the playful figures and cosmic imagery evoke a sense of wonder and nostalgia. The painting's intricate details and bold brushstrokes showcase Max's mastery of technique and his ability to convey a sense of joy and optimism through his art.",
