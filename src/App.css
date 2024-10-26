@@ -59,6 +59,7 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    /* border: 4px solid; */
     svg {
       position: absolute;
       top: 0;
@@ -67,6 +68,11 @@ ul {
     a {
       color: white;
       text-decoration: none;
+    }
+    .pic{
+      width: 120px;
+      border: 2px solid;
+      margin-bottom: 20px;
     }
   }
 

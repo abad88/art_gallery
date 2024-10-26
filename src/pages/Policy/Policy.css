@@ -3,8 +3,10 @@
   text-align: justify;
   h1 {
     color: #c38c31;
+    background: transparent !important;
   }
   h3 {
     color: #c38c31;
+    background: transparent !important;
   }
 }

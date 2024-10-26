@@ -26,7 +26,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="contact">
-                    <h2>Contact Us</h2>
+                    <h2 className='contactFill'>Contact Us</h2>
                     <ul>
                         <li><a href='tel:212-588-8700'>212-588-8700</a></li>
                         <li>

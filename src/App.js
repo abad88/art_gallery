@@ -9,6 +9,7 @@ import Loader from './components/Loader/Loader';
 import JewelryPage from './pages/JewelryDetail/JewelryPage';
 import HomeDecPage from './pages/HomeDec/HomeDecPage';
 import ErrorPage from './pages/ErrorPage/ErrorPage'; // Import the error page
+import logo from "../../art_gallery/src/assets/images/logo.jpg"
 
 // Lazy load the components
 const Home = lazy(() => import('./pages/Home/Home'));
@@ -45,6 +46,7 @@ function App() {
       {mobileNav &&
         <div className='n'>
           <RxCross1 onClick={handleMobileNav} />
+          <img src={logo} alt='logo' className='pic'/>
           <Link to="/" onClick={handleMobileNav}>Home</Link>
           <Link to="/about-us" onClick={handleMobileNav}>About Us</Link>
           <Link to="/category-art" onClick={handleMobileNav}>Art</Link>

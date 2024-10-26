@@ -154,6 +154,7 @@
       width: 60%;
       h2 {
         margin: 10px 0px;
+        display: none;
       }
     }
   }
