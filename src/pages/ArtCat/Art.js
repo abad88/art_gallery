@@ -1,22 +1,22 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import LazyLoad from 'react-lazyload'; // Import LazyLoad for lazy loading
+import { Helmet } from 'react-helmet-async'; // Import Helmet for SEO
 import './Art.css';
-import img1 from '../../assets/images/artpiece/eka1.jpg';
 import contactBanner from '../../assets/images/artcc.jpg';
-import ekImg1 from "../../assets/images/eka/img1/converted/main1.jpg"
-import ekImg4 from "../../assets/images/eka/img2/converted/main1.jpg"
-import ekImg7 from "../../assets/images/eka/img3/converted/main1.jpg"
-import ekImg10 from "../../assets/images/eka/img4/converted/main.jpg"
-import ekImg13 from "../../assets/images/eka/img5/converted/main1.jpg"
-import ekImg16 from "../../assets/images/eka/img6/converted/main1.jpg"
-import ekImg19 from "../../assets/images/eka/img7/converted/main1.jpg"
-import alex1 from "../../assets/images/alexandria/img1/main1.jpg"
-import alex2 from "../../assets/images/alexandria/img2/main1.jpg"
-import lee from "../../assets/images/Lee/main1.jpg"
-import vincent from "../../assets/images/vincent/main1.jpg"
-import max1 from "../../assets/images/max/art1/main1.jpg"
-import max2 from "../../assets/images/max/art2/main1.jpg"
+import ekImg1 from "../../assets/images/eka/img1/converted/main1.jpg";
+import ekImg4 from "../../assets/images/eka/img2/converted/main1.jpg";
+import ekImg7 from "../../assets/images/eka/img3/converted/main1.jpg";
+import ekImg10 from "../../assets/images/eka/img4/converted/main.jpg";
+import ekImg13 from "../../assets/images/eka/img5/converted/main1.jpg";
+import ekImg16 from "../../assets/images/eka/img6/converted/main1.jpg";
+import ekImg19 from "../../assets/images/eka/img7/converted/main1.jpg";
+import alex1 from "../../assets/images/alexandria/img1/main1.jpg";
+import alex2 from "../../assets/images/alexandria/img2/main1.jpg";
+import lee from "../../assets/images/Lee/main1.jpg";
+import vincent from "../../assets/images/vincent/main1.jpg";
+import max1 from "../../assets/images/max/art1/main1.jpg";
+import max2 from "../../assets/images/max/art2/main1.jpg";
 
 const Art = () => {
     const navigate = useNavigate();
@@ -34,7 +34,6 @@ const Art = () => {
         { img: vincent, title: 'Butterfly Symphony', artist: "Vincent", type: "3D" },
         { img: max1, title: 'Peter Max Premium Art', artist: "Peter Max", type: "2D" },
         { img: max2, title: 'Peter Max Premium Art 2', artist: "Peter Max", type: "2D" },
-        // Add more images as needed
     ];
 
     const [currentPage, setCurrentPage] = useState(1);
@@ -51,7 +50,6 @@ const Art = () => {
     });
 
     const totalPages = Math.ceil(filteredImages.length / imagesPerPage);
-
     const currentImages = filteredImages.slice(
         (currentPage - 1) * imagesPerPage,
         currentPage * imagesPerPage
@@ -82,8 +80,14 @@ const Art = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Art Gallery - 24 CPS Art Gallery</title>
+                <meta name="description" content="Explore a diverse collection of art pieces at 24 CPS Art Gallery. Discover works from renowned artists and enhance your art collection." />
+                <link rel="canonical" href="/art" />
+            </Helmet>
+
             <div className="contactBanner">
-                <img src={contactBanner} alt="logo" />
+                <img src={contactBanner} alt="Art Gallery Banner" />
                 <div className="heading">
                     <h1>Art Category</h1>
                 </div>
