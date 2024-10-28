@@ -1,23 +1,23 @@
-import React, { useState, useEffect } from 'react'
-import "./Home.css"
-import contactBanner from "../../assets/images/arth.jpg"
-import Slider from '../../components/Slider/Slider'
-import Logo from "../../assets/images/logo.jpg"
-import eka1 from "../../assets/images/artpiece/eka1.jpg"
-import eka2 from "../../assets/images/artpiece/eka_2.jpg"
-import eka3 from "../../assets/images/artpiece/eka_3.jpg"
-import eka4 from "../../assets/images/artpiece/eka_4.jpg"
-import eka5 from "../../assets/images/artpiece/eka_5.jpg"
-import eka6 from "../../assets/images/artpiece/eka_6.jpg"
-import eka7 from "../../assets/images/artpiece/eka_7.jpg"
-import ImageSlider from '../../components/ImageSlider/ImageSlider'
-import peterp from "../../assets/images/peterp.jpg"
-import ekap from "../../assets/images/ekap.jpg"
-import ArtistCard from '../../components/ArtistCard/ArtistCard'
+import React, { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async'; // Ensure this import is correct
+import "./Home.css";
+import contactBanner from "../../assets/images/arth.jpg";
+import Logo from "../../assets/images/logo.jpg";
+import eka1 from "../../assets/images/artpiece/eka1.jpg";
+import eka2 from "../../assets/images/artpiece/eka_2.jpg";
+import eka3 from "../../assets/images/artpiece/eka_3.jpg";
+import eka4 from "../../assets/images/artpiece/eka_4.jpg";
+import eka5 from "../../assets/images/artpiece/eka_5.jpg";
+import eka6 from "../../assets/images/artpiece/eka_6.jpg";
+import eka7 from "../../assets/images/artpiece/eka_7.jpg";
+import ImageSlider from '../../components/ImageSlider/ImageSlider';
+import ArtistCard from '../../components/ArtistCard/ArtistCard';
+import peterp from "../../assets/images/peterp.jpg";
+import ekap from "../../assets/images/ekap.jpg";
 
 const Home = () => {
-    const [searchTerm, setSearchTerm] = useState(''); // For storing search input
-    const [visibleCards, setVisibleCards] = useState(4); // For controlling number of visible cards
+    const [searchTerm, setSearchTerm] = useState('');
+    const [currentArtistIndex, setCurrentArtistIndex] = useState(0);
 
     const cardData = [
         { img: eka1, title: "Eka 3D Art 1" },
@@ -43,62 +43,43 @@ const Home = () => {
         // Add more artists as needed
     ];
 
-    const [currentArtistIndex, setCurrentArtistIndex] = useState(0);
-
     useEffect(() => {
         const interval = setInterval(() => {
             setCurrentArtistIndex(prevIndex => (prevIndex + 1) % artists.length);
-        }, 15000); // Change artist every 15 seconds
+        }, 15000);
 
         return () => clearInterval(interval);
     }, []);
 
-    const handleSearch = (e) => {
-        setSearchTerm(e.target.value);
-    };
-
-    const filteredCards = searchTerm === ''
-        ? cardData
-        : cardData.filter(card =>
-            card.title.toLowerCase().includes(searchTerm.toLowerCase())
-        );
-
-    const loadMoreCards = () => {
-        setVisibleCards(prev => prev + 4);
-    };
-
-
     return (
         <div>
-            <div>
-                <div className="contactBanner2">
-                    <img src={contactBanner} alt="logo" loading='lazy'/>
-                    <div className="heading">
-                        <h1 className='greeting'>Welcome</h1>
-                        <img src={Logo} alt="logo" className='logo' loading='lazy'/>
-                    </div>
+            <Helmet>
+                <title>Home - Art Gallery</title>
+                <meta name="description" content="Explore our unique collection of art pieces." />
+                <link rel="canonical" href="/" />
+            </Helmet>
+            <div className="contactBanner2">
+                <img src={contactBanner} alt="Art Gallery Banner" loading='lazy' />
+                <div className="heading">
+                    <h1 className='greeting'>Welcome</h1>
+                    <img src={Logo} alt="Art Gallery Logo" className='logo' loading='lazy' />
                 </div>
-                <div className='contentHome'>
-                    <h2>Some of our Art pieces from our collection</h2>
-                </div>
-                <ImageSlider/>
-                {/* <Slider /> */}
-                <ArtistCard artist={artists[currentArtistIndex]}/>
-                {filteredCards.length === 0 && <p className='notF'>Nothing found ...</p>}
-                <h2>Location</h2>
-                <p>
-                    <iframe
+            </div>
+            <div className='contentHome'>
+                <h2>Featured Art Pieces from Our Collection</h2>
+                <ImageSlider />
+                <ArtistCard artist={artists[currentArtistIndex]} />
+                <h2>Visit Us</h2>
+                <iframe
                         title='Gallery map'
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8707036814767!2d-73.97745102445434!3d40.76486843437812!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2591f631fd52f%3A0x2fbffe68280a4b08!2s24%20Central%20Park%20South%20Art%20Gallery!5e0!3m2!1sen!2sus!4v1728918197626!5m2!1sen!2sus"
                         className='mapStyle'
                         loading="lazy"
                         referrerPolicy="no-referrer-when-downgrade"
                     ></iframe>
-                </p>
-                {/* <ImageSlider/> */}
             </div>
         </div>
-    )
-}
+    );
+};
 
-export default Home
+export default Home;
