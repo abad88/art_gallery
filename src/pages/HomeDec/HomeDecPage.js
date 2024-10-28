@@ -671,49 +671,44 @@ const HomeDecPage = () => {
     }
     return (
         <>
-            <div className='artPage'>
-                <div className='artCardBorder'>
-                    <div className='artCard'>
-                        <h1>{title}</h1>
-                        {/* Display the selected image */}
-                        <img src={selectedImg} alt={title} />
-                        <p>Click on Thumbnail to View</p>
-
-                        {/* Render matched art details if found */}
-                        {matchedArt ? (
-                            <div>
-                                {matchedArt.thumbnails && (
-                                    <div className="thumbnails">
-                                        <div className="thumbnailContainer">
-                                            {matchedArt.thumbnails.map((thumbnail, index) => (
-                                                <img
-                                                    key={index}
-                                                    src={thumbnail}
-                                                    alt={`Thumbnail ${index + 1}`}
-                                                    className="thumbnail"
-                                                    style={{ width: '100px', height: '100px', marginRight: '10px', cursor: 'pointer' }}
-                                                    onClick={() => handleThumbnailClick(thumbnail)} // Handle thumbnail click
-                                                />
-                                            ))}
-                                        </div>
+        <div className='artPage'>
+            <div className='artCardBorder'>
+                <article className='artCard'>
+                    <h1>{title}</h1>
+                    <img src={selectedImg} alt={`${title} - Main View`} />
+                    <p>Click on Thumbnail to View</p>
+                    {matchedArt ? (
+                        <div>
+                            {matchedArt.thumbnails && (
+                                <div className="thumbnails">
+                                    <div className="thumbnailContainer">
+                                        {matchedArt.thumbnails.map((thumbnail, index) => (
+                                            <img
+                                                key={index}
+                                                src={thumbnail}
+                                                alt={`Thumbnail ${index + 1} for ${title}`}
+                                                className="thumbnail"
+                                                style={{ width: '100px', height: '100px', marginRight: '10px', cursor: 'pointer' }}
+                                                onClick={() => handleThumbnailClick(thumbnail)}
+                                            />
+                                        ))}
                                     </div>
-                                )}
-                                {/* <Accordion data={matchedArt} /> */}
-                                <AccordionHomeDec data={matchedArt}/>
-                            </div>
-                        ) : (
-                            <p>No additional information available for this piece.</p>
-                        )}
-                    </div>
-                    <div className='artContent'>
-                        <h1>Contact for more Information, Availability, and Price</h1>
-                        <Form />
-                        <h2>Or</h2>
-                        <Button msg={"Contact Us"} onClick={goToContactUs} />
-                    </div>
-                </div>
-
+                                </div>
+                            )}
+                            <AccordionHomeDec data={matchedArt} />
+                        </div>
+                    ) : (
+                        <p>No additional information available for this piece.</p>
+                    )}
+                </article>
+                <aside className='artContent'>
+                    <h2>Contact for more Information, Availability, and Price</h2>
+                    <Form />
+                    <h3>Or</h3>
+                    <Button msg={"Contact Us"} onClick={goToContactUs} />
+                </aside>
             </div>
+        </div>
         </>
     )
 }

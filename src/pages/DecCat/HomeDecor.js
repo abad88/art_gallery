@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import "./HomeDecor.css"
 import contactBanner from "../../assets/images/homedec.jpg"
 import LazyLoad from 'react-lazyload'; // Import LazyLoad for lazy loading
+import { Helmet } from 'react-helmet-async'; // Import Helmet for SEO
 import { useNavigate } from 'react-router'
 import vase1 from "../../assets/images/vases/vase1/main3.png"
 import vase2 from "../../assets/images/vases/vase2/main3.png"
@@ -139,17 +140,15 @@ const HomeDecor = () => {
     };
     return (
         <>
+            <Helmet>
+                <title>Home Decoration</title>
+                <meta name="description" content="Explore our collection of exquisite home decoration items including vases, clocks, lamps, and tables." />
+            </Helmet>
             <div className="contactBanner">
                 <img src={contactBanner} alt="logo" />
                 <div className="heading">
                     <h1>Home Decoration</h1>
                 </div>
-                {/* <div className='category'>
-                    <img src={vase1} alt="logo1" className='img1'/>
-                    <img src={clock1} alt="logo2" className='img2'/>
-                    <img src={lamp1} alt="logo3" className='img3'/>
-                    <img src={table2} alt="logo3" className='img4'/>
-                </div> */}
             </div>
             <h1>Categories</h1>
             <div className='category2'>
@@ -178,7 +177,6 @@ const HomeDecor = () => {
                     onChange={handleSearch}
                     className="searchInput"
                 />
-
                 <select value={selectedArtist} onChange={handleArtistChange} className="filterSelect">
                     <option value="All">Material</option>
                     <option value="Amber">Amber</option>
@@ -187,7 +185,6 @@ const HomeDecor = () => {
                     <option value="Porcelain">Porcelain</option>
                     <option value="Malachite">Malachite</option>
                 </select>
-
                 <select value={selectedType} onChange={handleTypeChange} className="filterSelect">
                     <option value="All">All Types</option>
                     <option value="Vase">Vase</option>
@@ -201,7 +198,7 @@ const HomeDecor = () => {
                         <div
                             key={index}
                             className="imageCard"
-                            onClick={() => handleImageClick(image)} // Navigate to ArtPage on click
+                            onClick={() => handleImageClick(image)} // Navigate to detail page on click
                         >
                             <LazyLoad height={200} offset={100} once>
                                 <img src={image.img} alt={image.title} />
