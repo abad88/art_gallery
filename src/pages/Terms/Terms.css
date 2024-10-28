@@ -1,8 +1,30 @@
 .termsContainer {
-  margin: 60px;
+  margin: 30px;
   text-align: justify;
+  strong{
+    color: #c38c31;
+    background: transparent !important;
+  }
   h1 {
     color: #c38c31;
     background: transparent !important;
+  }
+  h2{
+    color: #c38c31;
+    background: transparent !important;
+  }
+  h3 {
+    color: #c38c31;
+    background: transparent !important;
+  }
+  ul{
+    list-style: disc;
+    background: transparent;
+    color: black;
+    display: block;
+    padding: 0px;
+    margin: 20px;
+    font-weight: normal;
+    font-size: 16px;
   }
 }
