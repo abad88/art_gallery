@@ -82,6 +82,8 @@ const Form = () => {
                         bottom: 'auto',
                         marginRight: '-50%',
                         transform: 'translate(-50%, -50%)',
+                        background: '#c38c31',
+                        color:'white'
                     },
                 }}
             >
