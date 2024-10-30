@@ -60,13 +60,14 @@ function App() {
           <GiHamburgerMenu onClick={handleMobileNav} />
         </div>
         <nav className='navbar'>
+          <img alt='logo' src={logo} className='navLogo'/>
           <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/contact-us">Contact Us</Link></li>
             <li><Link to="/about-us">About Us</Link></li>
             <li><Link to="/category-art">Art</Link></li>
             <li><Link to="/category-jewelry">Jewelry</Link></li>
             <li><Link to="/category-home-decor">Home-Decoration</Link></li>
+            <li><Link to="/contact-us">Contact Us</Link></li>
           </ul>
         </nav>
 

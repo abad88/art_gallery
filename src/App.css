@@ -17,26 +17,35 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-ul {
-  list-style: none;
+.navbar{
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
+  align-items: center;
   background: #c38c31;
-  margin: 0px;
-  padding: 20px;
-  font-size: 20px;
-  font-weight: 500;
-  a {
-    text-decoration: none;
-    margin: 0px 25px 0px 0px;
-    color: white;
-    &:hover {
-      text-decoration: underline;
-      color: white;
+   .navLogo{
+    width: 80px;
+   }
+    ul {
+      list-style: none;
+      display: flex;
+      justify-content: flex-start;
+      background: #c38c31;
+      margin: 0px;
+      padding: 20px;
+      font-size: 20px;
+      font-weight: 500;
+      a {
+        text-decoration: none;
+        margin: 0px 25px 0px 0px;
+        color: white;
+        &:hover {
+          text-decoration: underline;
+          color: white;
+        }
+      }
     }
-  }
 }
+
 .hamOption {
   svg {
     display: none;
@@ -87,6 +96,6 @@ ul {
     }
   }
   .navbar {
-    display: none;
+    display: none !important;
   }
 }
