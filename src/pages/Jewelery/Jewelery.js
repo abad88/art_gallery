@@ -3,13 +3,76 @@ import "./Jewelery.css"
 import contactBanner from "../../assets/images/jwel.jpg"
 import { useNavigate } from 'react-router'
 import img1 from "../../assets/images/jwel.jpg"
+import neck1 from "../../assets/images/jewelry/necklace/neck1/main1.jpg"
+import neck2 from "../../assets/images/jewelry/necklace/neck2/main1.jpg"
+import neck3 from "../../assets/images/jewelry/necklace/neck3/main1.jpg"
+import neck4 from "../../assets/images/jewelry/necklace/neck4/main1.jpg"
+import neck5 from "../../assets/images/jewelry/necklace/neck5/main1.jpg"
+import neck6 from "../../assets/images/jewelry/necklace/neck6/main1.jpg"
+import neck7 from "../../assets/images/jewelry/necklace/neck7/main1.jpg"
+import neck8 from "../../assets/images/jewelry/necklace/neck8/main1.jpg"
+import neck9 from "../../assets/images/jewelry/necklace/neck9/main1.jpg"
+import neck10 from "../../assets/images/jewelry/necklace/neck10/main1.jpg"
+import neck11 from "../../assets/images/jewelry/necklace/neck11/main1.jpg"
+import neck12 from "../../assets/images/jewelry/necklace/neck12/main.jpg"
+import brac1 from "../../assets/images/jewelry/braclet/brac1/main1.jpg"
+import brac2 from "../../assets/images/jewelry/braclet/brac2/main3.jpg"
+import brac3 from "../../assets/images/jewelry/braclet/brac3/main18.jpg"
+import brac4 from "../../assets/images/jewelry/braclet/brac4/main1.jpg"
+import brac5 from "../../assets/images/jewelry/braclet/brac5/main16.jpg"
+import neck13 from "../../assets/images/jewelry/necklace/pendant1/main1.jpg"
+import neck14 from "../../assets/images/jewelry/necklace/pendant2/main1.jpg"
+import neck15 from "../../assets/images/jewelry/necklace/pendant3/main1.jpg"
+import charm1 from "../../assets/images/jewelry/unique/charm1/main1.jpg"
+import charm2 from "../../assets/images/jewelry/unique/charm2/main1.jpg"
+import ring1 from "../../assets/images/jewelry/ring/ring1/main1.jpg"
+import ring2 from "../../assets/images/jewelry/ring/ring2/main1.jpg"
+import ring3 from "../../assets/images/jewelry/ring/ring3/main1.jpg"
+import ring4 from "../../assets/images/jewelry/ring/ring4/main1.jpg"
+import ring5 from "../../assets/images/jewelry/ring/ring5/main1.jpg"
+import ring6 from "../../assets/images/jewelry/ring/ring6/main1.jpg"
+import ring7 from "../../assets/images/jewelry/ring/ring7/mian1.jpg"
+import ring8 from "../../assets/images/jewelry/ring/ring8/main1.jpg"
+import ring9 from "../../assets/images/jewelry/ring/ring9/main1.jpg"
+
+
+
 
 const Jewelery = () => {
     const navigate = useNavigate();
     const jewelryData = [
-        { img: img1, title: 'Jewelry 1', artist: "jeweler1", type: "Gold" },
-        { img: img1, title: 'Jewelry 2', artist: "jeweler2", type: "Silver" },
-        { img: img1, title: 'Jewelry 3', artist: "jeweler1", type: "Diamond" },
+        { img: brac1, title: 'Jewelry 1', artist: "bracelet", type: "bracelet" },
+        { img: brac2, title: 'Jewelry 2', artist: "bracelet", type: "bracelet" },
+        { img: brac3, title: 'Jewelry 3', artist: "bracelet", type: "bracelet" },
+        { img: brac4, title: 'Jewelry 3', artist: "bracelet", type: "bracelet" },
+        { img: brac5, title: 'Jewelry 3', artist: "bracelet", type: "bracelet" },
+        { img: neck1, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: neck2, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: neck3, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: neck4, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: neck5, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: neck6, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: neck7, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: neck8, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: neck9, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: neck10, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: neck11, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        // { img: neck12, title: 'Jewelry 3', artist: "jeweler1", type: "Diamond" },
+        { img: neck13, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: neck14, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: neck15, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: charm1, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: charm2, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: ring1, title: 'Jewelry 3', artist: "ring", type: "ring" },
+        { img: ring2, title: 'Jewelry 3', artist: "ring", type: "ring" },
+        { img: ring3, title: 'Jewelry 3', artist: "ring", type: "ring" },
+        { img: ring4, title: 'Jewelry 3', artist: "ring", type: "ring" },
+        { img: ring5, title: 'Jewelry 3', artist: "ring", type: "ring" },
+        { img: ring6, title: 'Jewelry 3', artist: "ring", type: "ring" },
+        { img: ring7, title: 'Jewelry 3', artist: "ring", type: "ring" },
+        { img: ring8, title: 'Jewelry 3', artist: "ring", type: "ring" },
+        { img: ring9, title: 'Jewelry 3', artist: "ring", type: "ring" },
+
         // Add more jewelry items as needed
     ];
 
@@ -73,16 +136,17 @@ const Jewelery = () => {
                 />
 
                 <select value={selectedArtist} onChange={handleArtistChange} className="filterSelect">
-                    <option value="All">All Jewelers</option>
+                    <option value="All">Type</option>
                     <option value="jeweler1">Jeweler1</option>
                     <option value="jeweler2">Jeweler2</option>
                 </select>
 
                 <select value={selectedType} onChange={handleTypeChange} className="filterSelect">
                     <option value="All">All Types</option>
-                    <option value="Gold">Gold</option>
-                    <option value="Silver">Silver</option>
-                    <option value="Diamond">Diamond</option>
+                    <option value="ring">Ring</option>
+                    <option value="necklace">Necklace</option>
+                    <option value="bracelet">Bracelet</option>
+                    <option value="earing">Earing</option>
                 </select>
 
                 <div className="imagesGrid">

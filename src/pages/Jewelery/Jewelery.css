@@ -33,6 +33,7 @@
     }
   }
 }
+
 .galleryWrapper {
   text-align: center;
   input {
@@ -66,11 +67,17 @@
   padding: 10px;
   background-color: #f9f9f9;
   margin: 5px;
+  &:hover{
+    opacity: 0.65;
+    cursor: pointer;
+    background-color: #c38c31;
+    color: white;
+  }
 }
 
 .imageCard img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 210px;
 }
 
 .pagination {
@@ -88,4 +95,15 @@
 .pageButton.active {
   background-color: #c38c31;
   color: white;
+}
+
+@media (max-width: 768px) {
+  .galleryWrapper {
+    input {
+      width: 75%;
+    }
+    select {
+      width: 75%;
+    }
+  }
 }
