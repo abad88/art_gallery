@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import "./Jewelery.css"
-import contactBanner from "../../assets/images/jwel.jpg"
+import contactBanner from "../../assets/images/jewels.webp"
 import { useNavigate } from 'react-router'
 import img1 from "../../assets/images/jwel.jpg"
 import neck1 from "../../assets/images/jewelry/necklace/neck1/main1.jpg"
@@ -34,6 +34,10 @@ import ring6 from "../../assets/images/jewelry/ring/ring6/main1.jpg"
 import ring7 from "../../assets/images/jewelry/ring/ring7/mian1.jpg"
 import ring8 from "../../assets/images/jewelry/ring/ring8/main1.jpg"
 import ring9 from "../../assets/images/jewelry/ring/ring9/main1.jpg"
+import ring10 from "../../assets/images/jewelry/ring/ring10/main1.jpg"
+import ring11 from "../../assets/images/jewelry/ring/ring11/main1.jpg"
+import ring12 from "../../assets/images/jewelry/ring/ring12/main1.jpg"
+import ring13 from "../../assets/images/jewelry/ring/ring13/main1.jpg"
 import earing1 from "../../assets/images/jewelry/earing/earing/main1.jpg"
 import earing2 from "../../assets/images/jewelry/earing/earing1/main1.jpg"
 import earing3 from "../../assets/images/jewelry/earing/earing2/main1.png"
@@ -50,37 +54,42 @@ const Jewelery = () => {
         { img: brac4, title: 'Green Jade beads Bracelet', artist: "Jade", type: "bracelet" },
         { img: brac5, title: 'Lavendar Jade Bracelet', artist: "Jade", type: "bracelet" },
         { img: neck1, title: 'Vibrant Coral Bead Necklace', artist: "necklace", type: "necklace" },
-        { img: neck2, title: 'Elegant Coral and Diamond Necklace', artist: "necklace", type: "necklace" },
-        { img: neck3, title: 'Elegant Jade Bead Necklace', artist: "necklace", type: "necklace" },
-        { img: neck4, title: 'Elegant Black Pearl Necklace', artist: "necklace", type: "necklace" },
-        { img: neck5, title: 'Sapphire and Diamond Flower Necklace', artist: "necklace", type: "necklace" },
-        { img: neck6, title: 'Elegant Red and White Pearl Necklace', artist: "necklace", type: "necklace" },
-        { img: neck7, title: 'Intricate Jade Carving Necklace', artist: "necklace", type: "necklace" },
-        { img: neck8, title: 'Mother-of-Pearl and Diamond Necklace', artist: "necklace", type: "necklace" },
-        { img: neck9, title: 'Dazzling Diamond Waterfall Necklace', artist: "necklace", type: "necklace" },
-        { img: neck10, title: 'Delicate Diamond Filigree Necklace', artist: "necklace", type: "necklace" },
-        { img: neck11, title: 'Timeless Jade Pendant Necklace', artist: "necklace", type: "necklace" },
+        { img: neck2, title: 'Elegant Coral and Diamond Necklace', artist: "Jade", type: "necklace" },
+        { img: neck3, title: 'Elegant Jade Bead Necklace', artist: "Jade", type: "necklace" },
+        { img: neck4, title: 'Elegant Black Pearl Necklace', artist: "Pearl", type: "necklace" },
+        { img: neck5, title: 'Sapphire and Diamond Flower Necklace', artist: "Diamond", type: "necklace" },
+        { img: neck6, title: 'Elegant Red and White Pearl Necklace', artist: "Pearl", type: "necklace" },
+        { img: neck7, title: 'Intricate Jade Carving Necklace', artist: "Jade", type: "necklace" },
+        { img: neck8, title: 'Mother-of-Pearl and Diamond Necklace', artist: "Pearl", type: "necklace" },
+        { img: neck9, title: 'Dazzling Diamond Waterfall Necklace', artist: "Diamond", type: "necklace" },
+        { img: neck10, title: 'Delicate Diamond Filigree Necklace', artist: "Diamond", type: "necklace" },
+        { img: neck11, title: 'Timeless Jade Pendant Necklace', artist: "Jade", type: "necklace" },
         // { img: neck12, title: 'Jewelry 3', artist: "jeweler1", type: "Diamond" },
-        { img: neck13, title: 'Elegant Jade Bead Necklace', artist: "necklace", type: "necklace" },
-        { img: neck14, title: 'Chinese Mythology Jade Pendant', artist: "necklace", type: "necklace" },
-        { img: neck15, title: 'Chinese Jade Deity Pendant', artist: "necklace", type: "necklace" },
-        { img: charm1, title: 'Intricate Jade Carving Pendant', artist: "necklace", type: "necklace" },
-        { img: charm2, title: 'Timeless Jade Necklace Pendant', artist: "necklace", type: "necklace" },
-        { img: ring1, title: 'Radiant Yellow Diamond Halo Ring', artist: "ring", type: "ring" },
-        { img: ring2, title: 'Black Rose Ring with Diamonds', artist: "ring", type: "ring" },
-        { img: ring3, title: 'Blue Flower Ring with Diamonds', artist: "ring", type: "ring" },
-        { img: ring4, title: 'Swirl Diamond Ring', artist: "ring", type: "ring" },
-        { img: ring5, title: 'Classic Diamond Ring', artist: "ring", type: "ring" },
-        { img: ring6, title: 'Royal Blue Sapphire Ring', artist: "ring", type: "ring" },
-        { img: ring7, title: 'Coral Jade and Diamond Ring', artist: "ring", type: "ring" },
-        { img: ring8, title: 'Unique Diamond Flower Ring', artist: "ring", type: "ring" },
-        { img: ring9, title: 'Elegant Floral Diamond Ring', artist: "ring", type: "ring" },
+        { img: neck13, title: 'Elegant Jade Bead Necklace', artist: "Jade", type: "necklace" },
+        { img: neck14, title: 'Chinese Mythology Jade Pendant', artist: "Jade", type: "necklace" },
+        { img: neck15, title: 'Chinese Jade Deity Pendant', artist: "Jade", type: "necklace" },
+        { img: charm1, title: 'Intricate Jade Carving Pendant', artist: "Jade", type: "necklace" },
+        { img: charm2, title: 'Timeless Jade Necklace Pendant', artist: "Jade", type: "necklace" },
+        { img: ring1, title: 'Radiant Yellow Diamond Halo Ring', artist: "Diamond", type: "ring" },
+        { img: ring2, title: 'Black Rose Ring with Diamonds', artist: "Diamond", type: "ring" },
+        { img: ring3, title: 'Blue Flower Ring with Diamonds', artist: "Diamond", type: "ring" },
+        { img: ring4, title: 'Swirl Diamond Ring', artist: "Diamond", type: "ring" },
+        { img: ring5, title: 'Classic Diamond Ring', artist: "Diamond", type: "ring" },
+        { img: ring6, title: 'Royal Blue Sapphire Ring', artist: "Diamond", type: "ring" },
+        { img: ring7, title: 'Coral Jade and Diamond Ring', artist: "Jade", type: "ring" },
+        { img: ring8, title: 'Unique Diamond Flower Ring', artist: "Diamond", type: "ring" },
+        { img: ring9, title: 'Elegant Floral Diamond Ring', artist: "Diamond", type: "ring" },
+        { img: ring10, title: 'Pink Sapphire and Topaz Halo Ring', artist: "Diamond", type: "ring" },
+        { img: ring11, title: 'Rainbow Sapphire Ring', artist: "Diamond", type: "ring" },
+        { img: ring12, title: 'Emerald and Diamond Halo Ring', artist: "Diamond", type: "ring" },
+        { img: ring13, title: 'Lavender Jade and Diamond Ring', artist: "Jade", type: "ring" },
+
         { img: earing1, title: 'Black Pearl and Diamond Earrings', artist: "Diamond", type: "earing" },
         { img: earing2, title: 'Classic Diamond Flower Earrings', artist: "Diamond", type: "earing" },
-        { img: earing3, title: 'Modernist Diamond Earrings', artist: "ring", type: "earing" },
-        { img: earing4, title: 'Classic Jade and Diamond Earrings', artist: "ring", type: "earing" },
-        { img: earing5, title: 'Pearl and Diamond Elegance', artist: "ring", type: "earing" },
-        { img: earing6, title: 'Coral Jade and Diamond Earring', artist: "ring", type: "earing" },
+        { img: earing3, title: 'Modernist Diamond Earrings', artist: "Diamond", type: "earing" },
+        { img: earing4, title: 'Classic Jade and Diamond Earrings', artist: "Jade", type: "earing" },
+        { img: earing5, title: 'Pearl and Diamond Elegance', artist: "Pearl", type: "earing" },
+        { img: earing6, title: 'Coral Jade and Diamond Earring', artist: "Jade", type: "earing" },
 
         // Add more jewelry items as needed
     ];
@@ -172,7 +181,8 @@ const Jewelery = () => {
                 <select value={selectedArtist} onChange={handleArtistChange} className="filterSelect">
                     <option value="All">Material</option>
                     <option value="Jade">Jade</option>
-                    <option value="jeweler2">Jeweler2</option>
+                    <option value="Diamond">Diamond</option>
+                    <option value="Pearl">Pearl</option>
                 </select>
 
                 <select value={selectedType} onChange={handleTypeChange} className="filterSelect">

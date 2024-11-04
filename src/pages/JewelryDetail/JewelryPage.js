@@ -253,7 +253,39 @@ const JewelryPage = () => {
         "This ring is crafted from 18k yellow gold, a durable and luxurious metal. The black and gold enamel adds a touch of sophistication, while the diamond provides a dazzling sparkle.",
       thumbnails: [ring9, ring9b],
     },
-
+    
+    {
+      titleImg: "Pink Sapphire and Topaz Halo Ring",
+      author:
+        "The ring is likely set in 18k yellow gold, a classic and luxurious metal that complements the gemstones perfectly. This ring is a perfect choice for someone who appreciates fine jewelry and unique designs.",
+      detail:
+        "This exquisite ring features a stunning oval-cut topaz surrounded by a halo of pink sapphires and diamonds. The topaz is a beautiful light blue color, and the pink sapphires add a touch of femininity and elegance. The diamonds provide a dazzling sparkle, enhancing the overall beauty of the ring.",
+      thumbnails: [ring9, ring9b],
+    },
+    {
+      titleImg: "Rainbow Sapphire Ring",
+      author:
+        "This ring is a perfect choice for someone who loves bold and colorful jewelry. The unique design and high-quality gemstones make this ring a truly special and luxurious piece.",
+      detail:
+        "This dazzling ring features a vibrant cluster of sapphires in various colors, including blue, pink, and yellow. The sapphires are set in a bed of sparkling diamonds, creating a truly eye-catching piece. The ring is likely set in white gold or platinum, which complements the colorful gemstones perfectly.",
+      thumbnails: [ring9, ring9b],
+    },
+    {
+      titleImg: "Emerald and Diamond Halo Ring",
+      author:
+        "This ring is perfect for someone who wants a unique and eye-catching piece of jewelry. The emerald is a symbol of love, wisdom, and good fortune, and the diamonds represent purity and innocence. This ring is sure to be treasured for years to come.",
+      detail:
+        "This exquisite ring features a stunning oval-cut emerald, surrounded by a halo of sparkling diamonds. The emerald is a deep green color, and the diamonds add a touch of brilliance and sparkle. The ring is likely set in 18k white gold, which complements the emerald perfectly.",
+      thumbnails: [ring9, ring9b],
+    },
+    {
+      titleImg: "Lavender Jade and Diamond Ring",
+      author:
+        "This ring is a perfect choice for someone who wants a unique and eye-catching piece of jewelry. The lavender jade is a symbol of peace and tranquility, and the diamonds represent purity and innocence. This ring is sure to be treasured for years to come.",
+      detail:
+        "This ring features a stunning lavender jade cabochon, surrounded by a halo of sparkling diamonds. The lavender jade is a rare and beautiful color, and the diamonds add a touch of elegance and luxury. The ring is likely set in platinum or white gold, which complements the jade perfectly.",
+      thumbnails: [ring9, ring9b],
+    },
     {
       titleImg: "Vibrant Coral Bead Necklace",
       author:
