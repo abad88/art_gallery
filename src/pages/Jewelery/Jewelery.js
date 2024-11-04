@@ -34,18 +34,21 @@ import ring6 from "../../assets/images/jewelry/ring/ring6/main1.jpg"
 import ring7 from "../../assets/images/jewelry/ring/ring7/mian1.jpg"
 import ring8 from "../../assets/images/jewelry/ring/ring8/main1.jpg"
 import ring9 from "../../assets/images/jewelry/ring/ring9/main1.jpg"
-
-
-
+import earing1 from "../../assets/images/jewelry/earing/earing/main1.jpg"
+import earing2 from "../../assets/images/jewelry/earing/earing1/main1.jpg"
+import earing3 from "../../assets/images/jewelry/earing/earing2/main1.png"
+import earing4 from "../../assets/images/jewelry/earing/earing3/main1.jpg"
+import earing5 from "../../assets/images/jewelry/earing/earing4/main1.jpg"
+import earing6 from "../../assets/images/jewelry/earing/earing5/main1.jpg"
 
 const Jewelery = () => {
     const navigate = useNavigate();
     const jewelryData = [
-        { img: brac1, title: 'Jewelry 1', artist: "bracelet", type: "bracelet" },
-        { img: brac2, title: 'Jewelry 2', artist: "bracelet", type: "bracelet" },
-        { img: brac3, title: 'Jewelry 3', artist: "bracelet", type: "bracelet" },
-        { img: brac4, title: 'Jewelry 3', artist: "bracelet", type: "bracelet" },
-        { img: brac5, title: 'Jewelry 3', artist: "bracelet", type: "bracelet" },
+        { img: brac1, title: 'Green Jade Bracelet', artist: "Jade", type: "bracelet" },
+        { img: brac2, title: 'Special Lavendar Jade Bracelet', artist: "Jade", type: "bracelet" },
+        { img: brac3, title: 'Lavendar Jade beads Bracelet', artist: "Jade", type: "bracelet" },
+        { img: brac4, title: 'Green Jade beads Bracelet', artist: "Jade", type: "bracelet" },
+        { img: brac5, title: 'Lavendar Jade Bracelet', artist: "Jade", type: "bracelet" },
         { img: neck1, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
         { img: neck2, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
         { img: neck3, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
@@ -63,15 +66,21 @@ const Jewelery = () => {
         { img: neck15, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
         { img: charm1, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
         { img: charm2, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: ring1, title: 'Jewelry 3', artist: "ring", type: "ring" },
-        { img: ring2, title: 'Jewelry 3', artist: "ring", type: "ring" },
-        { img: ring3, title: 'Jewelry 3', artist: "ring", type: "ring" },
-        { img: ring4, title: 'Jewelry 3', artist: "ring", type: "ring" },
-        { img: ring5, title: 'Jewelry 3', artist: "ring", type: "ring" },
-        { img: ring6, title: 'Jewelry 3', artist: "ring", type: "ring" },
-        { img: ring7, title: 'Jewelry 3', artist: "ring", type: "ring" },
-        { img: ring8, title: 'Jewelry 3', artist: "ring", type: "ring" },
-        { img: ring9, title: 'Jewelry 3', artist: "ring", type: "ring" },
+        { img: ring1, title: 'Radiant Yellow Diamond Halo Ring', artist: "ring", type: "ring" },
+        { img: ring2, title: 'Black Rose Ring with Diamonds', artist: "ring", type: "ring" },
+        { img: ring3, title: 'Blue Flower Ring with Diamonds', artist: "ring", type: "ring" },
+        { img: ring4, title: 'Swirl Diamond Ring', artist: "ring", type: "ring" },
+        { img: ring5, title: 'Classic Diamond Ring', artist: "ring", type: "ring" },
+        { img: ring6, title: 'Royal Blue Sapphire Ring', artist: "ring", type: "ring" },
+        { img: ring7, title: 'Coral Jade and Diamond Ring', artist: "ring", type: "ring" },
+        { img: ring8, title: 'Unique Diamond Flower Ring', artist: "ring", type: "ring" },
+        { img: ring9, title: 'Elegant Floral Diamond Ring', artist: "ring", type: "ring" },
+        { img: earing1, title: 'Black Pearl and Diamond Earrings', artist: "Diamond", type: "earing" },
+        { img: earing2, title: 'Classic Diamond Flower Earrings', artist: "Diamond", type: "earing" },
+        { img: earing3, title: 'Modernist Diamond Earrings', artist: "ring", type: "earing" },
+        { img: earing4, title: 'Classic Jade and Diamond Earrings', artist: "ring", type: "earing" },
+        { img: earing5, title: 'Pearl and Diamond Elegance', artist: "ring", type: "earing" },
+        { img: earing6, title: 'Coral Jade and Diamond Earring', artist: "ring", type: "earing" },
 
         // Add more jewelry items as needed
     ];
@@ -81,6 +90,11 @@ const Jewelery = () => {
     const [selectedArtist, setSelectedArtist] = useState('All');
     const [selectedType, setSelectedType] = useState('All');
     const itemsPerPage = 10;
+
+    const handleCategoryClick = (type) => {
+        setSelectedType(type);
+        setCurrentPage(1);
+    };
 
     const filteredItems = jewelryData.filter(item => {
         const matchesSearchTerm = item.title.toLowerCase().includes(searchTerm.toLowerCase());
@@ -126,6 +140,26 @@ const Jewelery = () => {
                 </div>
             </div>
 
+            <h1>Categories</h1>
+            <div className='category2'>
+                <div onClick={() => handleCategoryClick('bracelet')}>
+                    <img src={brac1} alt="Bracelet" />
+                    <p>Bracelet</p>
+                </div>
+                <div onClick={() => handleCategoryClick('necklace')}>
+                    <img src={neck5} alt="Necklace" />
+                    <p>Necklace</p>
+                </div>
+                <div onClick={() => handleCategoryClick('ring')}>
+                    <img src={ring1} alt="Ring" />
+                    <p>Ring</p>
+                </div>
+                <div onClick={() => handleCategoryClick('earing')}>
+                    <img src={earing2} alt="Earing" />
+                    <p>Table</p>
+                </div>
+            </div>
+
             <div className="galleryWrapper">
                 <input
                     type="text"
@@ -136,8 +170,8 @@ const Jewelery = () => {
                 />
 
                 <select value={selectedArtist} onChange={handleArtistChange} className="filterSelect">
-                    <option value="All">Type</option>
-                    <option value="jeweler1">Jeweler1</option>
+                    <option value="All">Material</option>
+                    <option value="Jade">Jade</option>
                     <option value="jeweler2">Jeweler2</option>
                 </select>
 

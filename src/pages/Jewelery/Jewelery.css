@@ -1,27 +1,44 @@
 .contactBanner {
-  height: 500px;
+  height: 530px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 35px;
   justify-content: center;
   align-items: center;
   color: white;
   position: relative;
+  z-index: 1;
+  margin: 0px !important;
+  .category{
+    height: 35%;
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img1{
+      width: 100px;
+      opacity: 1 !important;
+      height: 100px;
+      position: absolute;
+      bottom: 20px;
+    }
+  }
   img {
     width: 100%;
     height: 100%;
     object-fit: cover;
     object-position: center;
     position: absolute;
-    opacity: 0.3 !important;
+    opacity: 0.2 !important;
   }
   .heading {
     position: absolute;
     padding: 15px;
     h1 {
+      background: transparent;
       text-align: center;
       color: #c38c31 !important;
       margin: 0;
+      font-size: 48px;
     }
     h2 {
       position: relative;
@@ -33,6 +50,57 @@
     }
   }
 }
+h1{
+  color: white;
+  background: #c38c31;
+  margin: 0px;
+  padding: 10px;
+}
+.category2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  background: #c38c31;
+}
+
+.category2 div {
+  text-align: center;
+  width: 150px;
+}
+
+.category2 img {
+  border: 3px solid white;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  cursor: pointer;
+  &:hover{
+    opacity: 0.5;
+    cursor: pointer;
+  }
+}
+
+.category2 p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .category2 div {
+      width: 120px;
+  }
+
+  .category2 img {
+      width: 120px;
+  }
+
+  .category2 p {
+      font-size: 14px;
+  }
+}
+
 
 .galleryWrapper {
   text-align: center;
@@ -95,15 +163,4 @@
 .pageButton.active {
   background-color: #c38c31;
   color: white;
-}
-
-@media (max-width: 768px) {
-  .galleryWrapper {
-    input {
-      width: 75%;
-    }
-    select {
-      width: 75%;
-    }
-  }
 }
