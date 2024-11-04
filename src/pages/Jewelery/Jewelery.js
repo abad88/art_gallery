@@ -49,23 +49,23 @@ const Jewelery = () => {
         { img: brac3, title: 'Lavendar Jade beads Bracelet', artist: "Jade", type: "bracelet" },
         { img: brac4, title: 'Green Jade beads Bracelet', artist: "Jade", type: "bracelet" },
         { img: brac5, title: 'Lavendar Jade Bracelet', artist: "Jade", type: "bracelet" },
-        { img: neck1, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: neck2, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: neck3, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: neck4, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: neck5, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: neck6, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: neck7, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: neck8, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: neck9, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: neck10, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: neck11, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: neck1, title: 'Vibrant Coral Bead Necklace', artist: "necklace", type: "necklace" },
+        { img: neck2, title: 'Elegant Coral and Diamond Necklace', artist: "necklace", type: "necklace" },
+        { img: neck3, title: 'Elegant Jade Bead Necklace', artist: "necklace", type: "necklace" },
+        { img: neck4, title: 'Elegant Black Pearl Necklace', artist: "necklace", type: "necklace" },
+        { img: neck5, title: 'Sapphire and Diamond Flower Necklace', artist: "necklace", type: "necklace" },
+        { img: neck6, title: 'Elegant Red and White Pearl Necklace', artist: "necklace", type: "necklace" },
+        { img: neck7, title: 'Intricate Jade Carving Necklace', artist: "necklace", type: "necklace" },
+        { img: neck8, title: 'Mother-of-Pearl and Diamond Necklace', artist: "necklace", type: "necklace" },
+        { img: neck9, title: 'Dazzling Diamond Waterfall Necklace', artist: "necklace", type: "necklace" },
+        { img: neck10, title: 'Delicate Diamond Filigree Necklace', artist: "necklace", type: "necklace" },
+        { img: neck11, title: 'Timeless Jade Pendant Necklace', artist: "necklace", type: "necklace" },
         // { img: neck12, title: 'Jewelry 3', artist: "jeweler1", type: "Diamond" },
-        { img: neck13, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: neck14, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: neck15, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: charm1, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
-        { img: charm2, title: 'Jewelry 3', artist: "necklace", type: "necklace" },
+        { img: neck13, title: 'Elegant Jade Bead Necklace', artist: "necklace", type: "necklace" },
+        { img: neck14, title: 'Chinese Mythology Jade Pendant', artist: "necklace", type: "necklace" },
+        { img: neck15, title: 'Chinese Jade Deity Pendant', artist: "necklace", type: "necklace" },
+        { img: charm1, title: 'Intricate Jade Carving Pendant', artist: "necklace", type: "necklace" },
+        { img: charm2, title: 'Timeless Jade Necklace Pendant', artist: "necklace", type: "necklace" },
         { img: ring1, title: 'Radiant Yellow Diamond Halo Ring', artist: "ring", type: "ring" },
         { img: ring2, title: 'Black Rose Ring with Diamonds', artist: "ring", type: "ring" },
         { img: ring3, title: 'Blue Flower Ring with Diamonds', artist: "ring", type: "ring" },
@@ -156,7 +156,7 @@ const Jewelery = () => {
                 </div>
                 <div onClick={() => handleCategoryClick('earing')}>
                     <img src={earing2} alt="Earing" />
-                    <p>Table</p>
+                    <p>Earing</p>
                 </div>
             </div>
 

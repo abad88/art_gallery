@@ -48,7 +48,40 @@ import ring8b from "../../assets/images/jewelry/ring/ring8/main2.jpg"
 import ring9 from "../../assets/images/jewelry/ring/ring9/main1.jpg"
 import ring9b from "../../assets/images/jewelry/ring/ring9/main2.jpg"
 
-
+import neck1 from "../../assets/images/jewelry/necklace/neck1/main1.jpg"
+import neck1b from "../../assets/images/jewelry/necklace/neck1/main2.jpg"
+import neck2 from "../../assets/images/jewelry/necklace/neck2/main1.jpg"
+import neck2b from "../../assets/images/jewelry/necklace/neck2/main2.jpg"
+import neck3 from "../../assets/images/jewelry/necklace/neck3/main1.jpg"
+import neck3b from "../../assets/images/jewelry/necklace/neck3/main2.jpg"
+import neck4 from "../../assets/images/jewelry/necklace/neck4/main1.jpg"
+import neck4b from "../../assets/images/jewelry/necklace/neck4/main2.jpg"
+import neck5 from "../../assets/images/jewelry/necklace/neck5/main1.jpg"
+import neck5b from "../../assets/images/jewelry/necklace/neck5/main2.jpg"
+import neck6 from "../../assets/images/jewelry/necklace/neck6/main1.jpg"
+import neck6b from "../../assets/images/jewelry/necklace/neck6/main2.jpg"
+import neck7 from "../../assets/images/jewelry/necklace/neck7/main1.jpg"
+import neck7b from "../../assets/images/jewelry/necklace/neck7/main2.jpg"
+import neck8 from "../../assets/images/jewelry/necklace/neck8/main1.jpg"
+import neck8b from "../../assets/images/jewelry/necklace/neck8/main2.jpg"
+import neck9 from "../../assets/images/jewelry/necklace/neck9/main1.jpg"
+import neck9b from "../../assets/images/jewelry/necklace/neck9/main2.jpg"
+import neck10 from "../../assets/images/jewelry/necklace/neck10/main1.jpg"
+import neck10b from "../../assets/images/jewelry/necklace/neck10/main2.jpg"
+import neck11 from "../../assets/images/jewelry/necklace/neck11/main1.jpg"
+import neck11b from "../../assets/images/jewelry/necklace/neck11/main2.jpg"
+import neck12 from "../../assets/images/jewelry/necklace/neck12/main.jpg"
+import neck12b from "../../assets/images/jewelry/necklace/neck12/main2.jpg"
+import neck13 from "../../assets/images/jewelry/necklace/pendant1/main1.jpg"
+import neck13b from "../../assets/images/jewelry/necklace/pendant1/main2.jpg"
+import neck14 from "../../assets/images/jewelry/necklace/pendant2/main1.jpg"
+import neck14b from "../../assets/images/jewelry/necklace/pendant2/main2.jpg"
+import neck15 from "../../assets/images/jewelry/necklace/pendant3/main1.jpg"
+import neck15b from "../../assets/images/jewelry/necklace/pendant3/main2.jpg"
+import uniq1 from "../../assets/images/jewelry/unique/charm1/main1.jpg"
+import uniq1b from "../../assets/images/jewelry/unique/charm1/main2.jpg"
+import uniq2 from "../../assets/images/jewelry/unique/charm2/main1.jpg"
+import uniq2b from "../../assets/images/jewelry/unique/charm2/main2.jpg"
 
 const JewelryPage = () => {
     const location = useLocation();
@@ -244,6 +277,162 @@ const JewelryPage = () => {
             thumbnails: [
                 ring9,
                 ring9b,
+            ]
+        },
+
+
+
+        {
+            titleImg: "Vibrant Coral Bead Necklace",
+            author: "This necklace is crafted from natural coral, a precious gemstone known for its beauty and durability. The diamonds add a touch of sparkle and brilliance, enhancing the overall beauty of the necklace.",
+            detail: "This necklace features multiple strands of vibrant red coral beads, creating a bold and eye-catching statement. The diamond clasp adds a touch of luxury and elegance, making this necklace a perfect choice for a special occasion.",
+            thumbnails: [
+                neck1,
+                neck1b,
+            ]
+        },
+        {
+            titleImg: "Elegant Coral and Diamond Necklace",
+            author: "This necklace is crafted from natural coral, a precious gemstone known for its beauty and durability. The diamonds add a touch of sparkle and brilliance, enhancing the overall beauty of the necklace.",
+            detail: "This necklace features a stunning oval-cut coral pendant surrounded by a halo of sparkling diamonds. The coral is a vibrant orange color, and the diamonds add a touch of elegance and brilliance. The pendant is suspended from a delicate chain, making it a perfect choice for everyday wear or special occasions.",
+            thumbnails: [
+                neck2,
+                neck2b,
+            ]
+        },
+        {
+            titleImg: "Elegant Jade Bead Necklace",
+            author: "This ring features a stunning floral design with a black and gold enamel flower and a diamond in the center. The intricate details and contrasting colors make this ring a truly unique and eye-catching piece.",
+            detail: "This ring is crafted from 18k yellow gold, a durable and luxurious metal. The black and gold enamel adds a touch of sophistication, while the diamond provides a dazzling sparkle.",
+            thumbnails: [
+                neck3,
+                neck3b,
+            ]
+        },
+        {
+            titleImg: "Elegant Black Pearl Necklace",
+            author: "This necklace is crafted from natural black pearls, a rare and valuable gemstone. Black pearls are often associated with mystery, elegance, and power, making this necklace a truly special piece of jewelry.",
+            detail: "This necklace features a strand of beautiful black pearls, creating a classic and elegant look. The pearls are perfectly round and lustrous, adding a touch of sophistication to any outfit.",
+            thumbnails: [
+                neck4,
+                neck4b,
+            ]
+        },
+        {
+            titleImg: "Sapphire and Diamond Flower Necklace",
+            author: "This necklace is crafted from high-quality materials, including sapphires, diamonds, and precious metals. The intricate design and beautiful gemstones make this necklace a truly special and luxurious piece.",
+            detail: "This necklace features a stunning floral design with alternating sapphire and diamond flowers. The sapphires are a deep blue color, and the diamonds add a touch of brilliance and sparkle. The delicate chain connects the flowers, creating a flowing and elegant look.",
+            thumbnails: [
+                neck5,
+                neck5b,
+            ]
+        },
+        {
+            titleImg: "Elegant Red and White Pearl Necklace",
+            author: "This necklace is crafted from natural coral and pearls, precious gemstones known for their beauty and durability. The combination of these two gemstones creates a truly unique and luxurious piece of jewelry.",
+            detail: "This necklace features two strands of beautiful gemstones: a strand of vibrant red coral beads and a strand of lustrous white pearls. The contrast between the two colors creates a striking and elegant look. The coral and pearl beads are perfectly round and smooth, adding to the overall beauty of the necklace.",
+            thumbnails: [
+                neck6,
+                neck6b,
+            ]
+        },
+        {
+            titleImg: "Intricate Jade Carving Necklace",
+            author: "Jade is a precious gemstone known for its beauty and durability. It is often associated with good luck, health, and prosperity, making this necklace a meaningful and beautiful piece of jewelry.",
+            detail: "This necklace features a stunning carved jade pendant, depicting a beautiful landscape scene. The intricate details and rich colors of the jade make this pendant a true work of art. The pendant is suspended from a delicate chain of small jade beads, adding to the overall elegance of the necklace",
+            thumbnails: [
+                neck7,
+                neck7b,
+            ]
+        },
+        {
+            titleImg: "Mother-of-Pearl and Diamond Necklace",
+            author: "This necklace is crafted from high-quality materials, including mother-of-pearl, diamonds, and gold. The intricate design and beautiful gemstones make this necklace a truly special and luxurious piece.",
+            detail: "This necklace features a beautiful seashell-shaped pendant with mother-of-pearl and diamond accents. The mother-of-pearl creates a soft, iridescent glow, while the diamonds add a touch of sparkle and elegance. The pendant is suspended from a delicate gold chain, making it a perfect choice for everyday wear or special occasions.",
+            thumbnails: [
+                neck8,
+                neck8b,
+            ]
+        },
+        {
+            titleImg: "Dazzling Diamond Waterfall Necklace",
+            author: "This necklace is crafted from high-quality diamonds and precious metals, making it a truly luxurious and timeless piece. The intricate design and sparkling diamonds make this necklace a perfect choice for a special occasion or as a heirloom piece.",
+            detail: "This stunning necklace features a dramatic design with a cascading waterfall of baguette-cut diamonds. The diamonds are set in a sleek and modern style, creating a dazzling and eye-catching piece. The necklace also includes a delicate chain of round diamonds, adding a touch of elegance and versatility.",
+            thumbnails: [
+                neck9,
+                neck9b,
+            ]
+        },
+        {
+            titleImg: "Delicate Diamond Filigree Necklace",
+            author: "The necklace is crafted from high-quality diamonds and precious metals, making it a truly luxurious piece. The intricate design and sparkling diamonds make this necklace perfect for a special occasion or as a heirloom piece.",
+            detail: "This elegant necklace features a delicate diamond pendant, adorned with intricate filigree detailing. The pendant is suspended from a chain of sparkling diamonds, creating a timeless and sophisticated look.",
+            thumbnails: [
+                neck10,
+                neck10b,
+            ]
+        },
+        {
+            titleImg: "Timeless Jade Pendant Necklace",
+            author: "Jade is a precious gemstone known for its beauty and durability. It is often associated with good luck, health, and prosperity, making this necklace a meaningful and beautiful piece of jewelry.",
+            detail: "This exquisite necklace features a stunning jade pendant carved with intricate details of a dragon and phoenix. The deep green color of the jade is complemented by a delicate diamond border, adding a touch of elegance and luxury. The pendant is suspended from a delicate chain, making it a perfect choice for everyday wear or special occasions.",
+            thumbnails: [
+                neck11,
+                neck11b,
+            ]
+        },
+        {
+            titleImg: "Vibrant Emerald Bead Necklace",
+            author: "Emeralds are precious gemstones known for their beauty and durability. They are often associated with love, wisdom, and good fortune, making this necklace a meaningful and beautiful piece of jewelry.",
+            detail: "This stunning necklace features multiple strands of vibrant green emeralds, creating a bold and luxurious statement. The emeralds are perfectly matched in color and size, adding to the overall elegance of the necklace. The diamond clasp adds a touch of sparkle and sophistication, making this necklace a perfect choice for a special occasion.",
+            thumbnails: [
+                neck12,
+                neck12b,
+            ]
+        },
+        {
+            titleImg: "Elegant Jade Bead Necklace",
+            author: "This ring features a stunning floral design with a black and gold enamel flower and a diamond in the center. The intricate details and contrasting colors make this ring a truly unique and eye-catching piece.",
+            detail: "This ring is crafted from 18k yellow gold, a durable and luxurious metal. The black and gold enamel adds a touch of sophistication, while the diamond provides a dazzling sparkle.",
+            thumbnails: [
+                neck13,
+                neck13b,
+            ]
+        },
+        {
+            titleImg: "Chinese Mythology Jade Pendant",
+            author: "Jade is a precious gemstone known for its beauty and durability. It is often associated with good luck, health, and prosperity, making this necklace a meaningful and beautiful piece of jewelry. The intricate carvings on the pendant add a cultural and historical significance to the piece.",
+            detail: "This exquisite necklace features a unique jade pendant showcasing intricate carvings of a god and devil. The contrast between the smooth, translucent jade and the detailed carvings creates a stunning visual effect. The pendant is suspended from a colorful beaded necklace, adding to its overall appeal.",
+            thumbnails: [
+                neck14,
+                neck14b,
+            ]
+        },
+        {
+            titleImg: "Chinese Jade Deity Pendant",
+            author: "Jade is a precious gemstone known for its beauty and durability. It is often associated with good luck, health, and prosperity, making this pendant a meaningful and beautiful piece of jewelry.",
+            detail: "This pendant features a beautifully carved jade figure, likely depicting a Chinese deity or mythological figure. The intricate details and smooth texture of the jade make this pendant a true work of art. The pendant is suspended from a simple black cord, allowing the focus to remain on the exquisite carving.",
+            thumbnails: [
+                neck15,
+                neck15b,
+            ]
+        },
+        {
+            titleImg: "Intricate Jade Carving Pendant",
+            author: "Jade is a precious gemstone known for its beauty and durability. It is often associated with good luck, health, and prosperity, making this pendant a meaningful and beautiful piece of jewelry.",
+            detail: "This exquisite pendant features a beautifully carved jade figure, likely depicting a Chinese deity or mythological figure. The intricate details and smooth texture of the jade make this pendant a true work of art. The pendant is adorned with a colorful tassel, adding a touch of elegance and tradition.",
+            thumbnails: [
+                uniq1,
+                uniq1b,
+            ]
+        },
+        {
+            titleImg: "Timeless Jade Necklace Pendant",
+            author: "Jade is a precious gemstone known for its beauty and durability. It is often associated with good luck, health, and prosperity, making this pendant a meaningful and beautiful piece of jewelry.",
+            detail: "This pendant features a beautifully carved jade piece depicting a dragon. The intricate details and vibrant green color of the jade make this pendant a true work of art. The pendant is adorned with a colorful tassel, adding a touch of elegance and tradition.",
+            thumbnails: [
+                uniq2,
+                uniq2b,
             ]
         },
         // Add more jewelry pieces
