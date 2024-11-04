@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import "./JewelryPage.css";
 import { useLocation, useNavigate } from 'react-router';
-import Accordion from '../../components/Accordian/Accordion'; // If needed
+// import Accordion from '../../components/Accordian/Accordion'; // If needed
+import Accordion from '../../components/AccordianJewelry/AccordianJewelry';
 import Button from '../../components/Button/Button';
 import Form from '../../components/Form/Form'; // If there's a form
 import img1 from "../../assets/images/artpiece/eka1.jpg"
@@ -468,6 +469,7 @@ const JewelryPage = () => {
                                     </div>
                                 )}
                                 <Accordion data={matchedJewelry} />
+                                {/* <Accordion/> */}
                             </div>
                         ) : (
                             <p>No additional information available for this piece.</p>
