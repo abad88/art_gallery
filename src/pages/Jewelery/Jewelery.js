@@ -65,7 +65,7 @@ const Jewelery = () => {
         { img: neck10, title: 'Delicate Diamond Filigree Necklace', artist: "Diamond", type: "necklace" },
         { img: neck11, title: 'Timeless Jade Pendant Necklace', artist: "Jade", type: "necklace" },
         // { img: neck12, title: 'Jewelry 3', artist: "jeweler1", type: "Diamond" },
-        { img: neck13, title: 'Elegant Jade Bead Necklace', artist: "Jade", type: "necklace" },
+        { img: neck13, title: 'Jade Swan Necklace', artist: "Jade", type: "necklace" },
         { img: neck14, title: 'Chinese Mythology Jade Pendant', artist: "Jade", type: "necklace" },
         { img: neck15, title: 'Chinese Jade Deity Pendant', artist: "Jade", type: "necklace" },
         { img: charm1, title: 'Intricate Jade Carving Pendant', artist: "Jade", type: "necklace" },

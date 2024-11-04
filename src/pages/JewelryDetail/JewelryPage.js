@@ -48,6 +48,15 @@ import ring8 from "../../assets/images/jewelry/ring/ring8/main1.jpg";
 import ring8b from "../../assets/images/jewelry/ring/ring8/main2.jpg";
 import ring9 from "../../assets/images/jewelry/ring/ring9/main1.jpg";
 import ring9b from "../../assets/images/jewelry/ring/ring9/main2.jpg";
+import ring10 from "../../assets/images/jewelry/ring/ring10/main1.jpg";
+import ring10b from "../../assets/images/jewelry/ring/ring10/main2.jpg";
+import ring11 from "../../assets/images/jewelry/ring/ring11/main1.jpg";
+import ring11b from "../../assets/images/jewelry/ring/ring11/main2.jpg";
+import ring12 from "../../assets/images/jewelry/ring/ring12/main1.jpg";
+import ring12b from "../../assets/images/jewelry/ring/ring12/main2.jpg";
+import ring13 from "../../assets/images/jewelry/ring/ring13/main1.jpg";
+import ring13b from "../../assets/images/jewelry/ring/ring13/main2.jpg";
+
 
 import neck1 from "../../assets/images/jewelry/necklace/neck1/main1.jpg";
 import neck1b from "../../assets/images/jewelry/necklace/neck1/main2.jpg";
@@ -260,7 +269,7 @@ const JewelryPage = () => {
         "The ring is likely set in 18k yellow gold, a classic and luxurious metal that complements the gemstones perfectly. This ring is a perfect choice for someone who appreciates fine jewelry and unique designs.",
       detail:
         "This exquisite ring features a stunning oval-cut topaz surrounded by a halo of pink sapphires and diamonds. The topaz is a beautiful light blue color, and the pink sapphires add a touch of femininity and elegance. The diamonds provide a dazzling sparkle, enhancing the overall beauty of the ring.",
-      thumbnails: [ring9, ring9b],
+      thumbnails: [ring10, ring10b],
     },
     {
       titleImg: "Rainbow Sapphire Ring",
@@ -268,7 +277,7 @@ const JewelryPage = () => {
         "This ring is a perfect choice for someone who loves bold and colorful jewelry. The unique design and high-quality gemstones make this ring a truly special and luxurious piece.",
       detail:
         "This dazzling ring features a vibrant cluster of sapphires in various colors, including blue, pink, and yellow. The sapphires are set in a bed of sparkling diamonds, creating a truly eye-catching piece. The ring is likely set in white gold or platinum, which complements the colorful gemstones perfectly.",
-      thumbnails: [ring9, ring9b],
+      thumbnails: [ring11, ring11b],
     },
     {
       titleImg: "Emerald and Diamond Halo Ring",
@@ -276,7 +285,7 @@ const JewelryPage = () => {
         "This ring is perfect for someone who wants a unique and eye-catching piece of jewelry. The emerald is a symbol of love, wisdom, and good fortune, and the diamonds represent purity and innocence. This ring is sure to be treasured for years to come.",
       detail:
         "This exquisite ring features a stunning oval-cut emerald, surrounded by a halo of sparkling diamonds. The emerald is a deep green color, and the diamonds add a touch of brilliance and sparkle. The ring is likely set in 18k white gold, which complements the emerald perfectly.",
-      thumbnails: [ring9, ring9b],
+      thumbnails: [ring12, ring12b],
     },
     {
       titleImg: "Lavender Jade and Diamond Ring",
@@ -284,7 +293,7 @@ const JewelryPage = () => {
         "This ring is a perfect choice for someone who wants a unique and eye-catching piece of jewelry. The lavender jade is a symbol of peace and tranquility, and the diamonds represent purity and innocence. This ring is sure to be treasured for years to come.",
       detail:
         "This ring features a stunning lavender jade cabochon, surrounded by a halo of sparkling diamonds. The lavender jade is a rare and beautiful color, and the diamonds add a touch of elegance and luxury. The ring is likely set in platinum or white gold, which complements the jade perfectly.",
-      thumbnails: [ring9, ring9b],
+      thumbnails: [ring13, ring13b],
     },
     {
       titleImg: "Vibrant Coral Bead Necklace",
@@ -383,7 +392,7 @@ const JewelryPage = () => {
       thumbnails: [neck12, neck12b],
     },
     {
-      titleImg: "Elegant Jade Bead Necklace",
+      titleImg: "Jade Swan Necklace",
       author:
         "This ring features a stunning floral design with a black and gold enamel flower and a diamond in the center. The intricate details and contrasting colors make this ring a truly unique and eye-catching piece.",
       detail:
