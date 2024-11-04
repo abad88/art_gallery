@@ -9,10 +9,14 @@
     width: 80%;
     margin: 30px;
     img {
-      width: 245px;
-      height: 245px;
+      width: 50%;
+      height: 50%;
       border: 3px solid #c38c31;
     }
+  }
+  h1{
+    color: #c38c31;
+    background: transparent;
   }
   .artContent {
     margin: 10px;
@@ -29,6 +33,8 @@
   margin: 0px 30px;
   img {
     border: 3px solid #c38c31;
+    object-fit: cover;
+    overflow: hidden;
   }
 }
 
