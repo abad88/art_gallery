@@ -60,7 +60,7 @@ const HomeDecor = () => {
   };
 
   const handleImageClick = (image) => {
-    navigate("/home-decor", { state: { img: image.img, title: image.title } });
+    navigate(`/home-decor/${image.title}`, { state: { img: image.img, title: image.title } });
   };
   return (
     <>

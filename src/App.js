@@ -76,14 +76,14 @@ function App() {
             <Route path='/' element={<Home />} />
             <Route path='/contact-us' element={<ContactUs />} />
             <Route path='/about-us' element={<AboutUs />} />
-            <Route path='/art' element={<ArtPage />} />
+            <Route path='/art/:title' element={<ArtPage />} />
             <Route path='/terms-and-conditions' element={<Terms />} />
             <Route path='/privacy-policy' element={<Policy />} />
             <Route path='/category-art' element={<Art />} />
             <Route path='/category-jewelry' element={<Jewelery />} />
-            <Route path='/jewelry' element={<JewelryPage />} />
+            <Route path='/jewelry/:title' element={<JewelryPage />} />
             <Route path='/category-home-decor' element={<HomeDecor />} />
-            <Route path='/home-decor' element={<HomeDecPage />} />
+            <Route path='/home-decor/:title' element={<HomeDecPage />} />
             <Route path='*' element={<ErrorPage />} /> {/* Catch-all route for unmatched paths */}
           </Routes>
         </Suspense>

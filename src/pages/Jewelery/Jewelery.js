@@ -59,7 +59,7 @@ const Jewelery = () => {
   };
 
   const handleImageClick = (item) => {
-    navigate("/jewelry", { state: { img: item.img, title: item.title } });
+    navigate(`/jewelry/${item.title}`, { state: { img: item.img, title: item.title } });
   };
   return (
     <>

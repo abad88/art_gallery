@@ -50,7 +50,7 @@ const Art = () => {
   };
 
   const handleImageClick = (image) => {
-    navigate("/art", { state: { img: image.img, title: image.title } });
+    navigate(`/art/${image.title}`, { state: { img: image.img, title: image.title } });
   };
 
   return (
