@@ -26,6 +26,7 @@
     width: 80px;
    }
     ul {
+      display: flex;
       list-style: none;
       display: flex;
       justify-content: flex-start;
